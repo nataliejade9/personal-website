@@ -10,14 +10,14 @@
 .projects {
   display: flex;
   width: 100%;
-  flex-direction: row;
+  justify-content: center;
   gap: 2rem;
   list-style: none;
   flex-wrap: wrap;
 }
 
 .projects li {
-  flex: 1;
+  width: 30rem;
   padding: 3rem;
   background: lightgray;
   border-radius: 4px;
