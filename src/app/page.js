@@ -13,6 +13,12 @@ export default function Home() {
         <li>
           <Link href="/project-two">Project Two</Link>
         </li>
+        <li>
+          <Link href="/project-three">Project Three</Link>
+        </li>
+        <li>
+          <Link href="/project-four">Project Four</Link>
+        </li>
       </ul>
       <Image src="/vercel.svg" alt="Vercel logo" width={283} height={64}/>
       <Image src="/next.svg" alt="Next.js logo" width={394} height={80}/>

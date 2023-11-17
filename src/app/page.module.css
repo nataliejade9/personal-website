@@ -13,12 +13,12 @@
   flex-direction: row;
   gap: 2rem;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .projects li {
-  width: 50%;
+  flex: 1;
   padding: 3rem;
   background: lightgray;
-  flex: 1;
   border-radius: 4px;
 }
