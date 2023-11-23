@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   gap: 3rem;
+  
 }
 
 .projects {
@@ -21,4 +21,9 @@
   padding: 3rem;
   background: lightgray;
   border-radius: 4px;
+}
+
+.profile {
+  width: 100%;
+  height: auto;
 }

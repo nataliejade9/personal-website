@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Home</h1>
+      <Image className={styles.profile} src="/natalie-office.jpg" alt="Portrait photo of Natalie Waites" width={4196} height={2241}/>
       <ul className={styles.projects}>
         <li>
           <Link href="/project-one">Project One</Link>
@@ -20,8 +21,6 @@ export default function Home() {
           <Link href="/project-four">Project Four</Link>
         </li>
       </ul>
-      <Image src="/vercel.svg" alt="Vercel logo" width={283} height={64}/>
-      <Image src="/next.svg" alt="Next.js logo" width={394} height={80}/>
     </main>
   )
 }
