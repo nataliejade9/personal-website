@@ -23,3 +23,20 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.profile-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.container-left {
+  width: 70%;
+}
+
+.container-right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0, 4rem;
+}
