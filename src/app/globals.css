@@ -1,5 +1,6 @@
 :root {
   --main-latte: rgb(251, 246, 242);
+  --main-grey: rgb(87, 85, 83);
 }
 
 * {
@@ -11,7 +12,7 @@
 
 html,
 body {
-
+  font-size: 16px;
 }
 
 body {
@@ -24,9 +25,23 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--main-grey);
+}
+
 .profile-banner {
   display: flex;
   justify-content: center;
+}
+
+.profile-banner p {
+  padding: 2rem 0;
 }
 
 .container-left {
@@ -38,5 +53,5 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0, 4rem;
+  padding-right: 4rem;
 }

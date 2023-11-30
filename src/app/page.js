@@ -10,9 +10,9 @@ export default function Home() {
           <Image className={styles.profile} src="/natalie-office.jpg" alt="Portrait photo of Natalie Waites" width={4196} height={2241}/>
         </div>
         <div className='container-right'>
-          <h1>Hey! I'm Natalie.</h1>
+          <h1>Hey! I&apos;m Natalie.</h1>
           <h2>UI Designer</h2>
-          <p>I design digital products, that allow you to reach your goals.</p>
+          <p>I design digital products, that allow you or your business reach your goals.</p>
         </div>
      </div>
       
