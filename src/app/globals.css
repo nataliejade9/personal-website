@@ -26,13 +26,12 @@ a {
 }
 
 h1 {
-  padding: 1rem 0;
+  padding: 0.5em 0;
 }
 
 h2 {
-  font-size: 1rem;
-  font-weight: 300;
-  color: var(--main-grey);
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .profile-banner {
@@ -41,17 +40,17 @@ h2 {
 }
 
 .profile-banner p {
-  padding: 2rem 0;
+  padding: 2em 0;
 }
 
 .container-left {
-  width: 70%;
+  width: 50%;
 }
 
 .container-right {
-  width: 30%;
+  width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-right: 4rem;
+  padding: 0 6em 0 4em;
 }

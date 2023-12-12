@@ -12,13 +12,14 @@ export default function Home() {
         <div className='container-right'>
           <h1>Hey! I&apos;m Natalie.</h1>
           <h2>UI Designer</h2>
-          <p>I design digital products, that allow you or your business reach your goals.</p>
+          <p>I design digital products, so that your business can reach it's goals.</p>
         </div>
      </div>
-      
+      <h3>My Work</h3>
       <ul className={styles.projects}>
-        <li>
-          <Link href="/project-one">Project One</Link>
+        <li className={styles.projectOne}>
+          <Link href="/project-one">FinChair</Link>
+          <p>2023</p>
         </li>
         <li>
           <Link href="/project-two">Project Two</Link>

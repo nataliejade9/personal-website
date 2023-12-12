@@ -7,6 +7,11 @@
   
 }
 
+.profile {
+  width: 100%;
+  height: auto;
+}
+
 .projects {
   display: flex;
   width: 100%;
@@ -20,10 +25,17 @@
   width: 30rem;
   padding: 3rem;
   background: lightgray;
-  border-radius: 4px;
+  border-radius: 2em;
+  height: 20em;
 }
 
-.profile {
-  width: 100%;
-  height: auto;
+.projects .projectOne {
+  background-image: url("/finchair/Finchair-3-spray.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.projects p {
+  padding: 0.5em 0;
+  font-size: 0.7em;
 }
