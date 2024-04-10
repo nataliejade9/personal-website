@@ -4,8 +4,24 @@
   justify-content: space-between;
   align-items: center;
   gap: 3rem;
-  
+  text-align: left;
+  padding: 2em;
 }
+
+.natalie {
+  padding-bottom: 1em;
+}
+
+.highlight {
+  color: var(--main-primary)
+}
+
+.smalltitle {
+  font-size: 3vw;
+  color: var(--main-primary)
+}
+
+
 
 .profile {
   width: 100%;

@@ -1,6 +1,7 @@
 :root {
-  --main-latte: rgb(251, 246, 242);
+  --main-latte: rgb(247, 238, 233);
   --main-grey: rgb(87, 85, 83);
+  --main-primary: rgb(70,0, 247);
 }
 
 * {
@@ -26,12 +27,15 @@ a {
 }
 
 h1 {
-  padding: 0.5em 0;
+  font-family: raleway;
+  font-weight: 200;
+  /* font-size: 8em; */
+  font-size: 8vw;
 }
 
 h2 {
-  font-size: 1em;
-  font-weight: 600;
+  font-family: raleway;
+  color: var(--main-primary);
 }
 
 .profile-banner {
