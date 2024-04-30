@@ -21,11 +21,10 @@
   color: var(--main-primary)
 }
 
-
-
 .profile {
-  width: 100%;
+  width: 70%;
   height: auto;
+  border-radius: 100%;
 }
 
 .projects {
