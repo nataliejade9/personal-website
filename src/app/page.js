@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Link from 'next/link'
+import Button from '../components/Button'
 
 export default function Home() {
   return (
@@ -12,9 +13,8 @@ export default function Home() {
           <div>who enjoys coding</div>
         </h1>
         
-        
      </div>
-      <h3>My Work</h3>
+      <Button type="Secondary" label="Explore Work" href="/"/>
       <ul className={styles.projects}>
         <li className={styles.projectOne}>
           <Link href="/project-one">FinChair</Link>
@@ -36,8 +36,9 @@ export default function Home() {
             <Image className={styles.profile} src="/natalie-office.jpg" alt="Portrait photo of Natalie Waites" width={4196} height={2241}/>
           </div>
           <div className='container-right'>
-            
-            <p>I design digital products, so that your business can reach it's goals.</p>
+            <h2>Get to know me</h2>
+            <p>I love designing impactful digital products for companies who are seeking growth and innovation. I believe this growth comes from empathising with users and shifting their current solutions to better ones. When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
+            <p>In my spare time, I like to code and play around with graphic design. Feel free to browse the projects I've done for fun.</p>
           </div>
       </div>
 

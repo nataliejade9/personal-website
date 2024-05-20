@@ -35,12 +35,21 @@ h1 {
 
 h2 {
   font-family: raleway;
+  font-weight: 200;
+  font-size: 4vw;
   color: var(--main-primary);
+}
+
+p {
+  font-family: inter, Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
 }
 
 .profile-banner {
   display: flex;
   justify-content: center;
+  background-color: white;
+  padding: 4em 0;
 }
 
 .profile-banner p {

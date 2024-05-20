@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import styles from './index.module.css'
 import Image from 'next/image'
+import Button from '../Button'
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Link href="/">Let's Chat</Link>
+            <Button type="primary" label="Let's Chat" href="/"/>
           </li>
         </ul>
       </nav>
