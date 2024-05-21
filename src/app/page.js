@@ -6,14 +6,14 @@ import Button from '../components/Button'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className='hero'>
+      <div className={styles.hero}>
         <h1>
           <div className={styles.natalie}>Natalie Waites</div>
           <span className={styles.highlight}>Product Designer</span><span className={styles.smalltitle}> (UX/UI)</span>
           <div>who enjoys coding</div>
         </h1>
         
-     </div>
+      </div>
       <Button type="Secondary" label="Explore Work" href="/"/>
       <ul className={styles.projects}>
         <li className={styles.projectOne}>
@@ -31,11 +31,11 @@ export default function Home() {
         </li>
       </ul>
 
-      <div className='profile-banner'>
-          <div className='container-left'>
+      <div className={styles.profileBanner}>
+          <div className={styles.containerLeft}>
             <Image className={styles.profile} src="/natalie-office.jpg" alt="Portrait photo of Natalie Waites" width={4196} height={2241}/>
           </div>
-          <div className='container-right'>
+          <div className={styles.containerRight}>
             <h2>Get to know me</h2>
             <p>I love designing impactful digital products for companies who are seeking growth and innovation. I believe this growth comes from empathising with users and shifting their current solutions to better ones. When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
             <p>In my spare time, I like to code and play around with graphic design. Feel free to browse the projects I've done for fun.</p>

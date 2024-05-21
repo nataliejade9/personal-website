@@ -8,7 +8,11 @@
 }
 
 .natalie {
-  padding-bottom: 1em;
+  padding-bottom: 0.75em;
+}
+
+.hero {
+  padding: 10rem 0 3rem 0;
 }
 
 .highlight {
@@ -20,13 +24,8 @@
   color: var(--main-primary)
 }
 
-.profile {
-  width: 70%;
-  height: auto;
-  border-radius: 100%;
-}
-
 .projects {
+  padding: 3em 0;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -52,4 +51,37 @@
 .projects p {
   padding: 0.5em 0;
   font-size: 0.7em;
+}
+
+.profileBanner {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 4em 0;
+}
+
+.profile {
+  width: 60%;
+  height: auto;
+  border-radius: 100%;
+  padding: 2em;
+}
+
+.containerLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerRight {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 4em;
+}
+
+.containerRight > h2, .containerRight > p {
+  padding-bottom: 2rem;
 }

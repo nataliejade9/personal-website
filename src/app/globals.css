@@ -29,7 +29,6 @@ a {
 h1 {
   font-family: raleway;
   font-weight: 200;
-  /* font-size: 8em; */
   font-size: 8vw;
 }
 
@@ -43,30 +42,4 @@ h2 {
 p {
   font-family: inter, Arial, Helvetica, sans-serif;
   line-height: 1.5em;
-}
-
-.profile-banner {
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  padding: 4em 0;
-}
-
-.profile-banner p {
-  padding: 2em 0;
-}
-
-.container-left {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-right {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 4em;
 }
