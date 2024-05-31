@@ -88,7 +88,9 @@
   width: 50%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+  padding: 0 2em;
 }
 
 .containerRight {
@@ -99,7 +101,9 @@
   padding: 0 4em;
 }
 
-
+.containerLeft > h2, .containerLeft > p {
+  padding-bottom: 2rem;
+}
 
 .containerRight > h2, .containerRight > p {
   padding-bottom: 2rem;

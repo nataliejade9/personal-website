@@ -43,6 +43,17 @@ export default function Home() {
           </div>
       </div>
 
+      <div className={styles.profileBanner}>
+          <div className={styles.containerLeft}>
+              <h2>Get in Contact</h2>
+              <p>Happy to discuss how my skills and unique perspective could contribute to your business or product.</p>
+              <div><Button type="Primary" label="Send message" href="/"/></div>
+          </div>
+          <div className={styles.containerRight}>
+            <Image className={styles.profile} src="/sending a message from laptop blue.png" alt="Illustration of laptop and notebook with send message icon" width={4196} height={2241}/>
+          </div>
+      </div>
+
     </main>
   )
 }
