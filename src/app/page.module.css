@@ -25,7 +25,7 @@
 }
 
 .projects {
-  padding: 3em 0;
+  padding: 3em 2em;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -40,6 +40,23 @@
   background: lightgray;
   border-radius: 2em;
   height: 20em;
+}
+
+.projectOne {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
+}
+
+.projectOne:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
+  2px 2px 5px 0px rgba(70, 0, 247, 0.3);
+  /* box-shadow: 0 10px 10px 0 palegreen; */
+  /* box-shadow: 54px 38px 18px 0px rgba(70, 0, 247, 0.00), 
+  35px 24px 17px 0px rgba(70, 0, 247, 0.01), 
+  19px 14px 14px 0px rgba(70, 0, 247, 0.05), 
+  9px 6px 11px 0px rgba(70, 0, 247, 0.09), 
+  2px 2px 6px 0px rgba(70, 0, 247, 0.10); */
 }
 
 .projects .projectOne {
