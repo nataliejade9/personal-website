@@ -38,7 +38,8 @@ export default function Home() {
           <div className={styles.containerRight}>
             <h2>Get to know me</h2>
             <p>I love designing impactful digital products for companies who are seeking growth and innovation. I believe this growth comes from empathising with users and shifting their current solutions to better ones. When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
-            <p>In my spare time, I like to code and play around with graphic design. Feel free to browse the projects I've done for fun.</p>
+            <p>In my spare time, I enjoy coding and play around with unique graphic design and UI design. Here's a selection of my experimental projects.</p>
+            <div><Button type="Secondary" label="Experiments" href="/"/></div>
           </div>
       </div>
 
