@@ -41,5 +41,10 @@ h2 {
 
 p {
   font-family: inter, Arial, Helvetica, sans-serif;
-  line-height: 1.5em;
+  line-height: 1.25em;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 0.75em;
 }

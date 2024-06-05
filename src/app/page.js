@@ -36,21 +36,33 @@ export default function Home() {
             <Image className={styles.profile} src="/natalie-office.jpg" alt="Portrait photo of Natalie Waites" width={4196} height={2241}/>
           </div>
           <div className={styles.containerRight}>
-            <h2>Get to know me</h2>
+            <h2>About me</h2>
             <p>I love designing impactful digital products for companies who are seeking growth and innovation. I believe this growth comes from empathising with users and shifting their current solutions to better ones. When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
             <p>In my spare time, I enjoy coding and play around with unique graphic design and UI design. Here's a selection of my experimental projects.</p>
             <div><Button type="Secondary" label="Experiments" href="/"/></div>
           </div>
       </div>
 
-      <div className={styles.profileBanner}>
-          <div className={styles.containerLeft}>
-              <h2>Get in Contact</h2>
-              <p>Happy to discuss how my skills and unique perspective could contribute to your business or product.</p>
-              <div><Button type="Primary" label="Send message" href="/"/></div>
+      <div className={styles.contactBanner}>
+          <div className={styles.contactText}>
+              <h2>Contact</h2>
+              <p>Let's discuss how my skills and unique perspective could contribute to the success of your business or product.</p>
+              <Button type="primary" label="Send message" href="/"/>
           </div>
-          <div className={styles.containerRight}>
+          <div className={styles.contactImg}>
             <Image className={styles.profile} src="/sending a message from laptop blue.png" alt="Illustration of laptop and notebook with send message icon" width={4196} height={2241}/>
+          </div>
+      </div>
+
+      <div className={styles.footerBanner}>
+          <p>You’ve reached the footer.</p>
+          <div className={styles.randomiser}>
+              <p>Did you scroll past my work?... Click the randomiser button to check out a random project.</p>
+              <div><Button type="Secondary" label="Randomiser" href="/"/></div>
+          </div>
+          <div className={styles.copyright}>
+            <h6>© Copyright 2024 Natalie Waites</h6>
+            <h6>This site was designed and coded by Natalie Waites.</h6>
           </div>
       </div>
 
