@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
+import Randomiser from '../components/Randomiser'
 
 export default function Home() {
   return (
@@ -45,9 +46,11 @@ export default function Home() {
 
       <div className={styles.contactBanner}>
           <div className={styles.contactText}>
+            <div className={styles.contactInner}>
               <h2>Contact</h2>
               <p>Let's discuss how my skills and unique perspective could contribute to the success of your business or product.</p>
               <Button type="primary" label="Send message" href="/"/>
+            </div>
           </div>
           <div className={styles.contactImg}>
             <Image className={styles.profile} src="/sending a message from laptop blue.png" alt="Illustration of laptop and notebook with send message icon" width={4196} height={2241}/>
@@ -58,7 +61,7 @@ export default function Home() {
           <p>You’ve reached the footer.</p>
           <div className={styles.randomiser}>
               <p>Did you scroll past my work?... Click the randomiser button to check out a random project.</p>
-              <div><Button type="Secondary" label="Randomiser" href="/"/></div>
+              <div><Randomiser/></div>
           </div>
           <div className={styles.copyright}>
             <h6>© Copyright 2024 Natalie Waites</h6>
