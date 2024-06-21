@@ -17,24 +17,32 @@ export default function Home() {
       </div>
       <Button type="Secondary" label="Explore Work" href="/"/>
       <div className={styles.statement}>
-        <p>I aim to design products that customers love and that developers can build with ease. I enjoy seeing the businesses I work for grow and evolve.</p>
+        <h2>I aim to design products that customers love and that developers can build with ease. I enjoy seeing the businesses I work for grow and evolve.</h2>
       </div>
       <ul className={styles.projects}>
-        <li className={styles.projectOne}><Link href="/project-one"></Link>
-          <h3>House Brain</h3>
-          <p>June 2024 • Product Design</p>
+        <li className={styles.projectOne}>
+          <Link href="/project-one">
+            <h3>House Brain</h3>
+            <p>June 2024 • Product Design</p>
+          </Link>
         </li>
         <li className={styles.projectTwo}>
-          <Link href="/project-two">Umuntu</Link>
-          <p>March 2024 • Product Design</p>
+          <Link href="/project-two">
+            <h3>Umuntu</h3>
+            <p>March 2024 • Product Design</p>
+          </Link>
         </li>
         <li className={styles.projectThree}>
-          <Link href="/project-three">FinChair</Link>
-          <p>September 2023 • UI Design</p>
+          <Link href="/project-three">
+            <h3>FinChair</h3>
+            <p>September 2023 • UI Design</p>
+            </Link>
         </li>
         <li className={styles.projectFour}>
-          <Link href="/project-four">Project Four</Link>
-          <p>May 2023 • Product Design</p>
+          <Link href="/project-four">
+            <h3>Sienna Jewellery</h3>
+            <p>May 2023 • Product Design</p>
+          </Link>
         </li>
       </ul>
 

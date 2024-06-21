@@ -25,8 +25,13 @@
 }
 
 .statement {
-  max-width: 80ch;
+  max-width: 100ch;
   text-align: center;
+  padding: 4rem 2rem 0 2rem;
+}
+
+.statement h2 {
+  font-size: 2rem;
 }
 
 .projects {
@@ -41,12 +46,17 @@
 
 .projects li {
   width: 30rem;
-  padding: 2rem;
+  display: flex;
   background: lightgray;
   border-radius: 1.5em;
   height: 20em;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
+}
+
+.projects li a {
+  padding: 2rem;
+  flex-grow: 1;
 }
 
 .projects .projectOne {
