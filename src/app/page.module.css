@@ -24,6 +24,11 @@
   color: var(--main-primary)
 }
 
+.statement {
+  max-width: 80ch;
+  text-align: center;
+}
+
 .projects {
   padding: 3em 2em;
   display: flex;
@@ -36,21 +41,21 @@
 
 .projects li {
   width: 30rem;
-  padding: 3rem;
+  padding: 2rem;
   background: lightgray;
   border-radius: 1.5em;
   height: 20em;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
 }
 
 .projects .projectOne {
   background-image: url("/finchair/Finchair-3-spray.jpg");
   background-size: cover;
   color: white;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
 }
 
-.projectOne:hover {
+.projects li:hover {
   transform: translateY(-5px);
   box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
   2px 2px 5px 0px rgba(70, 0, 247, 0.3);
@@ -60,42 +65,18 @@
   background-image: url("/finchair/Finchair-3-spray.jpg");
   background-size: cover;
   color: white;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
-}
-
-.projectTwo:hover {
-  transform: translateY(-5px);
-  box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
-  2px 2px 5px 0px rgba(70, 0, 247, 0.3);
 }
 
 .projects .projectThree {
   background-image: url("/finchair/Finchair-3-spray.jpg");
   background-size: cover;
   color: white;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
-}
-
-.projectThree:hover {
-  transform: translateY(-5px);
-  box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
-  2px 2px 5px 0px rgba(70, 0, 247, 0.3);
 }
 
 .projects .projectFour {
   background-image: url("/finchair/Finchair-3-spray.jpg");
   background-size: cover;
   color: white;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
-}
-
-.projectFour:hover {
-  transform: translateY(-5px);
-  box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
-  2px 2px 5px 0px rgba(70, 0, 247, 0.3);
 }
 
 .projects p {
@@ -108,6 +89,11 @@
   justify-content: center;
   background-color: white;
   padding: 4em 0;
+}
+
+.boldText {
+  font-weight: 700;
+  background-color: rgba(70,0, 247, 0.15);
 }
 
 .profile {

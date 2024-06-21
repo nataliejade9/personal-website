@@ -41,7 +41,8 @@ h2 {
 
 p {
   font-family: inter, Arial, Helvetica, sans-serif;
-  line-height: 1.25em;
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
 h6 {

@@ -16,9 +16,12 @@ export default function Home() {
         
       </div>
       <Button type="Secondary" label="Explore Work" href="/"/>
+      <div className={styles.statement}>
+        <p>I aim to design products that customers love and that developers can build with ease. I enjoy seeing the businesses I work for grow and evolve.</p>
+      </div>
       <ul className={styles.projects}>
-        <li className={styles.projectOne}>
-          <Link href="/project-one">HouseBrain</Link>
+        <li className={styles.projectOne}><Link href="/project-one"></Link>
+          <h3>House Brain</h3>
           <p>June 2024 • Product Design</p>
         </li>
         <li className={styles.projectTwo}>
@@ -41,7 +44,7 @@ export default function Home() {
           </div>
           <div className={styles.containerRight}>
             <h2>About me</h2>
-            <p>I love designing impactful digital products for companies who are seeking growth and innovation. I believe this growth comes from empathising with users and shifting their current solutions to better ones. When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
+            <p>I love designing impactful digital products for companies who are seeking growth and innovation. <span className={styles.boldText}> I believe this growth comes from empathising with users and shifting their current solutions to better ones.</span> When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
             <p>In my spare time, I enjoy coding and play around with unique graphic design and UI design. Here's a selection of my experimental projects.</p>
             <div><Button type="Secondary" label="Experiments" href="/"/></div>
           </div>
