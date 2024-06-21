@@ -12,26 +12,31 @@
 }
 
 .hero {
-  padding: 10rem 0 3rem 0;
+  padding-top: 10rem;
 }
 
 .highlight {
-  color: var(--main-primary)
+  color: var(--main-primary);
 }
 
 .smalltitle {
   font-size: 3vw;
-  color: var(--main-primary)
+  color: var(--main-primary);
+}
+
+.exploreWork {
+  padding: 4rem;
+  text-align: center;
 }
 
 .statement {
-  max-width: 100ch;
+  max-width: 80ch;
   text-align: center;
-  padding: 4rem 2rem 0 2rem;
+  padding-bottom: 2rem;
 }
 
 .statement h2 {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .projects {

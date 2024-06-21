@@ -13,14 +13,15 @@ export default function Home() {
           <span className={styles.highlight}>Product Designer</span><span className={styles.smalltitle}> (UX/UI)</span>
           <div>who enjoys coding</div>
         </h1>
-      </div>
-      <div className={styles.exploreWork}>
+        <div className={styles.exploreWork}>
         <Button type="Secondary" label="Explore Work" href="/"/>
       </div>
+      </div>
+      
+      <ul className={styles.projects}>
       <div className={styles.statement}>
         <h2>I aim to design products that customers love and that developers can build with ease. I enjoy seeing the businesses I work for grow and evolve.</h2>
       </div>
-      <ul className={styles.projects}>
         <li className={styles.projectOne}>
           <Link href="/project-one">
             <h3>House Brain</h3>

@@ -2,14 +2,16 @@ import Link from 'next/link';
 import styles from './index.module.css'
 
 const Button = ({ type = "primary", label, href, onClick}) => {
-  if (type == "primary") {
+  const isMailLink = href.search("mailto:") === 0;
+  const className = `${styles.button} ${type === "primary" ? styles.buttonPrimary : styles.buttonSecondary}`;
+  if (isMailLink) {
     return (
-      <Link className={`${styles.button} ${styles.buttonPrimary}`} href={href} onClick={onClick}>{label}</Link>
+      <a className={className} href={href} onClick={onClick}>{label}</a>
     );
   } else {
     return (
-      <Link className={`${styles.button} ${styles.buttonSecondary}`} href={href} onClick={onClick}>{label}</Link>
-    )
+      <Link className={className} href={href} onClick={onClick}>{label}</Link>
+    );
   }
 }
 
