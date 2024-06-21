@@ -8,7 +8,7 @@ const Button = ({ type = "primary", label, href, onClick}) => {
     );
   } else {
     return (
-        <Link className={`${styles.button} ${styles.buttonSecondary}`} href={href} onClick={onClick}>{label}</Link>
+      <Link className={`${styles.button} ${styles.buttonSecondary}`} href={href} onClick={onClick}>{label}</Link>
     )
   }
 }
