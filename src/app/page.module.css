@@ -42,7 +42,10 @@
   height: 20em;
 }
 
-.projectOne {
+.projects .projectOne {
+  background-image: url("/finchair/Finchair-3-spray.jpg");
+  background-size: cover;
+  color: white;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
 }
@@ -51,18 +54,48 @@
   transform: translateY(-5px);
   box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
   2px 2px 5px 0px rgba(70, 0, 247, 0.3);
-  /* box-shadow: 0 10px 10px 0 palegreen; */
-  /* box-shadow: 54px 38px 18px 0px rgba(70, 0, 247, 0.00), 
-  35px 24px 17px 0px rgba(70, 0, 247, 0.01), 
-  19px 14px 14px 0px rgba(70, 0, 247, 0.05), 
-  9px 6px 11px 0px rgba(70, 0, 247, 0.09), 
-  2px 2px 6px 0px rgba(70, 0, 247, 0.10); */
 }
 
-.projects .projectOne {
+.projects .projectTwo {
   background-image: url("/finchair/Finchair-3-spray.jpg");
   background-size: cover;
   color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
+}
+
+.projectTwo:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
+  2px 2px 5px 0px rgba(70, 0, 247, 0.3);
+}
+
+.projects .projectThree {
+  background-image: url("/finchair/Finchair-3-spray.jpg");
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
+}
+
+.projectThree:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
+  2px 2px 5px 0px rgba(70, 0, 247, 0.3);
+}
+
+.projects .projectFour {
+  background-image: url("/finchair/Finchair-3-spray.jpg");
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
+}
+
+.projectFour:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
+  2px 2px 5px 0px rgba(70, 0, 247, 0.3);
 }
 
 .projects p {

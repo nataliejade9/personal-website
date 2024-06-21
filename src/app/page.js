@@ -18,17 +18,20 @@ export default function Home() {
       <Button type="Secondary" label="Explore Work" href="/"/>
       <ul className={styles.projects}>
         <li className={styles.projectOne}>
-          <Link href="/project-one">FinChair</Link>
-          <p>2023</p>
+          <Link href="/project-one">HouseBrain</Link>
+          <p>June 2024 • Product Design</p>
         </li>
-        <li>
-          <Link href="/project-two">Project Two</Link>
+        <li className={styles.projectTwo}>
+          <Link href="/project-two">Umuntu</Link>
+          <p>March 2024 • Product Design</p>
         </li>
-        <li>
-          <Link href="/project-three">Project Three</Link>
+        <li className={styles.projectThree}>
+          <Link href="/project-three">FinChair</Link>
+          <p>September 2023 • UI Design</p>
         </li>
-        <li>
+        <li className={styles.projectFour}>
           <Link href="/project-four">Project Four</Link>
+          <p>May 2023 • Product Design</p>
         </li>
       </ul>
 
