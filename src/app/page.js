@@ -14,40 +14,41 @@ export default function Home() {
           <div>who enjoys coding</div>
         </h1>
         <div className={styles.exploreWork}>
-        <Button type="Secondary" label="Explore Work" href="/"/>
-      </div>
+        <Button type="Secondary" label="Explore Work" href="#work"/>
+        </div>
       </div>
       
-      <ul className={styles.projects}>
-      <div className={styles.statement}>
-        <h2>I aim to design products that customers love and that developers can build with ease. I enjoy seeing the businesses I work for grow and evolve.</h2>
-      </div>
-        <li className={styles.projectOne}>
-          <Link href="/project-one">
-            <h3>House Brain</h3>
-            <p>June 2024 • Product Design</p>
-          </Link>
-        </li>
-        <li className={styles.projectTwo}>
-          <Link href="/project-two">
-            <h3>Umuntu</h3>
-            <p>March 2024 • Product Design</p>
-          </Link>
-        </li>
-        <li className={styles.projectThree}>
-          <Link href="/project-three">
-            <h3>FinChair</h3>
-            <p>September 2023 • UI Design</p>
+      <div className={styles.work}>
+        <div className={styles.statement}>
+          <h2>My focus is to design products that customers love and that developers can build with ease. I enjoy seeing the businesses I work for grow and evolve.</h2>
+        </div>
+        <ul className={styles.projects}>
+          <li className={styles.projectOne}>
+            <Link href="/project-one">
+              <h3>House Brain</h3>
+              <p>June 2024 • Product Design</p>
             </Link>
-        </li>
-        <li className={styles.projectFour}>
-          <Link href="/project-four">
-            <h3>Sienna Jewellery</h3>
-            <p>May 2023 • Product Design</p>
-          </Link>
-        </li>
-      </ul>
-
+          </li>
+          <li className={styles.projectTwo}>
+            <Link href="/project-two">
+              <h3>Umuntu</h3>
+              <p>March 2024 • Product Design</p>
+            </Link>
+          </li>
+          <li className={styles.projectThree}>
+            <Link href="/project-three">
+              <h3>FinChair</h3>
+              <p>September 2023 • UI Design</p>
+              </Link>
+          </li>
+          <li className={styles.projectFour}>
+            <Link href="/project-four">
+              <h3>Sienna Jewellery</h3>
+              <p>May 2023 • Product Design</p>
+            </Link>
+          </li>
+        </ul>
+      </div>
       <div className={styles.profileBanner}>
           <div className={styles.containerLeft}>
             <Image className={styles.profile} src="/natalie-office.jpg" alt="Portrait photo of Natalie Waites" width={4196} height={2241}/>

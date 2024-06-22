@@ -12,7 +12,7 @@
 }
 
 .hero {
-  padding-top: 10rem;
+  padding: 10rem 4rem 0 4rem;
 }
 
 .highlight {
@@ -25,14 +25,13 @@
 }
 
 .exploreWork {
-  padding: 4rem;
+  padding: 4rem 0 3rem 0;
   text-align: center;
 }
 
 .statement {
-  max-width: 80ch;
   text-align: center;
-  padding-bottom: 2rem;
+  padding: 0 12rem;
 }
 
 .statement h2 {
@@ -154,7 +153,7 @@
 }
 
 .contactInner {
-  max-width: 30ch;
+  max-width: 40ch;
 }
 
 .contactInner > p, .contactInner > h2 {
