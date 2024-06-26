@@ -31,7 +31,7 @@
 
 .statement {
   text-align: center;
-  padding: 0 12rem;
+  padding: 0 12rem 1rem 12rem;
 }
 
 .statement h2 {
@@ -49,11 +49,11 @@
 }
 
 .projects li {
-  width: 30rem;
+  width: 34rem;
   display: flex;
   background: lightgray;
   border-radius: 1.5em;
-  height: 20em;
+  height: 24rem;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
 }
@@ -64,9 +64,8 @@
 }
 
 .projects .projectOne {
-  background-image: url("/finchair/Finchair-3-spray.jpg");
+  background-image: url("/housebrain/housebrain.jpg");
   background-size: cover;
-  color: white;
 }
 
 .projects li:hover {
@@ -76,26 +75,23 @@
 }
 
 .projects .projectTwo {
-  background-image: url("/finchair/Finchair-3-spray.jpg");
+  background-image: url("/umuntu/umuntu-mobile-ipad.jpg");
   background-size: cover;
-  color: white;
 }
 
 .projects .projectThree {
   background-image: url("/finchair/Finchair-3-spray.jpg");
   background-size: cover;
-  color: white;
 }
 
 .projects .projectFour {
-  background-image: url("/finchair/Finchair-3-spray.jpg");
+  background-image: url("/sierra/sierra-beige.jpg");
   background-size: cover;
-  color: white;
 }
 
 .projects p {
-  padding: 0.5em 0;
-  font-size: 0.7em;
+  padding: 0.2rem 0;
+  font-size: 0.8rem;
 }
 
 .profileBanner {

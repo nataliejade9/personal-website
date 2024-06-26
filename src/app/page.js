@@ -20,7 +20,7 @@ export default function Home() {
       
       <div className={styles.work}>
         <div className={styles.statement}>
-          <h2>My focus is to design products that customers love and that developers can build with ease. I enjoy seeing the businesses I work for grow and evolve.</h2>
+          <h2>"My focus is to design products that customers love and that developers can build with ease. I enjoy seeing the businesses I work for grow and evolve."</h2>
         </div>
         <ul className={styles.projects}>
           <li className={styles.projectOne}>
