@@ -4,6 +4,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 0.5em 1em;
     display: inline-block;
+    transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
 }
   
 .buttonPrimary {
@@ -17,4 +18,8 @@
     border: 1px solid var(--main-primary);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
+}
+
+.button:hover {
+    transform: translateY(-5px);
 }

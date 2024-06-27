@@ -14,13 +14,13 @@ export default function Home() {
           <div>who enjoys coding</div>
         </h1>
         <div className={styles.exploreWork}>
-        <Button type="Secondary" label="Explore Work" href="#work"/>
+        <Button type="Secondary" label="Explore Work" href="#statement"/>
         </div>
       </div>
       
       <div className={styles.work}>
         <div className={styles.statement}>
-          <h2>"My focus is to design products that customers love and that developers can build with ease. I enjoy seeing the businesses I work for grow and evolve."</h2>
+          <h2>I designed and coded this site <span role="img" aria-label="geek">🤓</span> My core focus is to design products that customers love and that developers like to build. I enjoy seeing the businesses I work for grow and evolve.</h2>
         </div>
         <ul className={styles.projects}>
           <li className={styles.projectOne}>
@@ -43,7 +43,7 @@ export default function Home() {
           </li>
           <li className={styles.projectFour}>
             <Link href="/project-four">
-              <h3>Sienna Jewellery</h3>
+              <h3>Sierra Jewellery</h3>
               <p>May 2023 • Product Design</p>
             </Link>
           </li>
@@ -56,7 +56,7 @@ export default function Home() {
           <div className={styles.containerRight}>
             <h2>About me</h2>
             <p>I love designing impactful digital products for companies who are seeking growth and innovation. <span className={styles.boldText}> I believe this growth comes from empathising with users and shifting their current solutions to better ones.</span> When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
-            <p>In my spare time, I enjoy coding and play around with unique graphic design and UI design. Here's a selection of my experimental projects.</p>
+            <p>In my spare time, I enjoy exploring the outdoors, boardgames and reading. I also experiment with some coding projects and fun designs, you can check these out here...</p>
             <div><Button type="Secondary" label="Experiments" href="/"/></div>
           </div>
       </div>
