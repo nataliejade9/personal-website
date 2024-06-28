@@ -14,13 +14,14 @@ export default function Home() {
           <div>who enjoys coding</div>
         </h1>
         <div className={styles.exploreWork}>
-        <Button type="Secondary" label="Explore Work" href="#statement"/>
+          <Button type="Secondary" label="Explore Work" href="#explore-work"/>
         </div>
       </div>
       
       <div className={styles.work}>
+        <div className={styles.linkTarget} id="explore-work"></div>
         <div className={styles.statement}>
-          <h2>I designed and coded this site <span role="img" aria-label="geek">🤓</span> My core focus is to design products that customers love and that developers like to build. I enjoy seeing the businesses I work for grow and evolve.</h2>
+          <h2>I designed and coded this site <span role="img" aria-label="geek">🤓</span> Designing products that users love and developers can implement efficiently is my passion. I enjoy seeing the businesses I work for grow and evolve.</h2>
         </div>
         <ul className={styles.projects}>
           <li className={styles.projectOne}>
@@ -56,7 +57,7 @@ export default function Home() {
           <div className={styles.containerRight}>
             <h2>About me</h2>
             <p>I love designing impactful digital products for companies who are seeking growth and innovation. <span className={styles.boldText}> I believe this growth comes from empathising with users and shifting their current solutions to better ones.</span> When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
-            <p>In my spare time, I enjoy exploring the outdoors, boardgames and reading. I also experiment with some coding projects and fun designs, you can check these out here...</p>
+            <p>In my spare time, I enjoy exploring the outdoors, board games and reading. I also experiment with some coding projects and fun designs, you can check these out here...</p>
             <div><Button type="Secondary" label="Experiments" href="/"/></div>
           </div>
       </div>
@@ -77,7 +78,7 @@ export default function Home() {
       <div className={styles.footerBanner}>
           <p>You’ve reached the footer.</p>
           <div className={styles.randomiser}>
-              <p>Did you scroll past my work?... Click the randomiser button to check out a random project.</p>
+              <p>Did you scroll past my work? Click the randomiser button to check out a random project   <span role="img" aria-label="arrow-right">➡️</span></p>
               <div><Randomiser/></div>
           </div>
           <div className={styles.copyright}>

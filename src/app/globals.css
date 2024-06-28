@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+.header-offset {
+  padding-top: 10rem;
+}
+
 h1 {
   font-family: raleway;
   font-weight: 200;

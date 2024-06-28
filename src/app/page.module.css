@@ -12,7 +12,7 @@
 }
 
 .hero {
-  padding: 10rem 4rem 0 4rem;
+  padding: 0 4rem;
 }
 
 .highlight {
@@ -27,6 +27,15 @@
 .exploreWork {
   padding: 4rem 0 2rem 0;
   text-align: center;
+}
+
+.linkTarget {
+  position: absolute;
+  top: -128px;
+}
+
+.work {
+  position: relative;
 }
 
 .statement {

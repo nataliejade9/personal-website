@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={font.className}>
         <Header/>
-        {children}
+        <div className='header-offset'>{children}</div>
       </body>
     </html>
   )
