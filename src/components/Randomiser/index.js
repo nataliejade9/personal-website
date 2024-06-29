@@ -6,15 +6,9 @@ import styles from '../Button/index.module.css'
 import { useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 
-export default function Randomiser() {
+export default function Randomiser({ links }) {
     const router = useRouter();
-    const randomiserLinks = [
-        "/project-one",
-        "/project-two",
-        "/project-three",
-        "/project-four"
-    ]
-    const randomIndex = Math.floor(Math.random() * randomiserLinks.length);
-    const onRandomise = useCallback(() => router.push("/project-two"), [randomiserLinks, randomIndex]);
+    const randomIndex = Math.floor(Math.random() * links.length);
+    const onRandomise = useCallback(() => router.push(links[randomIndex]), [links, randomIndex]);
     return <a className={`${styles.button} ${styles.buttonSecondary}`} style={{cursor:"pointer"}} onClick={onRandomise}>Randomiser</a>
 }

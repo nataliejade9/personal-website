@@ -10,7 +10,7 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Button type="primary" label="Let's Chat" href="mailto:natalie@superwatermelon.com"/>
+            <Button type="primary" label="Let's Chat" href="mailto:natalie@superwatermelon.com?subject=Hello Natalie, I've been sent from your website"/>
           </li>
         </ul>
       </nav>

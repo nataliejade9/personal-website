@@ -59,7 +59,7 @@
 }
 
 .projects li {
-  width: 34rem;
+  max-width: 34rem;
   display: flex;
   background: lightgray;
   border-radius: 1.5em;
@@ -76,6 +76,7 @@
 .projects .projectOne {
   background-image: url("/housebrain/housebrain.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .projects li:hover {
@@ -87,16 +88,19 @@
 .projects .projectTwo {
   background-image: url("/umuntu/umuntu-mobile-ipad.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .projects .projectThree {
   background-image: url("/finchair/Finchair-3-spray.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .projects .projectFour {
   background-image: url("/sierra/sierra-beige.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .projects p {
