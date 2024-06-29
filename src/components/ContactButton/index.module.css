@@ -1,5 +1,6 @@
 .contactContainer {
     position: relative;
+    display: inline-block;
 }
 
 .copied {
