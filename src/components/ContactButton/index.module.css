@@ -14,4 +14,26 @@
     width: auto;
     display: inline-block;
     font-size: 12px;
+    animation: 0.5s ease-in copied-animation, 0.2s ease-in 3s copied-disappear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes copied-animation {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+ 
+ @keyframes copied-disappear {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
