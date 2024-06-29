@@ -10,7 +10,7 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <ContactButton/>
+            <ContactButton label="Let's Chat"/>
           </li>
         </ul>
       </nav>

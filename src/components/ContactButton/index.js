@@ -5,7 +5,7 @@ import styles from './index.module.css'
 import Button from '../Button';
 import { useCallback, useEffect, useState } from 'react';
 
-const ContactButton = () => {
+const ContactButton = ({label}) => {
   const [clickState, setClickState] = useState(false)
   const [messageState, setMessageState] = useState(false)
   const onClick = useCallback(() => {
@@ -31,7 +31,7 @@ const ContactButton = () => {
       </div>
     )
   } else {
-    return <Button type="primary" label="Let's Chat" href="mailto:natalie@superwatermelon.com?subject=Hello Natalie, I've been sent from your website" onClick={onClick} />
+    return <Button type="primary" label={label} href="mailto:natalie@superwatermelon.com?subject=Hello Natalie, I've been sent from your website" onClick={onClick} />
   }
 }
 

@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
 import Randomiser from '../components/Randomiser'
+import ContactButton from '../components/ContactButton'
 
 export default function Home() {
   return (
@@ -67,7 +68,7 @@ export default function Home() {
             <div className={styles.contactInner}>
               <h2>Contact</h2>
               <p>Let's discuss how my skills and unique perspective could contribute to the success of your business or product.</p>
-              <Button type="primary" label="Send message" href="/"/>
+              <ContactButton label="Send Message"/>
             </div>
           </div>
           <div className={styles.contactImg}>
