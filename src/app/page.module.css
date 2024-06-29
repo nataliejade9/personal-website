@@ -59,7 +59,7 @@
 }
 
 .projects li {
-  max-width: 34rem;
+  width: 34rem;
   display: flex;
   background: lightgray;
   border-radius: 1.5em;
