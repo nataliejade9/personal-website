@@ -1,6 +1,6 @@
 import styles from './index.module.css'
 import Image from 'next/image'
-import Button from '../Button'
+import ContactButton from '../ContactButton'
 import Link from 'next/link'
 
 export default function Header() {
@@ -10,7 +10,7 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Button type="primary" label="Let's Chat" href="mailto:natalie@superwatermelon.com?subject=Hello Natalie, I've been sent from your website"/>
+            <ContactButton/>
           </li>
         </ul>
       </nav>

@@ -32,20 +32,20 @@ a {
 }
 
 h1 {
-  font-family: raleway;
-  font-weight: 200;
+  font-family: var(--raleway-font), Arial, Helvetica, sans-serif;
+  font-weight: 300;
   font-size: 8vw;
 }
 
 h2 {
-  font-family: raleway;
-  font-weight: 200;
+  font-family: var(--raleway-font), Arial, Helvetica, sans-serif;
+  font-weight: 300;
   font-size: 4vw;
   color: var(--main-primary);
 }
 
 p {
-  font-family: inter, Arial, Helvetica, sans-serif;
+  font-family: var(--inter-font), Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.5em;
 }
