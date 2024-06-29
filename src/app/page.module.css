@@ -162,6 +162,21 @@
   padding-left: 4em;
 }
 
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.linkedIn {
+  transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
+}
+
+.linkedIn:hover {
+  transform: translateY(-3px);
+}
+
 .contactInner {
   max-width: 40ch;
 }
