@@ -25,25 +25,25 @@ export default function Home() {
         </div>
         <ul className={styles.projects}>
           <li className={styles.projectOne}>
-            <Link href="/project-one">
+            <Link href="/housebrain">
               <h3>House Brain</h3>
               <p>June 2024 • Product Design</p>
             </Link>
           </li>
           <li className={styles.projectTwo}>
-            <Link href="/project-two">
+            <Link href="/umuntu">
               <h3>Umuntu</h3>
               <p>March 2024 • Product Design</p>
             </Link>
           </li>
           <li className={styles.projectThree}>
-            <Link href="/project-three">
+            <Link href="/finchair">
               <h3>FinChair</h3>
               <p>September 2023 • UI Design</p>
               </Link>
           </li>
           <li className={styles.projectFour}>
-            <Link href="/project-four">
+            <Link href="/sierra">
               <h3>Sierra Jewellery</h3>
               <p>May 2023 • Product Design</p>
             </Link>
@@ -58,7 +58,7 @@ export default function Home() {
             <h2>About me</h2>
             <p>I love designing impactful digital products for companies who are seeking growth and innovation. <span className={styles.boldText}> I believe this growth comes from empathising with users and shifting their current solutions to better ones.</span> When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
             <p>In my spare time, I enjoy exploring the outdoors, board games and reading. I also experiment with some coding projects and fun designs, you can check these out here...</p>
-            <div><Button type="Secondary" label="Experiments" href="/"/></div>
+            <div><Button type="Secondary" label="Experiments" href="/experiments"/></div>
           </div>
       </div>
 

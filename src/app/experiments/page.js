@@ -1,13 +1,13 @@
 import styles from './page.module.css'
 
 export const metadata = {
-  title: 'Project Two | Natalie Waites'
+  title: 'Experiments | Natalie Waites'
 }
 
-export default function ProjectPage() {
+export default function ExperimentsPage() {
   return (
     <main className={styles.main}>
-      <h1>Project Two</h1>
+      
     </main>
   )
 }

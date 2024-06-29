@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 
 export const metadata = {
-  title: 'Project One HouseBrain | Natalie Waites'
+  title: 'HouseBrain | Natalie Waites'
 }
 
 export default function ProjectPage() {
