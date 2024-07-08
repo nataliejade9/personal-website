@@ -7,7 +7,7 @@ export const metadata = {
 export default function ExperimentsPage() {
   return (
     <main className={styles.main}>
-      
+      <h1>Experiments</h1>
     </main>
   )
 }

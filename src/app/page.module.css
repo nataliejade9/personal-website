@@ -73,16 +73,16 @@
   flex-grow: 1;
 }
 
-.projects .projectOne {
-  background-image: url("/images/housebrain/housebrain.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .projects li:hover {
   transform: translateY(-5px);
   box-shadow: 10px 8px 14px 0px rgba(70, 0, 247, 0.15),
   2px 2px 5px 0px rgba(70, 0, 247, 0.3);
+}
+
+.projects .projectOne {
+  background-image: url("/images/housebrain/housebrain.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .projects .projectTwo {
@@ -195,7 +195,7 @@
 
 .footerBanner {
   width: 100%;
-  padding: 3em 6em 2em 6em;
+  padding: 3em 4em 2em 4em;
   gap: 2rem;
   display: flex;
   justify-content: center;

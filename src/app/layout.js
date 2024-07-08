@@ -7,13 +7,13 @@ const ralewayfont = Raleway ({subsets: ['latin'], variable: '--raleway-font' })
 
 export const metadata = {
   title: 'Natalie Waites',
-  description: 'A description of the site',
+  description: 'Product Design portfolio for Natalie Waites including examples of UX and UI Design',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${font.className} ${ralewayfont.className}`}>
+      <body className={`${font.variable} ${ralewayfont.variable}`}>
         <Header/>
         <div className='header-offset'>{children}</div>
       </body>
