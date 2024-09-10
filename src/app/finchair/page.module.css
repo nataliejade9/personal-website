@@ -3,21 +3,43 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  gap: 3rem;
+  padding: 0 5rem;
+}
+.projectHeader {
+  display: flex;
+  justify-content: center;
+  
 }
 
-.projectHeader {
+.coverImg {
+  width: 90%;
+  height: auto;
+}
+
+.titleInfo {
+  width: 50%;
+  display: flex;
+  display: inline-block;
+  align-self: flex-end;
+  flex-direction: column;
+  padding-bottom: 6rem;
+}
+
+.titleInfo h1 {
+  color: var(--main-primary);
+  padding-bottom: 1rem;
+}
+
+.titleInfo h2 {
+  color: black;
+  font-size: 3vw;
+}
+
+.projectHeaderImg {
   width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-.projectHeader h1 {
-  color: var(--main-primary);
-}
-
-.projectHeader h2 {
-  color: black;
 }
