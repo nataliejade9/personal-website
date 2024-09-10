@@ -5,3 +5,19 @@
   align-items: center;
   padding: 6rem;
 }
+
+.projectHeader {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectHeader h1 {
+  color: var(--main-primary);
+}
+
+.projectHeader h2 {
+  color: black;
+}
