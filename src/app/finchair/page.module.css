@@ -8,7 +8,7 @@
 .projectHeader {
   display: flex;
   justify-content: center;
-  padding: 0 5rem;
+  padding: 0 4em;
 }
 
 .coverImg {
@@ -44,7 +44,7 @@
 }
 
 .overviewSection {
-  padding: 3rem 5rem;
+  padding: 3em 4em;
   background-color: white;
 }
 
