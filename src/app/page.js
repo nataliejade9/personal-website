@@ -47,7 +47,7 @@ export default function Home() {
             <li className={styles.projectFour}>
               <Link href="/sierra">
                 <h3>Sierra Jewellery</h3>
-                <p>May 2023 • Product Design</p>
+                <p>May 2023 • Brand Design</p>
               </Link>
             </li>
           </ul>

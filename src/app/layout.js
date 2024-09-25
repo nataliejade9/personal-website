@@ -16,7 +16,10 @@ export default function RootLayout({ children }) {
       <body className={`${font.variable} ${ralewayfont.variable}`}>
         <Header/>
         <div className='header-offset'>{children}</div>
+        footer
       </body>
     </html>
   )
 }
+
+
