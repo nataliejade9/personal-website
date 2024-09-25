@@ -192,26 +192,3 @@
   flex-direction: column;
   padding-right: 4em;
 }
-
-.footerBanner {
-  width: 100%;
-  padding: 3em 4em 2em 4em;
-  gap: 2rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: white;
-}
-
-.randomiser {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.copyright {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2em 0;
-}
