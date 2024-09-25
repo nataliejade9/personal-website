@@ -1,8 +1,8 @@
 import { Inter, Raleway } from 'next/font/google'
 import './globals.css'
 import Header from '../components/Header'
-import Footer from '../components/Footer'
-// import Contact from '../components/Footer'
+import Footer from '../components/Contact'
+import Contact from '../components/Footer'
 
 const font = Inter({ subsets: ['latin'], variable: '--inter-font' })
 const ralewayfont = Raleway ({subsets: ['latin'], variable: '--raleway-font' })
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body className={`${font.variable} ${ralewayfont.variable}`}>
         <Header/>
         <div className='header-offset'>{children}</div>
-    
+        <Contact/>
         <Footer/>
       </body>
     </html>

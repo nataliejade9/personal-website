@@ -1,7 +1,7 @@
 import styles from './index.module.css'
 import Randomiser from '../Randomiser'
 
-export default function Footer() {
+export default function Contact() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerBanner}>

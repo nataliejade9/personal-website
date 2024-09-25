@@ -2,7 +2,6 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
-import Randomiser from '../components/Randomiser'
 import ContactButton from '../components/ContactButton'
 
 export default function Home() {
