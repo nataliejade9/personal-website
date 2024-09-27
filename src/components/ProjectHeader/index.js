@@ -1,7 +1,7 @@
 import styles from './index.module.css'
 import Image from 'next/image'
 
-const ProjectHeader = ({projectName, projectDescription}) => {
+const ProjectHeader = ({projectName, projectDescription, imageSource, imageAlt, imageWidth, imageHeight}) => {
     return (
         <div className={styles.projectHeader}>
         <div className={styles.titleInfo}>
@@ -9,7 +9,7 @@ const ProjectHeader = ({projectName, projectDescription}) => {
             <h2>{projectDescription}</h2>
         </div>
         <div className={styles.projectHeaderImg}>
-            <Image className={styles.coverImg} src="/images/finchair/header-img-both.png" alt="Finchair app screens. Bills screen and rewards screen." width={5000} height={5945}/>
+            <Image className={styles.coverImg} src={imageSource} alt={imageAlt} width={imageWidth} height={imageHeight}/>
         </div>
     </div> 
     )
