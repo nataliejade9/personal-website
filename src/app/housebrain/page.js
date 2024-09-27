@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './page.module.css'
 import Image from 'next/image'
-
+import ProjectHeader from '@/components/ProjectHeader'
 
 export const metadata = {
   title: 'HouseBrain | Natalie Waites'
@@ -10,11 +10,9 @@ export const metadata = {
 export default function ProjectPage() {
   return (
     <main className={styles.main}>
-      <div className={styles.projectHeader}>
-        <h1>HouseBrain</h1>
-        <h2>Epowering first-time buyers by combining comprehensive cost breakdowns, property logging, and educational resources, the app will simplify the home-buying journey and help users achieve their dream of home ownership.</h2>
-        <Link href="#"> <Image className={styles.arrowDown} src="/arrow-down.png" alt="Down arrow" width={64} height={64}/></Link>
-      </div>
+      <ProjectHeader projectName={"HouseBrain"} projectDescription={"Simplifying the overwhelming home-buying process"}  imageSource={""} imageAlt={"Homepage screenshot of the HouseBrain app"} imageWidth={5000} imageHeight={5945}/>
+      
+      {/* <Link href="#"> <Image className={styles.arrowDown} src="/arrow-down.png" alt="Down arrow" width={64} height={64}/></Link> */}
     </main>
   )
 }

@@ -1,6 +1,9 @@
 .main {
   display: flex;
-  padding: 0 4rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
 }
 
 .titleSection {
