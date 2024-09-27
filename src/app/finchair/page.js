@@ -14,9 +14,9 @@ export default function ProjectPage() {
             <h1>FinChair</h1>
             <h2>A credit score motivation app. Increase your score and win rewards.</h2>
           </div>
-        <div className={styles.projectHeaderImg}>
-          <Image className={styles.coverImg} src="/images/finchair/header-img-both.png" alt="Finchair app screens. Bills screen and rewards screen." width={5000} height={5945}/>
-        </div>
+          <div className={styles.projectHeaderImg}>
+            <Image className={styles.coverImg} src="/images/finchair/header-img-both.png" alt="Finchair app screens. Bills screen and rewards screen." width={5000} height={5945}/>
+          </div>
         </div>
         <div className={styles.overviewSection}>
           <h2>Overview</h2>

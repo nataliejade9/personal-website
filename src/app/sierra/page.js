@@ -1,3 +1,4 @@
+import ProjectHeader from '@/components/ProjectHeader'
 import styles from './page.module.css'
 
 export const metadata = {
@@ -7,7 +8,7 @@ export const metadata = {
 export default function ProjectPage() {
   return (
     <main className={styles.main}>
-      <h1>Sierra Jewellery</h1>
+      <ProjectHeader projectName={"Sierra"} projectDescription={"Jewellery store rebrand, giving users an easy way to shop their next purchase."}/>
     </main>
   )
 }
