@@ -1,29 +1,33 @@
 import styles from './index.module.css'
-import Image from 'next/image'
 
-const OverviewSection = ({overviewTitle, overviewSummary, roleTitle, roleText, teamTitle, teamText, designTitle, designText, successTitle, successText}) => {
+const OverviewSection = ({overviewTitle, overviewSummary, roleTitle, roleText, teamTitle, teamText, designTitle, designText, successTitle, successOne, successTwo, successThree, successFour}) => {
     return (
         <div className={styles.overviewSection}>
             <h2>{overviewTitle}</h2>
             <p>{overviewSummary}</p>
-            <div className={styles.overviewInfo}>
-                <div className={styles.role}>
+            <ul className={styles.overviewInfo}>
+                <li className={styles.role}>
                     <h3>{roleTitle}</h3>
                     <p>{roleText}</p>
-                </div>
-                <div className={styles.team}>
+                </li>
+                <li className={styles.team}>
                     <h3>{teamTitle}</h3>
                     <p>{teamText}</p>
-                </div>
-                <div className={styles.designTools}>
+                </li>
+                <li className={styles.designTools}>
                     <h3>{designTitle}</h3>
                     <p>{designText}</p>
-                </div>
-                <div className={styles.successMetrics}>
+                </li>
+                <li className={styles.successMetrics}>
                     <h3>{successTitle}</h3>
-                    <p>{successText}</p>
-                </div>
-            </div>
+                    <ul>
+                        <li>{successOne}</li>
+                        <li>{successTwo}</li>
+                        <li>{successThree}</li>
+                        <li>{successFour}</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     )
 }
