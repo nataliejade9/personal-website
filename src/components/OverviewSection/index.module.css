@@ -1,0 +1,9 @@
+.overviewSection {
+    padding: 3em 4em;
+    background-color: white;
+  }
+  
+  .overviewSection h2 {
+    color: black;
+    padding-bottom: 1rem;
+  }
