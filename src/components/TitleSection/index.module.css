@@ -1,9 +1,13 @@
 .titleContent {
-    padding: 1em 4em;
+    padding: 4em 4em 0 4em;
 }
 
 .titleContent h2 {
     padding-bottom: 1.5rem;
+}
+
+.titleContent p {
+    font-weight: 300;
 }
 
 .titleContent {
