@@ -1,4 +1,5 @@
 import styles from './page.module.css'
+import Image from 'next/image'
 import ProjectHeader from '@/components/ProjectHeader'
 import OverviewSection from '@/components/OverviewSection'
 import TitleSection from '@/components/TitleSection'
@@ -28,8 +29,10 @@ export default function ProjectPage() {
           successThree={"Acquire 5000 users within first year of launching"}
           successFour={"Raise seed investment of £150,000"}
         />
-        <ImageSection imageSource={"/images/finchair/finchair-screens.jpg"} imageAlt={"Ten iphone screens showing different pages of the finchair app"} imageWidth={4500} imageHeight={3000}/>
-        <TitleSection title={"UI Design Brief"} information={"Our client had already developed the initial design for FinChair's first version. However, they recognised the need for simplification to enhance usability for their target audience. The app featured a space-themed design, with users advancing through their financial journey by visiting different planets. To keep users motivated, the app included a reward system tied to this space themed adventure."}/>
+        <Image className={styles.onlyImg} src="/images/finchair/finchair-screens.jpg" alt="Ten iphone screens showing different pages of the finchair app" width={4500} height={3000}/>
+        <TitleSection title={"The Brief"} information={"Our client had already developed the initial design for FinChair's first version. However, they recognised the need for simplification to enhance usability for their target audience. The app featured a space-themed design, with users advancing through their financial journey by visiting different planets. To keep users motivated, the app included a reward system tied to this space themed adventure."}/>
+        <ImageSection imgTitle={"UI designs the client provided (version 1.0)"} imageSource={"/images/finchair/Client designs.png"} imageAlt={"Finchair original UI designs provided by client"} imageWidth={3626} imageHeight={1751}/>
+        <TitleSection title={"Starting with Inspiration"} information={"As a team we headed into design discussions and ideas. We could see the need for modernisation and how the new design encourage users to trust the application as a financial tool. Discussions led to moving away from being illustration heavy and make the design more abstract to make it more timeless. This was important as users would need to trust the app to hold their financial information. We put together a mood board to capture initial thoughts"}/>
       </main>
     </>
   )
