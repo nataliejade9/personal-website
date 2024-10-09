@@ -29,7 +29,7 @@ export default function ProjectPage() {
           successFour={"Raise seed investment of £150,000"}
         />
         <ImageSection imageSource={"/images/finchair/finchair-screens.jpg"} imageAlt={"Ten iphone screens showing different pages of the finchair app"} imageWidth={4500} imageHeight={3000}/>
-        <TitleSection title={"The Brief"} information={"Our client had already developed the initial design for FinChair's first version. However, they recognised the need for simplification to enhance usability for their target audience. The app featured a space-themed design, with users advancing through their financial journey by visiting different planets. To keep users motivated, the app included a reward system tied to this space themed adventure."}/>
+        <TitleSection title={"UI Design Brief"} information={"Our client had already developed the initial design for FinChair's first version. However, they recognised the need for simplification to enhance usability for their target audience. The app featured a space-themed design, with users advancing through their financial journey by visiting different planets. To keep users motivated, the app included a reward system tied to this space themed adventure."}/>
       </main>
     </>
   )
