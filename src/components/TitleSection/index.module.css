@@ -3,6 +3,9 @@
 }
 
 .titleContent h2 {
-    text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.titleContent {
+    letter-spacing: 0.1px;
 }
