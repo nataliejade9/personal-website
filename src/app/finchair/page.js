@@ -1,6 +1,7 @@
 import styles from './page.module.css'
 import ProjectHeader from '@/components/ProjectHeader'
 import OverviewSection from '@/components/OverviewSection'
+import TitleSection from '@/components/TitleSection'
 
 export const metadata = {
   title: 'FinChair | Natalie Waites'
@@ -26,6 +27,7 @@ export default function ProjectPage() {
           successThree={"Acquire 5000 users within first year of launching"}
           successFour={"Raise seed investment of £150,000"}
         />
+        <TitleSection title={"The Brief"} information={"Our client had already developed the initial design for FinChair's first version. However, they recognised the need for simplification to enhance usability for their target audience. The app featured a space-themed design, with users advancing through their financial journey by visiting different planets. To keep users motivated, the app included a reward system tied to this space themed adventure."}/>
       </main>
     </>
   )
