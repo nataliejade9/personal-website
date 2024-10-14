@@ -4,6 +4,7 @@ import ProjectHeader from '@/components/ProjectHeader'
 import OverviewSection from '@/components/OverviewSection'
 import TitleSection from '@/components/TitleSection'
 import ImageSection from '@/components/ImageSection'
+import CasestudyBanner from '@/components/CasestudyBanner'
 
 export const metadata = {
   title: 'FinChair | Natalie Waites'
@@ -48,6 +49,7 @@ export default function ProjectPage() {
           <div className={styles.reviewSection}>
 
           </div>
+          <CasestudyBanner/>
       </div>
       </main>
     </>
