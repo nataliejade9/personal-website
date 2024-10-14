@@ -16,6 +16,7 @@
     height: auto;  
 }
 
-.imgDescription {
-    padding: 1rem;
+.description {
+    padding: 1rem 0;
+    font-size: 1.25vw;
 }

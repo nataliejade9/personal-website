@@ -6,7 +6,7 @@ const ImageSection = ({imgTitle, imageSource, imageAlt, imageWidth, imageHeight,
         <div className={styles.projectImg}>
             {imgTitle && (<h3>{imgTitle}</h3>)}
             <Image className={styles.img} src={imageSource} alt={imageAlt} width={imageWidth} height={imageHeight}/>
-            {imgDescription && (<p>{imgDescription}</p>)}
+            {imgDescription && (<p className={styles.description}>{imgDescription}</p>)}
         </div>
     )
 }
