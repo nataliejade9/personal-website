@@ -38,7 +38,9 @@ export default function ProjectPage() {
         <ImageSection imageSource={"/images/finchair/first-designs.png"} imageAlt={"First designs for the finchair app"} imageWidth={7400} imageHeight={3508}/>  
         <TitleSection title={"Design Sprint"} information={"With a clear direction from the client feedback we jumped into design. We worked on various iterations and A,B tested as we went to establish the preferred design with users. I worked on components and design of the home, bills and rewards pages. Tiffany also worked on the components, wallet and design assets. Grace worked on video assets and log in page. We worked together well, using Figma comments to share feedback and progress."}/>
         <TitleSection title={"Final Designs"} information={"After testing with users and making any final design edits we presented the final designs to the client. We had some very positive feedback from the client. In particular they loved the abstract space theme and thought it put accross a sophisticated aesthetic. He also really enjoyed the gamification of the rewards section, as he had a few designers look at this project and found this to be unqiue and stand out for the brand. Encouraging more investment and user adoption in the early stages."}/>
-      
+        <div className={styles.finalSection}>
+          <Image className={styles.onlyImg} src="/images/finchair/Homepages.png" alt="Five homepage screenshots for the finchair app final designs" width={6000} height={3500}/> 
+        </div>  
       </main>
     </>
   )
