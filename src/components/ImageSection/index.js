@@ -1,11 +1,12 @@
 import styles from './index.module.css'
 import Image from 'next/image'
 
-const ImageSection = ({imgTitle, imageSource, imageAlt, imageWidth, imageHeight}) => {
+const ImageSection = ({imgTitle, imageSource, imageAlt, imageWidth, imageHeight, imgDescription}) => {
     return (
         <div className={styles.projectImg}>
             {imgTitle && (<h3>{imgTitle}</h3>)}
             <Image className={styles.img} src={imageSource} alt={imageAlt} width={imageWidth} height={imageHeight}/>
+            {imgDescription && (<p>{imgDescription}</p>)}
         </div>
     )
 }
