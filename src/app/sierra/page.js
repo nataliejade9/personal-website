@@ -17,15 +17,11 @@ export default function ProjectPage() {
     <main className={styles.main}>
       <ProjectHeader projectName={"Sierra"} projectDescription={"Jewellery store rebrand, giving users an easy and familiar way to shop their next purchase."}  imageSource={"/images/sierra/sierra-header-thin.png"} imageAlt={"Laptop and mobile screenshot of the Sierra Jewellery website"} imageWidth={4500} imageHeight={3000}/>
         <OverviewSection
-          overviewTitle={"Overview"}
           overviewSummary={"To transform Sierra Jewellery from an Etsy-based startup into a recognised, independent luxury brand with a robust digital presence, positioning it as a leader in ethical, artisanal jewellery in the UK market."} 
           roleTitle={"Role: UI Design"} 
           roleText={"Responsive visual web design, high-fidelity prototyping, design system, brand style guide, logo & packaging design"} 
-          teamTitle={"Team"} 
           teamText={"Natalie Waites (solo project)"} 
-          designTitle={"Design Toolkit"} 
           designText={"Figma, FigJam, Zoom, Adobe Photoshop and Illustrator"} 
-          successTitle={"Success metrics"} 
           successOne={"Increase direct sales by 50% within 6 months"}
           successTwo={"Customer retention rate of 60% within one year"}
           successThree={"3% conversion rate within 6 months"}
