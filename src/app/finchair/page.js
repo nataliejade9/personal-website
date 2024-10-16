@@ -47,7 +47,21 @@ export default function ProjectPage() {
             <Image className={styles.onlyImg} src="/images/finchair/3-iphone-blue.png" alt="Three screenshots of the finchair app final desgins, the wallet, bills and rewards pages" width={4500} height={2800}/>
             <Image className={styles.onlyImg} src="/images/finchair/Finchair-3-screen.png" alt="Three screenshots of the finchair app rewards function final designs" width={4500} height={2800}/>
           </div>  
-          <ReviewSection/>
+          <ReviewSection 
+            textOne={(
+              <>
+                <p>The designs fit to the success metrics, particularly the high-fidelity prototype worked for acquiring users as well as seed funding investment.</p>
+                <p>The client was happy with gamification of the rewards section and believed this would entice new users as well as keep them engaged.</p>
+                <p>Our team worked well together. We used a combination of zoom calls, joint FigJam boards, and Figma comments. </p>
+              </>
+            )}
+            textTwo={(
+              <>
+                <p>If we had more say in the UX, I would’ve liked to look at how we could adapt the UX/UI to better suit the success metric of acquiring 5,000 users in the first year. As we could look at incorporating referral schemes or onboarding screens that were tested on users to better achieve this result.</p>
+                <p>In this project, I learnt the importance of well tested UX and wireframes before defining the UI designs and not jumping to UI too early.</p>
+              </>
+            )}
+          />
           <CasestudyBanner/>
       </div>
       </main>

@@ -1,12 +1,17 @@
 import styles from './index.module.css'
 
-const ReviewSection = ({titleOne, textOne, titleTwo, textTwo}) => {
+const ReviewSection = ({textOne, textTwo}) => {
     return (
         <div className={styles.reviewSection}>
-            <h3>{titleOne}</h3>
-            <p>{textOne}</p>
-            <h3>{titleTwo}</h3>
-            <p>{textTwo}</p>
+            <h2>Retrospective</h2>
+            <div className={styles.wentWell}></div>
+                <h3>What went well</h3>
+                <>{textOne}</>
+            <div className={styles.spacing}></div>
+            <div className={styles.improved}>
+                <h3>What could be improved</h3>
+                <>{textTwo}</>
+            </div>
         </div>
     )
 }
