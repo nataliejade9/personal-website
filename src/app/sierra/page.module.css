@@ -9,6 +9,41 @@
   display: flex;
   width: 100%;
   height: auto; 
-  padding: 0 6em;
+  padding: 0 8rem;
   background-color: white;
+}
+
+.branding {
+  padding: 3rem 0;
+  background-color: white;
+}
+
+.branding h2 {
+  color: black;
+  font-size: 2vw;
+  font-weight: 500;
+  padding: 1rem 8rem;
+}
+
+.branding h3 {
+  padding: 0.75rem 8rem 0.25rem 8rem;
+}
+
+.branding p {
+  padding: 0.5rem 8rem;
+}
+
+.textBranding {
+  padding-bottom: 2rem;
+}
+
+.logos {
+  display: block;
+  margin: auto;
+  width: 75%;
+  padding: 2rem 0;
+}
+
+.mockups {
+  padding: 4rem 0 3rem;
 }
