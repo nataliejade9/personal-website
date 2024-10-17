@@ -47,3 +47,7 @@
 .mockups {
   padding: 4rem 0 3rem;
 }
+
+.designEdits {
+  display: flex;
+}

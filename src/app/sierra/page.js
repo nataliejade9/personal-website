@@ -65,9 +65,10 @@ export default function ProjectPage() {
               <Image className={styles.onlyImg} src="/images/sierra/Jewellery-Box-Mockup.png" alt="Jewellery box mock up with Sierra Logo" width={2913} height={1802}/>
             </div>
           </div>
-
           <TitleSection title={"Initial landing page design & iterations"} information={"The client was keen on highlighting individual products as the user hovers over them, to encourage conversion. I experimented with how this could look. However when we A/B tested it, users seemed to prefer the more simple design for the product cards. Which would correspond with Jakob's Law about consistency and standards; noted in the 10 usability heuristics."}/>
-          <ImageSection imgTitle={"Initial iterations of the homepage and rewards page"} imageSource={"/images/finchair/Design-iterations.png"} imageAlt={"Four screens of the finchair app designs in early stages"} imageWidth={3626} imageHeight={1751} imgDescription={"A glimpse into the early stages of our design iterations and how we could optimally display the information to users. We played around with a few different card options and homepage display as this is where users would be drawn in."}/>
+            
+          <ImageSection imageSource={"/images/sierra/Sierra-edits.png"} imageAlt={"Initial Sierra Jewellery website designs and edit notes"} imageWidth={1512} imageHeight={3742} imgDescription={"There were multiple versions of the design. I'm a fan of testing throughout the design process and get feedback on certain elements of the design to allow natural pivots towards a more user-friendly experience."}/>
+          
           <TitleSection title={"Final Designs"} information={"After making any last design edits we presented the final designs and prototype to the client. We had some very positive feedback from the client. In particular they loved the abstract space theme and thought it put accross a sophisticated aesthetic. He also really enjoyed the gamification of the rewards section, as he had a few designers look at this project and found this to be unqiue and stand out for the brand. Encouraging more investment and user adoption in the early stages."}/>
           <div className={styles.finalSection}>
             <Image className={styles.onlyImg} src="/images/finchair/Homepages.png" alt="Five homepage screenshots of the finchair app final designs" width={6000} height={3500}/> 
