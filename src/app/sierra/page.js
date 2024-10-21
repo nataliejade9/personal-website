@@ -28,7 +28,7 @@ export default function ProjectPage() {
           successFour={"Achieve 40% brand recognition among target audience within the first year"}
         />
         <div className={styles.mainProject}>
-          <Image className={styles.onlyImg} src="/images/sierra/Sierra-title-img.png" alt="Homepage of Sierra Jewellery website on mac and mobile mock ups" width={4000} height={2902}/>
+          <Image className={styles.onlyImg} src="/images/sierra/Sierra-title-img.png" alt="Homepage of Sierra Jewellery website on mac and mobile mock ups" width={2796} height={1820}/>
           <TitleSection title={"The Brief"} information={"Create a cohesive branding strategy to establish Sierra Jewellery as a standalone luxury brand, moving beyond the Etsy marketplace. To fulfil this brief I met with the client and filled out the lean canvas together, so that I could understand the business and have the client think about how the business's strategy fits with the design goals. "}/>
           <ImageSection imgTitle={"Understanding the business: Lean Canvas"} imageSource={"/images/sierra/Lean-Canvas.png"} imageAlt={"Filled out lean canvas for Sierra Jewellery"} imageWidth={3833} imageHeight={2359}/>
           <ImageSection imgTitle={"How can I help?: Agreeing the deliverables brainstorm"} imageSource={"/images/sierra/Success-metrics.png"} imageAlt={"Brainstorm of deciding deliverables"} imageWidth={3833} imageHeight={2359} imgDescription={"We agreed on a new brand identity (including style guide and design system), responsive e-commerce landing page with components to design future pages and packaging design."}/>
@@ -66,27 +66,25 @@ export default function ProjectPage() {
             </div>
           </div>
           <TitleSection title={"Initial landing page design & iterations"} information={"The client was keen on highlighting individual products as the user hovers over them, to encourage conversion. I experimented with how this could look. However when we A/B tested it, users seemed to prefer the more simple design for the product cards. Which would correspond with Jakob's Law about consistency and standards; noted in the 10 usability heuristics."}/>
-            
-          <ImageSection imageSource={"/images/sierra/Sierra-edits.png"} imageAlt={"Initial Sierra Jewellery website designs and edit notes"} imageWidth={1512} imageHeight={3742} imgDescription={"There were multiple versions of the design. I'm a fan of testing throughout the design process and get feedback on certain elements of the design to allow natural pivots towards a more user-friendly experience."}/>
-          
-          <TitleSection title={"Final Designs"} information={"After making any last design edits we presented the final designs and prototype to the client. We had some very positive feedback from the client. In particular they loved the abstract space theme and thought it put accross a sophisticated aesthetic. He also really enjoyed the gamification of the rewards section, as he had a few designers look at this project and found this to be unqiue and stand out for the brand. Encouraging more investment and user adoption in the early stages."}/>
+          <ImageSection imageSource={"/images/sierra/Sierra-edits.png"} imageAlt={"Initial Sierra Jewellery website designs and edit notes"} imageWidth={1512} imageHeight={3742} imgDescription={"There were multiple versions of the design. I'm a fan of testing throughout the design process and getting feedback on certain elements of the design to allow natural pivots towards a more user-friendly experience."}/>
+          <TitleSection title={"Final landing page design (responsive)"} information={"The page seamlessly guides users through carefully positioned product imagery and clear calls-to-action. Allowing users to navigate the site with ease, while maintaining a focus on the jewellery's artisanal quality. The result is an engaging, responsive design that elevates Sierra Jewellery from its Etsy origins to a premium digital presence."}/>
           <div className={styles.finalSection}>
-            <Image className={styles.onlyImg} src="/images/finchair/Homepages.png" alt="Five homepage screenshots of the finchair app final designs" width={6000} height={3500}/> 
-            <Image className={styles.onlyImg} src="/images/finchair/3-iphone-blue.png" alt="Three screenshots of the finchair app final desgins, the wallet, bills and rewards pages" width={4500} height={2800}/>
-            <Image className={styles.onlyImg} src="/images/finchair/Finchair-3-screen.png" alt="Three screenshots of the finchair app rewards function final designs" width={4500} height={2800}/>
-          </div>  
+            <Image className={styles.onlyImg} src="/images/sierra/Sierra-responsive.png" alt="Sierra homepage laptop and iPhone mockup" width={4500} height={3000}/> 
+            <Image className={styles.onlyImg} src="/images/sierra/Sierra-mood-image.png" alt="Sierra homepage laptop mockup" width={4500} height={3000}/> 
+            <Image className={styles.onlyImg} src="/images/sierra/Sierra-signup.png" alt="Sierra homepage laptop and iPhone mockup with book and reading glasses" width={4500} height={3000}/> 
+            </div>  
           <ReviewSection 
             textOne={(
               <>
-                <p>The designs fit to the success metrics, particularly the high-fidelity prototype worked for acquiring users as well as seed funding investment.</p>
-                <p>The client was happy with gamification of the rewards section and believed this would entice new users as well as keep them engaged.</p>
-                <p>Our team worked well together. We used a combination of zoom calls, joint FigJam boards, and Figma comments. </p>
+                <p>I was happy with the clear visual language acheived and the design process it took to get there.</p>
+                <p>The client was impressed with the result and thought it really showed the luxury feel they were looking for.</p>
+                <p>Having that initial open communication with the client was essential on this project, ensuring the correct deliverables were agreed.</p>
               </>
             )}
             textTwo={(
               <>
-                <p>If we had more say in the UX, I would’ve liked to look at how we could adapt the UX/UI to better suit the success metric of acquiring 5,000 users in the first year. As we could look at incorporating referral schemes or onboarding screens that were tested on users to better achieve this result.</p>
-                <p>In this project, I learnt the importance of well tested UX and wireframes before defining the UI designs and not jumping to UI too early.</p>
+                <p>Unfortunately the client is yet to make the designs "live". I would have liked to see it in the real world and make edits based on user feedback.</p>
+                <p>I would have liked to arrange a photoshoot of the clients' actual product rather than use stock imagery. It would have made the final design a lot more cohesive.</p>
               </>
             )}
           />
