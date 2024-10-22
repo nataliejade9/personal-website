@@ -59,7 +59,7 @@ export default function ProjectPage() {
             )}
           />
           <CasestudyBanner/>
-      </div>
+        </div>
       </main>
     </>
   )
