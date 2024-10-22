@@ -12,3 +12,15 @@
   height: auto; 
   padding: 0 8rem 4rem 8rem;
 }
+
+.stats {
+  background-color: white;
+}
+
+.stats h3 {
+  padding: 4rem 8rem 2rem 8rem;
+}
+
+.stats p {
+  padding: 0 8rem 4rem 8rem;
+}
