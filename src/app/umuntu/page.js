@@ -17,7 +17,7 @@ export default function ProjectPage() {
       <ProjectHeader projectName={"Umuntu"} projectDescription={"A central place for the Nigerian Diaspora to connect and share information."}  imageSource={"/images/umuntu/umuntu-header.png"} imageAlt={"Umuntu homepage displayed on laptop and mobile"} imageWidth={3400} imageHeight={3000}/>
    
       <OverviewSection
-          overviewSummary={"A platform that empowers the African diaspora to engage with and impact the socio-political landscape of African countries through news, policy tracking, funding, and advocacy."} 
+          overviewSummary={"A platform that allows users to be able to connect with the social and political life of their countries back home, empowering their voices, as well as contributing to their communities of origin."} 
           roleTitle={"Role: Product Design (UX & UI)"} 
           roleText={"UX design, research & user testing, UI design of responsive web platform, high-fidelity prototyping"} 
           teamText={"Natalie Waites (solo project)"} 
@@ -27,10 +27,12 @@ export default function ProjectPage() {
           successThree={"The product addresses user painpoints from research"}
         />
         <div className={styles.mainProject}>
-          <Image className={styles.onlyImg} src="/images/umuntu/hero-img.png" alt="Umuntu homescreen on laptop and iphone mockup screens" width={4500} height={3000}/>
-          <TitleSection title={"The Brief"} information={"Our client had already developed the initial design for FinChair's first version. However, they recognised the need for simplification to enhance usability for their target audience. The app featured a space-themed design, with users advancing through their financial journey by visiting different planets. To keep users motivated, the app included a reward system tied to this space themed adventure."}/>
-          <ImageSection imgTitle={"UI designs the client provided (version 1.0)"} imageSource={"/images/finchair/Client designs.png"} imageAlt={"Finchair original UI designs provided by client"} imageWidth={3626} imageHeight={1751} imgDescription={"The original deisgn had some accessibility issues, including not meeting contrast guidlines. It also lacked a clear user journey and visual hierarchy with the pages looking fairly similar. The designs helped us see what information and layout users would need/expect within the app. "}/>
-          <TitleSection title={"Starting with Inspiration"} information={"As a team we headed into design discussions and ideas. We could see the need for modernisation and how the new design encourage users to trust the application as a financial tool. Discussions led to moving away from being illustration heavy and make the design more abstract to make it more timeless. This was important as users would need to trust the app to hold their financial information. We put together a mood board to capture initial thoughts"}/>
+          <Image className={styles.onlyImg} src="/images/umuntu/hero-img.png" alt="Umuntu homescreen on laptop and iphone mockup screens" width={4500} height={2700}/>
+          <TitleSection title={"The Brief"} information={"The initial brief was quite broad: 'A platform that empowers the African diaspora to engage with and impact the socio-political landscape of African countries through news, policy tracking, funding, and advocacy. Focused on developing a web platform with these functionalities.' After interviewing the client we agreed to define the brief further by understanding more about the business and conducting target user research."}/>
+          <ImageSection imgTitle={"Understanding the business: Lean canvas and competitor analysis"} imageSource={"/images/umuntu/Umuntu-lean-canvas.png"} imageAlt={"Lean canvas diagram for Umuntu business"} imageWidth={7072} imageHeight={5384}/>
+          <Image className={styles.onlyImg} src="/images/umuntu/Umuntu-competitor.png" alt="Competitor analysis for Umuntu business" width={7776} height={6690}/>
+          
+          <TitleSection title={"User survey results"} information={""}/>
           <Image className={styles.onlyImg} src="/images/finchair/Moodboard-finchair.png" alt="Moodboard for Finchair design" width={5105} height={3778}/>
           <TitleSection title={"Initial design ideas"} information={"Our team went away and drafted up some initial design ideas using the information we had gathered from the client interview, the research, UX and designs provided. As well as using our inspiration and what we knew about the users to put together our individual take on how the application could look. We dissected the pros and cons of each design as a group before heading into the next meeting."}/>
           <ImageSection imageSource={"/images/finchair/first-designs.png"} imageAlt={"First designs for the finchair app"} imageWidth={7400} imageHeight={3508}/>  
