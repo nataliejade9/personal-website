@@ -53,8 +53,12 @@ export default function ProjectPage() {
           <Image className={styles.onlyImg} src="/images/umuntu/wireframe.png" alt="Low fidelity wireframes for umuntu features" width={3024} height={2366}/>
           <TitleSection title={"Final Prototype & Designs"} information={"I presented these final prototype and designs to the client and the user's who participated in the interviews. The client was happy that it fulfilled the brief and I was able to get some final testing and feedback from user's. Overall the feedback was positive but I've included suggested edits for future. I've also included the implementation roadmap I provided for the client."}/>
           
-          {/* <div style="padding:68.82% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1022514120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Umuntu Prototype"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> */}
-          {/* <video width="320" height="240" controls><source src="Umuntu-Prototype.mov" type="video/mp4">Your browser does not support the video tag.</video> */}
+          <div className={styles.video}>
+            <div style={{padding:"68.82% 0 0 0",position:"relative"}}>
+              <iframe src="https://player.vimeo.com/video/1022514120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="Umuntu Prototype"></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+          </div>
           
           <div className={styles.finalSection}>
             <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu homescreens in three iphone mock ups"} imageWidth={4500} imageHeight={2600}/>

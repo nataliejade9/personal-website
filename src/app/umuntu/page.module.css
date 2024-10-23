@@ -24,3 +24,8 @@
 .stats p {
   padding: 0 8rem 4rem 8rem;
 }
+
+.video {
+  padding: 4rem 8rem;
+  background-color: white;
+}
