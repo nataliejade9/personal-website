@@ -19,9 +19,13 @@
 
 .stats h3 {
   padding: 4rem 8rem 2rem 8rem;
+  font-weight: 500;
+  font-size: 1.5vw;
 }
 
 .stats p {
+  font-weight: 300;
+  font-size: 1.25vw;
   padding: 0 8rem 4rem 8rem;
 }
 

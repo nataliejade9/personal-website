@@ -3,11 +3,12 @@
     flex-direction: column;
     background-color: white;
     width: 100%;
-    padding: 4em 8em;
+    padding: 4rem 8rem;
 }
 
 .projectImg h3 {
     padding-bottom: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 500;
 }
 
