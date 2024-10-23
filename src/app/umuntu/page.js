@@ -45,18 +45,15 @@ export default function ProjectPage() {
           <TitleSection title={"Defining Interview Information"} information={"From the affinity map, I was able to pull out the key themes discussed and would later use these to form the How Might We statements. I then made an experience map to understand the problems faced by user's and how they played out. I plotted where Umuntu could fit in that experience."}/>
           <ImageSection imageSource={"/images/umuntu/key-themes.png"} imageAlt={"Key themes from the user interviews"} imageWidth={2754} imageHeight={1552}/>
           <Image className={styles.onlyImg} src="/images/umuntu/Umuntu-experience-map.png" alt="Experience map for users" width={6976} height={4396}/>
-          <TitleSection title={"Design Ideation"} information={"Going into the design stages I wanted to make sure I was clear on the key opportunities that Umuntu could fill in this space. From there I was able to build three 'How Might We' statements in order to direct the design process and use them to support ideation"}/>
+          <TitleSection title={"Design Ideation"} information={"Going into the design stages I wanted to make sure I was clear on the key opportunities that Umuntu could fill in this space. From there I was able to build three 'How Might We' statements in order to direct the design process and use them to support ideation."}/>
           <ImageSection imageSource={"/images/umuntu/opportunities.png"} imageAlt={"Opportunites indetified for Umuntu"} imageWidth={2758} imageHeight={1554}/>
           <Image className={styles.onlyImg} src="/images/umuntu/HMW.png" alt="How Might We statements for Umuntu" width={2758} height={1554}/>
-
-          <TitleSection title={"Initial Design Stage"} information={"Going into the design stages I wanted to make sure I was clear on the key opportunities that Umuntu could fill in this space. From there I was able to build three 'How Might We' statements in order to direct the design process and use them to support ideation"}/>
-          <ImageSection imageSource={"/images/umuntu/opportunities.png"} imageAlt={"Opportunites indetified for Umuntu"} imageWidth={2758} imageHeight={1554}/>
-          <Image className={styles.onlyImg} src="/images/umuntu/HMW.png" alt="How Might We statements for Umuntu" width={2758} height={1554}/>
-          
-
-
-
+          <TitleSection title={"Initial Design Phase"} information={"I started the design process by making a moodboard to get a feel for what direction we were going for. I incorporated ideas from user feedback as well as the logo provided by the client. I moved on to some low fidelity wireframes to experiment with different features within the app before jumping into Figma."}/>
+          <ImageSection imageSource={"/images/umuntu/Umuntu-moodboard.png"} imageAlt={"Moodboard for Umuntu"} imageWidth={5530} imageHeight={3899}/>
+          <Image className={styles.onlyImg} src="/images/umuntu/wireframe.png" alt="Low fidelity wireframes for umuntu features" width={3024} height={2366}/>
+          <TitleSection title={"Final Prototype & Designs"} information={"I presented these final prototype and designs to the client and the user's who participated in the interviews. The client was happy that it fulfilled the brief and I was able to get some final testing and feedback from user's. Overall the feedback was positive."}/>
           <div className={styles.finalSection}>
+            <video width="320" height="240" controls><source src="movie.mp4" type="video/mp4">Your browser does not support the video tag.</video>
             <Image className={styles.onlyImg} src="/images/finchair/Homepages.png" alt="Five homepage screenshots of the finchair app final designs" width={6000} height={3500}/> 
             <Image className={styles.onlyImg} src="/images/finchair/3-iphone-blue.png" alt="Three screenshots of the finchair app final desgins, the wallet, bills and rewards pages" width={4500} height={2800}/>
             <Image className={styles.onlyImg} src="/images/finchair/Finchair-3-screen.png" alt="Three screenshots of the finchair app rewards function final designs" width={4500} height={2800}/>
