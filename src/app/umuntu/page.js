@@ -53,7 +53,7 @@ export default function ProjectPage() {
           <Image className={styles.onlyImg} src="/images/umuntu/wireframe.png" alt="Low fidelity wireframes for umuntu features" width={3024} height={2366}/>
           <TitleSection title={"Final Prototype & Designs"} information={"I presented these final prototype and designs to the client and the user's who participated in the interviews. The client was happy that it fulfilled the brief and I was able to get some final testing and feedback from user's. Overall the feedback was positive."}/>
           <div className={styles.finalSection}>
-            <video width="320" height="240" controls><source src="movie.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            <video width="320" height="240" controls><source src="Umuntu Prototype.mov" type="video/mp4">Your browser does not support the video tag.</video>
             <Image className={styles.onlyImg} src="/images/finchair/Homepages.png" alt="Five homepage screenshots of the finchair app final designs" width={6000} height={3500}/> 
             <Image className={styles.onlyImg} src="/images/finchair/3-iphone-blue.png" alt="Three screenshots of the finchair app final desgins, the wallet, bills and rewards pages" width={4500} height={2800}/>
             <Image className={styles.onlyImg} src="/images/finchair/Finchair-3-screen.png" alt="Three screenshots of the finchair app rewards function final designs" width={4500} height={2800}/>
