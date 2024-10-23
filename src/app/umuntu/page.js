@@ -52,14 +52,12 @@ export default function ProjectPage() {
           <ImageSection imageSource={"/images/umuntu/Umuntu-moodboard.png"} imageAlt={"Moodboard for Umuntu"} imageWidth={5530} imageHeight={3899}/>
           <Image className={styles.onlyImg} src="/images/umuntu/wireframe.png" alt="Low fidelity wireframes for umuntu features" width={3024} height={2366}/>
           <TitleSection title={"Final Prototype & Designs"} information={"I presented these final prototype and designs to the client and the user's who participated in the interviews. The client was happy that it fulfilled the brief and I was able to get some final testing and feedback from user's. Overall the feedback was positive but I've included suggested edits for future. I've also included the implementation roadmap I provided for the client."}/>
-          
           <div className={styles.video}>
             <div style={{padding:"68.82% 0 0 0",position:"relative"}}>
               <iframe src="https://player.vimeo.com/video/1022514120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="Umuntu Prototype"></iframe>
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
           </div>
-          
           <div className={styles.finalSection}>
             <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu homescreens in three iphone mock ups"} imageWidth={4500} imageHeight={2600}/>
             <Image className={styles.onlyImg} src="/images/umuntu/Community.png" alt="Umuntu community screens in three iphone mock ups" width={4500} height={2500}/> 
@@ -71,15 +69,16 @@ export default function ProjectPage() {
           <ReviewSection 
             textOne={(
               <>
-                <p>The designs fit to the success metrics, particularly the high-fidelity prototype worked for acquiring users as well as seed funding investment.</p>
-                <p>The client was happy with gamification of the rewards section and believed this would entice new users as well as keep them engaged.</p>
-                <p>Our team worked well together. We used a combination of zoom calls, joint FigJam boards, and Figma comments. </p>
+                <p>Client feedback: 'I loved the presentation and work done by Natalie, and look forward to setting much of the recommendations and work into motion.'</p>
+                <p>This was a large project to take on solo, so I was happy with my process and being able to define the brief further to aid this.</p>
+                <p>I felt that the research phase was crutial to this project and has shaped the kind of product designer I aim to be, by incorporating empathy at the core of my work.</p>
               </>
             )}
             textTwo={(
               <>
-                <p>If we had more say in the UX, I would’ve liked to look at how we could adapt the UX/UI to better suit the success metric of acquiring 5,000 users in the first year. As we could look at incorporating referral schemes or onboarding screens that were tested on users to better achieve this result.</p>
-                <p>In this project, I learnt the importance of well tested UX and wireframes before defining the UI designs and not jumping to UI too early.</p>
+                <p>As ever, it would be beneficial to do more user testing and tweaking to the final design as the scrolling option was still undecided.</p>
+                <p>I would have liked to collaborate more on this project and have other people and their views involved.</p>
+                <p>To test more on user testing sites if the budget had allowed.</p>
               </>
             )}
           />
