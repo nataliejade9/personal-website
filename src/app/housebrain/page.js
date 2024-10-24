@@ -15,20 +15,20 @@ export default function ProjectPage() {
   return (
     <>
       <main className={styles.main}>
-        <ProjectHeader projectName={"HouseBrain"} projectDescription={"Simplifying the overwhelming home-buying process"}  imageSource={"/images/housebrain/housebrain-header.png"} imageAlt={"Homepage screenshot of the HouseBrain app"} imageWidth={5000} imageHeight={5945}/>
+        <ProjectHeader projectName={"HouseBrain"} projectDescription={"Simplifying the overwhelming home-buying process for first-time buyers"}  imageSource={"/images/housebrain/header.png"} imageAlt={"Homepage screenshot of the HouseBrain app"} imageWidth={2736} imageHeight={3000}/>
+        
         <OverviewSection
-            overviewSummary={"Redesigning the UI for FinChair, an app designed to simplify credit management and prevent missed payments. The goal was to help users boost their credit scores through centralised tracking and an engaging reward system. Our client sought a modernised UI design to appeal to the target audience and drive user acquisition."} 
-            roleTitle={"Role: UI Design"} 
-            roleText={"Visual redesign, high-fidelity prototyping, design system, gamification for reward flow"} 
-            teamText={"Natalie Waites, Tiffany Leung, Grace Savage"} 
-            designText={"Figma, FigJam, Slack, Adobe Photoshop and Illustrator"} 
-            successOne={"Successfully beta test 100 users with the MVP"}
-            successTwo={"Minimum 50 brands on-board in first 3 months"}
-            successThree={"Acquire 5000 users within first year of launching"}
-            successFour={"Raise seed investment of £150,000"}
+            overviewSummary={"In 2017 my partner and I bought our first home and made a low fidelity app under our business 'Superwatermelon' to understand the costs involved in buying a home. We quickly reaslised that there were hidden costs and a lack of information for first-time buyers who may not have family support to explain the process. In 2024 I redesigned the product to suit and be more accessible to the target user."} 
+            roleTitle={"Role: Product Design (UX & UI)"} 
+            roleText={"UX design, user research & testing, UI APP redesign, high-fidelity prototyping, logo design, design system"} 
+            teamText={"Natalie Waites (solo project)"} 
+            designText={"Figma, FigJam, Useberry, Google Forms, Survey Swap, Adobe Photoshop and Illustrator"} 
+            successOne={"Onboard 200 users"}
+            successTwo={"Increase properties added by users 3:1"}
+            successThree={"5% Conversion rate of users who proceed to purchase a property with our recommended lenders"}
         />
         <div className={styles.mainProject}>
-          <Image className={styles.onlyImg} src="/images/finchair/finchair-screens.jpg" alt="Ten iphone screens showing different pages of the finchair app" width={4500} height={3000}/>
+          <Image className={styles.onlyImg} src="/images/housebrain/hero-img.png" alt="Seven iphone screens showing different pages of the HouseBrain app" width={4500} height={3000}/>
           <TitleSection title={"The Brief"} information={"Our client had already developed the initial design for FinChair's first version. However, they recognised the need for simplification to enhance usability for their target audience. The app featured a space-themed design, with users advancing through their financial journey by visiting different planets. To keep users motivated, the app included a reward system tied to this space themed adventure."}/>
           <ImageSection imgTitle={"UI designs the client provided (version 1.0)"} imageSource={"/images/finchair/Client designs.png"} imageAlt={"Finchair original UI designs provided by client"} imageWidth={3626} imageHeight={1751} imgDescription={"The original deisgn had some accessibility issues, including not meeting contrast guidlines. It also lacked a clear user journey and visual hierarchy with the pages looking fairly similar. The designs helped us see what information and layout users would need/expect within the app. "}/>
           <TitleSection title={"Starting With Inspiration"} information={"As a team we headed into design discussions and ideas. We could see the need for modernisation and how the new design encourage users to trust the application as a financial tool. Discussions led to moving away from being illustration heavy and make the design more abstract to make it more timeless. This was important as users would need to trust the app to hold their financial information. We put together a mood board to capture initial thoughts."}/>
