@@ -19,8 +19,16 @@
   font-size: 3vw;
 }
 
+/* .mainProject h3 {
+  background-color: white;
+  padding: 0 8rem;
+  font-weight: 500;
+} */
+
 .onlyImg {
   display: flex;
   width: 100%;
   height: auto; 
+  padding: 0 8rem;
+  background-color: white;
 }
