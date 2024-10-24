@@ -1,7 +1,11 @@
-import Link from 'next/link'
 import styles from './page.module.css'
 import Image from 'next/image'
 import ProjectHeader from '@/components/ProjectHeader'
+import OverviewSection from '@/components/OverviewSection'
+import TitleSection from '@/components/TitleSection'
+import ImageSection from '@/components/ImageSection'
+import CasestudyBanner from '@/components/CasestudyBanner'
+import ReviewSection from '@/components/ReviewSection'
 
 export const metadata = {
   title: 'HouseBrain | Natalie Waites'
