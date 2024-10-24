@@ -17,7 +17,7 @@ export default function ProjectPage() {
       <main className={styles.main}>
         <ProjectHeader projectName={"HouseBrain"} projectDescription={"Simplifying the overwhelming home-buying process for first-time buyers"}  imageSource={"/images/housebrain/header.png"} imageAlt={"Homepage screenshot of the HouseBrain app"} imageWidth={2736} imageHeight={3000}/> 
         <OverviewSection
-            overviewSummary={"In 2017 my partner and I bought our first home and made a low fidelity app under our business 'Superwatermelon' to understand the costs involved in buying a home. We quickly reaslised that there were hidden costs and a lack of information for first-time buyers who may not have family support to explain the process. In 2024 I redesigned the product to suit and be more accessible to the target user."} 
+            overviewSummary={"In 2017 my partner and I bought our first home and made a low fidelity app under our business 'Superwatermelon' to understand the costs involved in buying a home. We quickly realised that there were hidden costs and a lack of information for first-time buyers who may not have family support to explain the process. In 2024 I redesigned the product to suit and be more accessible to the target user."} 
             roleTitle={"Role: Product Design (UX & UI)"} 
             roleText={"UX design, user research & testing, UI APP redesign, high-fidelity prototyping, logo design, design system"} 
             teamText={"Natalie Waites (solo project)"} 
@@ -37,11 +37,16 @@ export default function ProjectPage() {
           <ImageSection imgTitle={"Persona one: Marcus"} imageSource={"/images/housebrain/Persona-1.png"} imageAlt={"HouseBrain persona, Marcus"} imageWidth={1543} imageHeight={663}/>  
           <ImageSection imgTitle={"Persona two: Ava"} imageSource={"/images/housebrain/Persona-2.png"} imageAlt={"HouseBrain persona, Ava"} imageWidth={1543} imageHeight={663}/>
           <ImageSection imageSource={"/images/housebrain/User-Journey-Map.png"} imageAlt={"HouseBrain user journey map"} imageWidth={1857} imageHeight={1055}/>
-
-          <TitleSection title={"Inspiration for Design"} information={"After looking at the research, the average age of a first-time buyer is 35. However, as the app ages, more of gen-Z will likely use it. I encorporated styles and themes that I thought would suit both generations when excited about looking for a home."}/>
+          <TitleSection title={"Inspiration for Design"} information={"After looking at the research, the average age of a first-time buyer is 35. However, as the app ages, more of gen-Z will likely use it. I incorporated styles and themes that I thought would suit both generations when excited about looking for a home."}/>
+          <ImageSection imageSource={"/images/housebrain/Moodboard.png"} imageAlt={"HouseBrain Moodboard inspiration"} imageWidth={3626} imageHeight={1751}/>
+          <TitleSection title={"Initial Designs"} information={"I started working on some low fidelity wireframes using a template in Figma. I experimented with different layouts, and they evolved over time before ending up on the final designs. It was useful to use a template as it was easy to move elements around."}/>
+          <ImageSection imgTitle={"Low fidelity wireframes"} imageSource={"/images/housebrain/wire-frames.png"} imageAlt={"HouseBrain initial wireframes"} imageWidth={3626} imageHeight={1751} imgDescription={"The mortgage calculator screen changed quite a bit from this initial design as I felt it was far to convoluted and not enough interaction around entering numbers. Also, having multiple bars that need swiping makes it not very accessible."}/>
           
-          <ImageSection imageSource={"/images/housebrain/Moodboard.png"} imageAlt={"HouseBrain Moodboard inspiration"} imageWidth={3626} imageHeight={1751} imgDescription={"A glimpse into the early stages of our design iterations and how we could optimally display the information to users. We played around with a few different card options and homepage display as this is where users would be drawn in."}/>
-          <TitleSection title={"Final Designs"} information={"After making any last design edits we presented the final designs and prototype to the client. We had some very positive feedback from the client. In particular they loved the abstract space theme and thought it put accross a sophisticated aesthetic. He also really enjoyed the gamification of the rewards section, as he had a few designers look at this project and found this to be unqiue and stand out for the brand. Encouraging more investment and user adoption in the early stages."}/>
+          <ImageSection imgTitle={"User testing throughout the process"} imageSource={"/images/housebrain/User-testing.png"} imageAlt={"User testing heat maps of the HouseBrain app"} imageWidth={1201} imageHeight={577} imgDescription={"I wanted to user test various home pages and test where users would click. As this App is a new concept I was keen to make sure that user's new how to interact with the app and be able to achieve their goals. The heat maps showed users were able to navigate the app."}/>
+          
+          <TitleSection title={"Final Designs"} information={""}/>
+          
+          
           <div className={styles.finalSection}>
             <Image className={styles.onlyImg} src="/images/finchair/Homepages.png" alt="Five homepage screenshots of the finchair app final designs" width={6000} height={3500}/> 
             <Image className={styles.onlyImg} src="/images/finchair/3-iphone-blue.png" alt="Three screenshots of the finchair app final desgins, the wallet, bills and rewards pages" width={4500} height={2800}/>
