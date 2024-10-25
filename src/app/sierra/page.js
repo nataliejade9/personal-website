@@ -33,7 +33,7 @@ export default function ProjectPage() {
           <ImageSection imgTitle={"Understanding the business: Lean Canvas"} imageSource={"/images/sierra/Lean-Canvas.png"} imageAlt={"Filled out lean canvas for Sierra Jewellery"} imageWidth={3833} imageHeight={2359}/>
           <ImageSection imgTitle={"How can I help?: Agreeing the deliverables brainstorm"} imageSource={"/images/sierra/Success-metrics.png"} imageAlt={"Brainstorm of deciding deliverables"} imageWidth={3833} imageHeight={2359} imgDescription={"We agreed on a new brand identity (including style guide and design system), responsive e-commerce landing page with components to design future pages and packaging design."}/>
           <TitleSection title={"Inspiration"} information={"I conducted thorough competitor research to gain a clear understanding of the desired visual direction. To guide my process and ensure cohesive deliverables, I created a mood board. This visual tool helped inform the development of the landing page design, branding elements, and UI design system."}/>
-          <Image className={styles.onlyImg} src="/images/sierra/Moodboard-sierra.png" alt="Moodboard for Sierra Jewellery" width={2127} height={1762}/>
+          <Image className={styles.onlyImg} src="/images/sierra/Moodboard-sierra.png" alt="Mood board for Sierra Jewellery" width={2127} height={1762}/>
           <TitleSection title={"Design System & Brand Style Guide"} information={"I originally thought about having red and green as the primary colours for the brand but when putting this into the web design, the visuals became too busy and didn’t give the elegant feel we were going for. This final design system and brand style guide lends itself more to the luxury brand."}/>
           <div className={styles.branding}>
             <div className={styles.textBranding}>
@@ -67,7 +67,7 @@ export default function ProjectPage() {
           </div>
           <TitleSection title={"Initial Landing Page Design & Iterations"} information={"The client was keen on highlighting individual products as the user hovers over them, to encourage conversion. I experimented with how this could look. However when we A/B tested it, users seemed to prefer the more simple design for the product cards. Which would correspond with Jakob's Law about consistency and standards; noted in the 10 usability heuristics."}/>
           <ImageSection imageSource={"/images/sierra/Sierra-edits.png"} imageAlt={"Initial Sierra Jewellery website designs and edit notes"} imageWidth={1512} imageHeight={3742} imgDescription={"There were multiple versions of the design. I'm a fan of testing throughout the design process and getting feedback on certain elements of the design to allow natural pivots towards a more user-friendly experience."}/>
-          <TitleSection title={"Final Landing Page Design (Responsive)"} information={"The page seamlessly guides users through carefully positioned product imagery and clear calls-to-action. Allowing users to navigate the site with ease, while maintaining a focus on the jewellery's artisanal quality. The result is an engaging, responsive design that elevates Sierra Jewellery from its Etsy origins to a premium digital presence."}/>
+          <TitleSection title={"Final Landing Page Design (Responsive)"} information={"The page seamlessly guides users through carefully positioned product imagery and clear calls-to-action. Allowing users to navigate the site with ease, while maintaining a focus on the artisanal quality. The result is an engaging, responsive design that elevates Sierra Jewellery from its Etsy origins to a premium digital presence."}/>
           <div className={styles.finalSection}>
             <Image className={styles.onlyImg} src="/images/sierra/Sierra-responsive.png" alt="Sierra homepage laptop and iPhone mockup" width={4500} height={3000}/> 
             <Image className={styles.onlyImg} src="/images/sierra/Sierra-mood-image.png" alt="Sierra homepage laptop mockup" width={4500} height={3000}/> 
@@ -76,7 +76,7 @@ export default function ProjectPage() {
           <ReviewSection 
             textOne={(
               <>
-                <p>I was happy with the clear visual language acheived and the design process it took to get there.</p>
+                <p>I was happy with the clear visual language achieved and the design process it took to get there.</p>
                 <p>The client was impressed with the result and thought it really showed the luxury feel they were looking for.</p>
                 <p>Having that initial open communication with the client was essential on this project, ensuring the correct deliverables were agreed.</p>
               </>

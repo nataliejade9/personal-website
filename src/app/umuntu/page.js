@@ -23,10 +23,10 @@ export default function ProjectPage() {
           designText={"Figma, FigJam, Pitch, Speak Ai, Google Forms, Survey Swap, Slack, Adobe Photoshop and Illustrator"} 
           successOne={"100 Subscribers in first 3 months"}
           successTwo={"Web platform design that meets user's basic needs"}
-          successThree={"The product addresses user painpoints from research"}
+          successThree={"The product addresses user pain points from research"}
         />
         <div className={styles.mainProject}>
-          <Image className={styles.onlyImg} src="/images/umuntu/hero-img.png" alt="Umuntu homescreen on laptop and iphone mockup screens" width={4500} height={2700}/>
+          <Image className={styles.onlyImg} src="/images/umuntu/hero-img.png" alt="Umuntu home screen on laptop and iphone mockup screens" width={4500} height={2700}/>
           <TitleSection title={"The Brief"} information={"The initial brief was quite broad: 'A platform that empowers the African diaspora to engage with and impact the socio-political landscape of African countries through news, policy tracking, funding, and advocacy. Focused on developing a web platform with these functionalities.' After interviewing the client we agreed to define the brief further by understanding more about the business and conducting target user research."}/>
           <ImageSection imgTitle={"Understanding the business: Lean canvas and competitor analysis"} imageSource={"/images/umuntu/Umuntu-lean-canvas.png"} imageAlt={"Lean canvas diagram for Umuntu business"} imageWidth={7072} imageHeight={5384}/>
           <Image className={styles.onlyImg} src="/images/umuntu/Umuntu-competitor.png" alt="Competitor analysis for Umuntu business" width={7776} height={6690}/>
@@ -45,7 +45,7 @@ export default function ProjectPage() {
           <ImageSection imageSource={"/images/umuntu/key-themes.png"} imageAlt={"Key themes from the user interviews"} imageWidth={2754} imageHeight={1552}/>
           <Image className={styles.onlyImg} src="/images/umuntu/Umuntu-experience-map.png" alt="Experience map for users" width={6976} height={4396}/>
           <TitleSection title={"Design Ideation"} information={"Going into the design stages I wanted to make sure I was clear on the key opportunities that Umuntu could fill in this space. From there I was able to build three 'How Might We' statements in order to direct the design process and use them to support ideation."}/>
-          <ImageSection imageSource={"/images/umuntu/opportunities.png"} imageAlt={"Opportunites indetified for Umuntu"} imageWidth={2758} imageHeight={1554}/>
+          <ImageSection imageSource={"/images/umuntu/opportunities.png"} imageAlt={"Opportunities identified for Umuntu"} imageWidth={2758} imageHeight={1554}/>
           <Image className={styles.onlyImg} src="/images/umuntu/HMW.png" alt="How Might We statements for Umuntu" width={2758} height={1554}/>
           <TitleSection title={"Initial Design Phase"} information={"I started the design process by making a moodboard to get a feel for what direction we were going for. I incorporated ideas from user feedback as well as the logo provided by the client. I moved on to some low fidelity wireframes to experiment with different features within the app before jumping into Figma."}/>
           <ImageSection imageSource={"/images/umuntu/Umuntu-moodboard.png"} imageAlt={"Moodboard for Umuntu"} imageWidth={5530} imageHeight={3899}/>
@@ -58,7 +58,7 @@ export default function ProjectPage() {
             <script src="https://player.vimeo.com/api/player.js"></script>
           </div>
           <div className={styles.finalSection}>
-            <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu homescreens in three iphone mock ups"} imageWidth={4500} imageHeight={2600}/>
+            <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu home screens in three iphone mock ups"} imageWidth={4500} imageHeight={2600}/>
             <Image className={styles.onlyImg} src="/images/umuntu/Community.png" alt="Umuntu community screens in three iphone mock ups" width={4500} height={2500}/> 
             <Image className={styles.onlyImg} src="/images/umuntu/Social-projects.png" alt="Umuntu social projects page on iphone mock up" width={4500} height={2500}/>
             <Image className={styles.onlyImg} src="/images/umuntu/Email-2.0.png" alt="Umuntu monthly digest example on iphone mock up" width={4500} height={2500}/>
@@ -70,7 +70,7 @@ export default function ProjectPage() {
               <>
                 <p>Client feedback: 'I loved the presentation and work done by Natalie, and look forward to setting much of the recommendations and work into motion.'</p>
                 <p>This was a large project to take on solo, so I was happy with my process and being able to define the brief further to aid this.</p>
-                <p>I felt that the research phase was crutial to this project and has shaped the kind of product designer I aim to be, by incorporating empathy at the core of my work.</p>
+                <p>I felt that the research phase was crucial to this project and has shaped the kind of product designer I aim to be, by incorporating empathy at the core of my work.</p>
               </>
             )}
             textTwo={(

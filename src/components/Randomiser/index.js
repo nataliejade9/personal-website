@@ -1,6 +1,4 @@
 'use client'
-
-import Button from '../Button'
 import styles from '../Button/index.module.css'
 
 import { useCallback } from 'react'

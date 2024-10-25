@@ -27,7 +27,7 @@ export default function Home() {
           <ul className={styles.projects}>
             <li className={styles.projectOne}>
               <Link href="/housebrain">
-                <h3>House Brain</h3>
+                <h3>HouseBrain</h3>
                 <p>June 2024 • Product Design</p>
               </Link>
             </li>
