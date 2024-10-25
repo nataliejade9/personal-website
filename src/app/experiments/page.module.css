@@ -5,11 +5,16 @@
     align-items: center;
 }
 
+.main p {
+    font-size: 1.25vw;
+    padding: 0.5rem 0 1rem 0;
+}
+
 .onlyImg {
     display: flex;
     /* border-radius: 1.5em; */
-    width: 16rem;
-    height: auto;
+    height: 24rem;
+    width: auto;
     padding: 2rem 0;  
 }
 
