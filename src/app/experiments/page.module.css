@@ -5,3 +5,16 @@
     align-items: center;
 }
 
+.onlyImg {
+    display: flex;
+    /* border-radius: 1.5em; */
+    width: 16rem;
+    height: auto;
+    padding: 2rem 0;  
+}
+
+.experimentImages {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}

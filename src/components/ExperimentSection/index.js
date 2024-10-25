@@ -1,11 +1,11 @@
 import ImageSection from '../ImageSection'
 import styles from './index.module.css'
 
-const ExperimentSection = ({title, imageSection}) => {
+const ExperimentSection = ({title, imageCards}) => {
     return (
         <div className={styles.experimentContent}>
             <h2>{title}</h2>
-            <>{imageSection}</>
+            <>{imageCards}</>
         </div>
     )
 }
