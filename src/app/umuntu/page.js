@@ -15,7 +15,6 @@ export default function ProjectPage() {
   return (
     <main className={styles.main}>
       <ProjectHeader projectName={"Umuntu"} projectDescription={"A central place for the Nigerian Diaspora to connect and share information."}  imageSource={"/images/umuntu/umuntu-header.png"} imageAlt={"Umuntu homepage displayed on laptop and mobile"} imageWidth={3400} imageHeight={3000}/>
-   
       <OverviewSection
           overviewSummary={"A platform that allows users to be able to connect with the social and political life of their countries back home, empowering their voices, as well as contributing to their communities of origin. I used the double diamond approach for this project, as there were a lot of elements within the brief and I wanted to keep the project focused."} 
           roleTitle={"Role: Product Design (UX & UI)"} 

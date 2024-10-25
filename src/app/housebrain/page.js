@@ -32,6 +32,7 @@ export default function ProjectPage() {
           <ImageSection imgTitle={"2017 UI designs (version 1.0)"} imageSource={"/images/housebrain/housebrain-Initial-designs.png"} imageAlt={"Four screenshots of original 2017 UI designs"} imageWidth={7400} imageHeight={2776} imgDescription={"The original designs are quite old and have UI design elements that relate to old iPhones where the 'home' button was in the centre. So this needs a dramatic update. Also the app is not very accessible in it's current state and will need looking at in the design system."}/>
           <TitleSection title={"Starting With Research"} information={"The original app was designed with only two user's in mind. Therefore it was important to conduct both qualitative and quantitative research to gather a variety of information and data from target user's. The results will provide direction for features and the overall app design whilst addressing user problems."}/>
           <ImageSection imgTitle={"Survey Results"} imageSource={"/images/housebrain/User-research-results.png"} imageAlt={"Research results for survey conducted for HouseBrain App"} imageWidth={13590} imageHeight={9880}/>
+          
           <ImageSection imgTitle={"Competitor Analysis"} imageSource={"/images/housebrain/Competitors.png"} imageAlt={"Competitor analysis for HouseBrain App"} imageWidth={10340} imageHeight={15018}/>
           <TitleSection title={"Understanding the User"} information={"I looked at how we could define the research we gathered to better understand the user. I made a couple of user persona's based on the people we had spoken to and created a user journey map to empathise with the user's thoughts and feelings. These helped to direct the design phase with more focus."}/>
           <ImageSection imgTitle={"Persona one: Marcus"} imageSource={"/images/housebrain/Persona-1.png"} imageAlt={"HouseBrain persona, Marcus"} imageWidth={1543} imageHeight={663}/>  
@@ -46,24 +47,35 @@ export default function ProjectPage() {
           
           <TitleSection title={"Final Designs"} information={""}/>
           
+          <div className={styles.video}>
+            <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
+              <iframe src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Prototype"></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+          </div>
+          <ImageSection imageSource={"/images/housebrain/Home.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={3811} imageHeight={2589}/> 
+          <Image className={styles.onlyImg} src="/images/housebrain/Comparison-final.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={3429} height={2167}/> 
+          <Image className={styles.onlyImg} src="/images/housebrain/Calculator.png" alt="Three screenshot mock ups of the calculator feature in the housebrain app" width={3803} height={2590}/> 
+          <div className={styles.video}>
+            <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
+              <iframe src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Onboarding"></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+          </div> 
+          <ImageSection imageSource={"/images/housebrain/before-after.png"} imageAlt={"Before and after of the HouseBrain app"} imageWidth={3118} imageHeight={2401}/>  
           
-          <div className={styles.finalSection}>
-            <Image className={styles.onlyImg} src="/images/finchair/Homepages.png" alt="Five homepage screenshots of the finchair app final designs" width={6000} height={3500}/> 
-            <Image className={styles.onlyImg} src="/images/finchair/3-iphone-blue.png" alt="Three screenshots of the finchair app final desgins, the wallet, bills and rewards pages" width={4500} height={2800}/>
-            <Image className={styles.onlyImg} src="/images/finchair/Finchair-3-screen.png" alt="Three screenshots of the finchair app rewards function final designs" width={4500} height={2800}/>
-          </div>  
           <ReviewSection 
             textOne={(
               <>
-                <p>The designs fit to the success metrics, particularly the high-fidelity prototype worked for acquiring users as well as seed funding investment.</p>
-                <p>The client was happy with gamification of the rewards section and believed this would entice new users as well as keep them engaged.</p>
-                <p>Our team worked well together. We used a combination of zoom calls, joint FigJam boards, and Figma comments. </p>
+                <p>Incorporating the use of heatmap analytics and more detailed user testing was highly beneficial in this project.</p>
+                <p>From the survey work, I realised the importance of having a persona in this particular project as there were clearly different reasons and motivations for using the app.</p>
+                <p>Seeing this project improve dramatically from the original design was satisfying (even though I think more work could be done around colour choice).</p>
               </>
             )}
             textTwo={(
               <>
-                <p>If we had more say in the UX, I would’ve liked to look at how we could adapt the UX/UI to better suit the success metric of acquiring 5,000 users in the first year. As we could look at incorporating referral schemes or onboarding screens that were tested on users to better achieve this result.</p>
-                <p>In this project, I learnt the importance of well tested UX and wireframes before defining the UI designs and not jumping to UI too early.</p>
+                <p>I would like to do more user testing for the brand guidelines, in particular the colours. I think I could make it more sophisticated whilst still appealing to the target audience.</p>
+                <p>If there was budget I would like to get the app live on the App Store to get further feedback in real world situations and work on the MVP.</p>
               </>
             )}
           />
