@@ -27,24 +27,55 @@ export default function ExperimentsPage() {
           </>
         }
       /> 
-      
+
         <ExperimentSection 
           title={"Graphic Design & Artwork"} 
           description={"I started an Etsy shop in 2016 as an outlet for my design and illustration skills. I thoroughly enjoyed running a small business and doing market stalls. It was a great way to meet new people and share my designs with the world. The brand had an ethical focus with recycled materials and vegan dyes."}
           imageCards={
             <>
             <div className={styles.experimentImages}>
-              <Image className={styles.onlyImg} src="/images/experiments/uni-project-4.jpg" alt="Fashion design project outfit 1" width={2033} height={2550}/> 
-              <Image className={styles.onlyImg} src="/images/experiments/Uni-project-2.jpg" alt="Fashion design project outfit 2" width={1461} height={2156}/>
-              <Image className={styles.onlyImg} src="/images/experiments/Uni-project-8.jpg" alt="Fashion design project outfit 3" width={2577} height={3675}/> 
-              <Image className={styles.onlyImg} src="/images/experiments/Uni-project-9.jpg" alt="Fashion design project outfit 4" width={2467} height={3653}/>
-              <Image className={styles.onlyImg} src="/images/experiments/Uni-project-11.jpg" alt="Fashion design project outfit 5" width={1261} height={1884}/> 
-              
+              <Image className={styles.onlyImg} src="/images/experiments/Periwinkle-planner.jpg" alt="Periwinkle daily planner design" width={3265} height={3264}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/Selection-on-products.jpg" alt="Selection of five greeting card designs" width={3126} height={3128}/>
+              <Image className={styles.onlyImg} src="/images/experiments/Watermelon.jpg" alt="Watermelon greeting card" width={3016} height={3016}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/Panther-Tee-Wall.jpg" alt="Fashion design project outfit 4" width={1973} height={1973}/>
+              <Image className={styles.onlyImg} src="/images/experiments/Robin.png" alt="Robin greeting card" width={1308} height={1292}/> 
             </div>
             </>
           }
         />
 
+        <ExperimentSection 
+          title={"Business & Start-ups"} 
+          description={"I started an Etsy shop in 2016 as an outlet for my design and illustration skills. I thoroughly enjoyed running a small business and doing market stalls. It was a great way to meet new people and share my designs with the world. The brand had an ethical focus with recycled materials and vegan dyes."}
+          imageCards={
+            <>
+            <div className={styles.experimentImages}>
+              <Image className={styles.onlyImg} src="/images/experiments/Periwinkle-planner.jpg" alt="Fashion design project outfit 1" width={2033} height={2550}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/Selection-on-products.jpg" alt="Fashion design project outfit 2" width={1461} height={2156}/>
+              <Image className={styles.onlyImg} src="/images/experiments/Watermelon.jpg" alt="Fashion design project outfit 3" width={2577} height={3675}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/Panther-Tee-Wall.jpg" alt="Fashion design project outfit 4" width={2467} height={3653}/>
+              <Image className={styles.onlyImg} src="/images/experiments/Robin.png" alt="Fashion design project outfit 5" width={1261} height={1884}/> 
+            </div>
+            </>
+          }
+        />  
+        <ExperimentSection 
+          title={"Web Development"} 
+          description={"I started an Etsy shop in 2016 as an outlet for my design and illustration skills. I thoroughly enjoyed running a small business and doing market stalls. It was a great way to meet new people and share my designs with the world. The brand had an ethical focus with recycled materials and vegan dyes."}
+          imageCards={
+            <>
+            <div className={styles.experimentImages}>
+              <Image className={styles.onlyImg} src="/images/experiments/Periwinkle-planner.jpg" alt="Fashion design project outfit 1" width={2033} height={2550}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/Selection-on-products.jpg" alt="Fashion design project outfit 2" width={1461} height={2156}/>
+              <Image className={styles.onlyImg} src="/images/experiments/Watermelon.jpg" alt="Fashion design project outfit 3" width={2577} height={3675}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/Panther-Tee-Wall.jpg" alt="Fashion design project outfit 4" width={2467} height={3653}/>
+              <Image className={styles.onlyImg} src="/images/experiments/Robin.png" alt="Fashion design project outfit 5" width={1261} height={1884}/> 
+            </div>
+            </>
+          }
+        />
+
+{/* example */}
       <Link href="/">
         <Image className={styles.onlyImg} src="/images/experiments/uni-project-4.jpg" alt="Fashion design project outfit 1" width={2033} height={2550}/> 
       </Link>
