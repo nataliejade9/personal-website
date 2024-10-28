@@ -49,9 +49,9 @@ export default function ExperimentsPage() {
           imageCards={
             <>
             <div className={styles.experimentImages}>
-              <Image className={styles.onlyImg} src="/images/experiments/The-problem.jpg" alt="Productivity app info-graphic 1" width={800} height={2000}/> 
-              <Image className={styles.onlyImg} src="/images/experiments/problem-2.jpg" alt="Productivity app info-graphic 2" width={800} height={2000}/>
-              <Image className={styles.onlyImg} src="/images/experiments/problem-3.jpg" alt="Productivity app info-graphic 3" width={800} height={2000}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/The-problem.png" alt="Productivity app info-graphic 1" width={800} height={2000}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/problem-2.png" alt="Productivity app info-graphic 2" width={800} height={2000}/>
+              <Image className={styles.onlyImg} src="/images/experiments/problem-3.png" alt="Productivity app info-graphic 3" width={800} height={2000}/> 
             </div>
             </>
           }
