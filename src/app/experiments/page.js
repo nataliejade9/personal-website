@@ -27,7 +27,7 @@ export default function ExperimentsPage() {
           </>
         }
       /> 
-
+      
         <ExperimentSection 
           title={"Graphic Design & Artwork"} 
           description={"I started an Etsy shop in 2016 as an outlet for my design and illustration skills. I thoroughly enjoyed running a small business and doing market stalls. It was a great way to meet new people and share my designs with the world. The brand had an ethical focus with recycled materials and vegan dyes."}
