@@ -10,18 +10,20 @@
     padding: 0.5rem 0 1rem 0;
 }
 
-.onlyImg {
-    display: flex;
-    /* border-radius: 1.5em; */
+.onlyImg { 
     height: 24rem;
-    width: auto;
-    padding: 2rem 0;  
+    width: auto; 
+     /* object-fit: cover;  */
+    /* max-width: calc(33.33% - 10px);  */
+    /* flex: 1 1 calc(33.33% - 10px); */
 }
 
 .experimentImages {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* flex: 1 1 calc(33.33% - 10px); */
     justify-content: center;
     gap: 2rem;
+    padding: 2rem 0;
 }

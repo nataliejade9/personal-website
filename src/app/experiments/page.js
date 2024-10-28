@@ -21,13 +21,13 @@ export default function ExperimentsPage() {
             <Image className={styles.onlyImg} src="/images/experiments/uni-project-4.jpg" alt="Fashion design project outfit 1" width={2033} height={2550}/> 
             <Image className={styles.onlyImg} src="/images/experiments/Uni-project-2.jpg" alt="Fashion design project outfit 2" width={1461} height={2156}/>
             <Image className={styles.onlyImg} src="/images/experiments/Uni-project-8.jpg" alt="Fashion design project outfit 3" width={2577} height={3675}/> 
-              <Image className={styles.onlyImg} src="/images/experiments/Uni-project-9.jpg" alt="Fashion design project outfit 4" width={2467} height={3653}/>
-              <Image className={styles.onlyImg} src="/images/experiments/Uni-project-11.jpg" alt="Fashion design project outfit 5" width={1261} height={1884}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/Uni-project-9.jpg" alt="Fashion design project outfit 4" width={2467} height={3653}/>
+            <Image className={styles.onlyImg} src="/images/experiments/Uni-project-10.jpg" alt="Fashion design project outfit 5" width={1261} height={1884}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/Uni-project-11.jpg" alt="Fashion design project outfit 6" width={2592} height={3746}/> 
           </div>
           </>
         }
       /> 
-
         <ExperimentSection 
           title={"Graphic Design & Artwork"} 
           description={"I started an Etsy shop in 2016 as an outlet for my design and illustration skills. I thoroughly enjoyed running a small business and doing market stalls. It was a great way to meet new people and share my designs with the world. The brand had an ethical focus with recycled materials and vegan dyes."}
@@ -43,18 +43,15 @@ export default function ExperimentsPage() {
             </>
           }
         />
-
         <ExperimentSection 
           title={"Business & Start-ups"} 
-          description={"I started an Etsy shop in 2016 as an outlet for my design and illustration skills. I thoroughly enjoyed running a small business and doing market stalls. It was a great way to meet new people and share my designs with the world. The brand had an ethical focus with recycled materials and vegan dyes."}
+          description={"I've been interested in business since I left university. Starting many different businesses myself as well as helping others with their business ideas. I currently run a software engineering business with my partner and we've worked with a variety of business sizes as well as making our own digital products. These graphics I designed where for one of our projects."}
           imageCards={
             <>
             <div className={styles.experimentImages}>
-              <Image className={styles.onlyImg} src="/images/experiments/Periwinkle-planner.jpg" alt="Fashion design project outfit 1" width={2033} height={2550}/> 
-              <Image className={styles.onlyImg} src="/images/experiments/Selection-on-products.jpg" alt="Fashion design project outfit 2" width={1461} height={2156}/>
-              <Image className={styles.onlyImg} src="/images/experiments/Watermelon.jpg" alt="Fashion design project outfit 3" width={2577} height={3675}/> 
-              <Image className={styles.onlyImg} src="/images/experiments/Panther-Tee-Wall.jpg" alt="Fashion design project outfit 4" width={2467} height={3653}/>
-              <Image className={styles.onlyImg} src="/images/experiments/Robin.png" alt="Fashion design project outfit 5" width={1261} height={1884}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/The-problem.jpg" alt="Productivity app info-graphic 1" width={800} height={2000}/> 
+              <Image className={styles.onlyImg} src="/images/experiments/problem-2.jpg" alt="Productivity app info-graphic 2" width={800} height={2000}/>
+              <Image className={styles.onlyImg} src="/images/experiments/problem-3.jpg" alt="Productivity app info-graphic 3" width={800} height={2000}/> 
             </div>
             </>
           }
