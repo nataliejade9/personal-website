@@ -12,18 +12,43 @@
 
 .onlyImg { 
     height: 24rem;
-    width: auto; 
-     /* object-fit: cover;  */
-    /* max-width: calc(33.33% - 10px);  */
-    /* flex: 1 1 calc(33.33% - 10px); */
+    width: auto;
 }
 
 .experimentImages {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* flex: 1 1 calc(33.33% - 10px); */
     justify-content: center;
     gap: 2rem;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
+}
+
+.webImg {
+    height: 24rem;
+    width: auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.25s ease-in, transform 0.2s ease-in;
+}
+
+.webImg:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 8px 14px 0px rgba(0, 0, 0, 0.15),
+    2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.gitHub {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 2rem;
+    color: var(--main-primary);
+}
+
+.linkText {
+    text-decoration: underline;
+    font-weight: 600;
+    color: var(--main-primary);
 }
