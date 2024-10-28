@@ -1,5 +1,6 @@
 import styles from './page.module.css'
 import Image from 'next/image'
+import Script from 'next/script'
 import ProjectHeader from '@/components/ProjectHeader'
 import OverviewSection from '@/components/OverviewSection'
 import TitleSection from '@/components/TitleSection'
@@ -47,7 +48,7 @@ export default function ProjectPage() {
             <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
               <iframe src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Prototype"></iframe>
             </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
+            <Script src="https://player.vimeo.com/api/player.js"></Script>
           </div>
           <ImageSection imageSource={"/images/housebrain/Home.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={3811} imageHeight={2589}/> 
           <Image className={styles.onlyImg} src="/images/housebrain/Comparison-final.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={3429} height={2167}/> 
@@ -56,7 +57,7 @@ export default function ProjectPage() {
             <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
               <iframe src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Onboarding"></iframe>
             </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
+            <Script src="https://player.vimeo.com/api/player.js"></Script>
           </div> 
           <ImageSection imageSource={"/images/housebrain/before-after.png"} imageAlt={"Before and after of the HouseBrain app"} imageWidth={3118} imageHeight={2401}/>  
           <ImageSection imgTitle={"Final testing and roadmap for project"} imageSource={"/images/housebrain/final-testing.png"} imageAlt={"Question example of final testing conducted"} imageWidth={3118} imageHeight={2401} imgDescription={"One example of the final questions asked in the final user testing. It was useful to validate the designs in the testing format."}/> 

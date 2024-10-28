@@ -1,5 +1,6 @@
 import styles from './page.module.css'
 import Image from 'next/image'
+import Script from 'next/script'
 import ProjectHeader from '@/components/ProjectHeader'
 import OverviewSection from '@/components/OverviewSection'
 import TitleSection from '@/components/TitleSection'
@@ -55,7 +56,7 @@ export default function ProjectPage() {
             <div style={{padding:"68.82% 0 0 0",position:"relative"}}>
               <iframe src="https://player.vimeo.com/video/1022514120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="Umuntu Prototype"></iframe>
             </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
+            <Script src="https://player.vimeo.com/api/player.js"></Script>
           </div>
           <div className={styles.finalSection}>
             <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu home screens in three iphone mock ups"} imageWidth={4500} imageHeight={2600}/>
