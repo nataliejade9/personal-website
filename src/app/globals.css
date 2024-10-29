@@ -41,13 +41,14 @@ h1 {
 h2 {
   font-family: var(--raleway-font), Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 4vw;
+  font-size: 3rem;
   color: var(--main-primary);
 }
 
 h3 {
   font-family: var(--raleway-font), Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 p {

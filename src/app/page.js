@@ -2,7 +2,6 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
-import ContactButton from '../components/ContactButton'
 
 export default function Home() {
   return (
@@ -28,7 +27,7 @@ export default function Home() {
             <li className={styles.projectOne}>
               <Link href="/housebrain">
                 <h3>HouseBrain</h3>
-                <p>June 2024 • Product Design</p>
+                <p>September 2024 • Product Design</p>
               </Link>
             </li>
             <li className={styles.projectTwo}>

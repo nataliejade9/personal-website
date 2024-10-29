@@ -8,7 +8,7 @@
 }
 
 .natalie {
-  padding-bottom: 0.75em;
+  padding-bottom: 6rem;
 }
 
 .hero {
@@ -45,13 +45,13 @@
 }
 
 .statement h2 {
-  font-size: 1.7vw;
+  font-size: 1.5rem;
 }
 
 .projects {
-  padding: 4rem 2rem 3rem 2rem;
+  padding: 4rem 4rem 3rem 4rem;
   display: flex;
-  width: 100%;
+  max-width: 150ch;
   justify-content: center;
   gap: 2rem;
   list-style: none;
@@ -145,4 +145,11 @@
 
 .containerRight > h2, .containerRight > p {
   padding-bottom: 2rem;
+}
+
+@media (max-width: 800px)  {
+  .projects li {
+    width: 28rem;
+    object-fit: scale-down;
+  }
 }
