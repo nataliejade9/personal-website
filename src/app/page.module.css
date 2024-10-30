@@ -11,10 +11,6 @@
   padding-bottom: 6rem;
 }
 
-.hero {
-  padding: 0 4rem;
-}
-
 .highlight {
   color: var(--main-primary);
 }
@@ -152,24 +148,28 @@
     padding: 0 1.5rem;
   }
 
-  .natalie {
+  .hero h1 {
     padding-bottom: 4rem;
   }
 
-  .projects li {
-    width: 28rem;
+  .exploreWork {
+    display: none;
+  }
+
+  .natalie {
+    padding-bottom: 3rem;
   }
 
   .main {
     gap: 1rem;
   }
 
-  .hero {
-    padding: 0 1.5rem;
-  }
-
   .statement {
     padding: 1.5rem 1.5rem;
+  }
+
+  .statement h2 {
+    font-size: 1.2rem;
   }
 
   .projects {
@@ -179,10 +179,7 @@
 
   .projects li {
     width: 21rem;
-  }
-
-  .projects li:hover {
-    display: none;
+    box-shadow: 2px 2px 5px 0px rgba(70, 0, 247, 0.3);
   }
 
   .profileBanner {
@@ -209,5 +206,22 @@
   
   .containerRight > h2, .containerRight > p {
     padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 390px)  {
+  .projects li {
+    width: 19rem;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .projects li:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .projects li {
+    transition: none;
   }
 }
