@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerBanner}>
-          <p>You’ve reached the footer.</p>
+          <h3>You’ve reached the footer.</h3>
         <div className={styles.randomiser}>
-          <p>Did you scroll past my work? Click the randomiser button to check out a random project   <span role="img" aria-label="arrow-right">➡️</span></p>
+          <p>Did you scroll past my work? Click the randomiser button to check out a random project   <span className={styles.arrowDown} role="img" aria-label="arrow-right">➡️</span></p>
           <div><Randomiser links={[
             "/housebrain",
             "/umuntu",

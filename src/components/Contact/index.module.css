@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--main-latte);
+  padding: 2rem 0;
 }
 
 .contactText {
@@ -32,8 +33,12 @@
   max-width: 40ch;
 }
 
-.contactInner > p, .contactInner > h2 {
+.contactInner > p {
   padding-bottom: 2rem;
+}
+
+.contactInner > h2 {
+  padding-bottom: 1rem;
 }
 
 .contactImg {
@@ -41,11 +46,40 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-right: 4em;
 }
 
 .profile {
   width: 60%;
   height: auto;
   border-radius: 100%;
+}
+
+@media (min-width: 1240px) {
+  .contactBanner {
+    padding: 0 0;
+  }
+}
+
+@media (max-width: 768px)  {
+  .contactBanner {
+    flex-direction: column-reverse;
+  }
+
+  .contactBanner p {
+    font-size: 1rem;
+  }
+
+
+  .contactText {
+    width: 100%;
+    padding: 1rem 2rem 2rem;
+  }
+  
+  .contactContainer {
+    width: 100%;
+  }
+
+  .contactImg {
+    width: 70%;
+  }
 }

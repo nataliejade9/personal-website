@@ -144,7 +144,7 @@
 }
 
 .containerRight > h2, .containerRight > p {
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 @media (max-width: 768px)  {
@@ -157,22 +157,26 @@
   }
 
   .hero {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
 
   .statement {
-    padding: 2rem 2rem;
+    padding: 1.5rem 1.5rem;
   }
 
   .projects {
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 1.5rem 1.5rem;
     max-width: none;
+  }
+
+  .projects li:hover {
+    display: none;
   }
 
   .profileBanner {
     flex-direction: column;
     justify-content: center;
-    padding: 3rem 2rem;
+    padding: 3rem 1.5rem;
   }
 
   .profile {
