@@ -148,6 +148,14 @@
 }
 
 @media (max-width: 768px)  {
+  .hero {
+    padding: 0 1.5rem;
+  }
+
+  .natalie {
+    padding-bottom: 4rem;
+  }
+
   .projects li {
     width: 28rem;
   }
@@ -165,8 +173,12 @@
   }
 
   .projects {
-    padding: 1.5rem 1.5rem;
+    padding: 3rem 1.5rem;
     max-width: none;
+  }
+
+  .projects li {
+    width: 21rem;
   }
 
   .projects li:hover {

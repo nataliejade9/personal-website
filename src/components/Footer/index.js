@@ -7,7 +7,7 @@ export default function Footer() {
       <div className={styles.footerBanner}>
           <h3>You’ve reached the footer.</h3>
         <div className={styles.randomiser}>
-          <p>Did you scroll past my work? Click the randomiser button to check out a random project   <span className={styles.arrowDown} role="img" aria-label="arrow-right">➡️</span></p>
+          <p>Did you scroll past my work? Click the randomiser button to check out a random project   <span className={styles.arrowRight} role="img" aria-label="arrow-right">➡️</span><span className={styles.arrowDown} role="img" aria-label="arrow-down">⬇️</span></p>
           <div><Randomiser links={[
             "/housebrain",
             "/umuntu",
