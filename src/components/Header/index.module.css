@@ -21,3 +21,9 @@
   max-height: 4rem;
   width: auto;
 }
+
+@media (max-width: 768px)  {
+  .header {
+    padding: 2rem 2rem;
+  }
+}

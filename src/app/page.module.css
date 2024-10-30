@@ -40,7 +40,7 @@
 
 .statement {
   text-align: center;
-  padding: 3rem 12rem;
+  padding: 3rem 8rem;
   background-color: white;
 }
 
@@ -147,9 +147,51 @@
   padding-bottom: 2rem;
 }
 
-@media (max-width: 800px)  {
+@media (max-width: 768px)  {
   .projects li {
     width: 28rem;
-    object-fit: scale-down;
+  }
+
+  .main {
+    gap: 1rem;
+  }
+
+  .hero {
+    padding: 0 2rem;
+  }
+
+  .statement {
+    padding: 2rem 2rem;
+  }
+
+  .projects {
+    padding: 2rem 2rem 1rem 2rem;
+    max-width: none;
+  }
+
+  .profileBanner {
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 2rem;
+  }
+
+  .profile {
+    width: 60%;
+    height: auto;
+    border-radius: 100%;
+  }
+  
+  .containerLeft {
+    width: 100%;
+    padding: 0 0;
+  }
+  
+  .containerRight {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  
+  .containerRight > h2, .containerRight > p {
+    padding-bottom: 1rem;
   }
 }
