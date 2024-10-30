@@ -62,16 +62,16 @@ export default function ExperimentsPage() {
         imageCards={
           <>
           <div className={styles.experimentImages}>
-            <Link href="https://nataliejade9.github.io/styling-template/">
+            <Link href="https://nataliejade9.github.io/styling-template/" target="_blank">
               <Image className={styles.webImg} src="/images/experiments/Digital-style-guide.jpg" alt="Mock up screen of digital style guide" width={2033} height={2550}/> 
             </Link>
-            <Link href="https://nataliejade9.github.io/superwatermelon/">
+            <Link href="https://nataliejade9.github.io/superwatermelon/" target="_blank">
               <Image className={styles.webImg} src="/images/experiments/Super.jpg" alt="Mock up screen of Superwatermelon website" width={2693} height={1774}/>
             </Link>
-            <Link href="https://nataliejade9.github.io/colmar/">
+            <Link href="https://nataliejade9.github.io/colmar/" target="_blank">
               <Image className={styles.webImg} src="/images/experiments/Colmar.png" alt="Mock up screen of Colmar academy website" width={4000} height={2700}/> 
             </Link>
-            <Link href="https://nataliejade9.github.io/coding-club/">
+            <Link href="https://nataliejade9.github.io/coding-club/" target="_blank">
               <Image className={styles.webImg} src="/images/experiments/coding-club.png" alt="Mock up screen of coding club website" width={4500} height={3000}/>
             </Link>
           </div>
@@ -79,7 +79,7 @@ export default function ExperimentsPage() {
         }
       />
       <div className={styles.gitHub}>
-        <p>Check out my <span className={styles.linkText}><Link href="https://github.com/nataliejade9">GitHub</Link></span></p>
+        <p>Check out my <span className={styles.linkText}><Link href="https://github.com/nataliejade9" target="_blank">GitHub</Link></span></p>
       </div>
     </main>
   )
