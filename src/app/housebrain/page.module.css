@@ -5,13 +5,13 @@
   align-items: center;
 }
 
-.titleSection {
+/* .titleSection {
   padding: 10rem 4rem 0 4rem;
-}
+} */
 
-.titleSection h1 {
+/* .titleSection h1 {
   color: var(--main-primary);
-}
+} */
 
 .titleSection h2 {
   padding-top: 2rem;
@@ -30,4 +30,10 @@
 .video {
   padding: 2rem 8rem;
   background-color: white;
+}
+
+@media (max-width: 768px)  {
+  .titleSection {
+    padding: 10rem 1.5rem 0 1.5rem;
+  }
 }

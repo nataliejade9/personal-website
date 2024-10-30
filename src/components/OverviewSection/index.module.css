@@ -1,5 +1,5 @@
 .overviewSection {
-    padding: 3em 4em;
+    padding: 3rem 4rem;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -18,13 +18,13 @@
 
 .overviewSection h3 {
     color: var(--main-primary);
-    font-size: 2vw;
+    font-size: 1.5rem;
     font-weight: 400;
     padding-bottom: 0.5rem;
 }
 
 .overviewSection p {
-    font-size: 1.3vw;
+    font-size: 1.1rem;
     font-weight: 300;
 }
 
@@ -33,14 +33,28 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 2em;
-    gap: 2em;
+    padding-top: 2rem;
+    gap: 2rem;
 }
 
 .overviewInfo li {
-    width: 30rem;
+    width: 26rem;
 }
 
 .successList {
     list-style: none;
 }
+
+@media (max-width: 768px)  {
+    .overviewSection {
+        padding: 2rem 1.5rem;
+    }
+
+    .overviewSection h2 {
+        font-size: 2rem;
+    }
+
+    .overviewInfo {
+        justify-content: center;
+    }
+  }

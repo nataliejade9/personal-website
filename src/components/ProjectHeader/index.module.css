@@ -1,7 +1,7 @@
 .projectHeader {
     display: flex;
     justify-content: center;
-    padding: 0 4em;
+    padding: 0 4rem;
     margin-bottom: 2rem;
   }
   
@@ -21,6 +21,7 @@
   
   .titleInfo h1 {
     color: var(--main-primary);
+    font-size: 8vw;
     padding-bottom: 1rem;
   }
   
@@ -35,4 +36,18 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+  }
+
+  @media (max-width: 768px)  {
+    .projectHeader {
+      padding: 0 1.5rem;
+    }
+
+    .titleInfo h1 {
+      font-size: 8vw;
+    }
+
+    .titleInfo h2 {
+      font-size: 3vw;
+    }
   }

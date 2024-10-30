@@ -28,10 +28,6 @@ a {
   text-decoration: none;
 }
 
-.header-offset {
-  padding-top: 10rem;
-}
-
 h1 {
   font-family: var(--raleway-font), Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -41,7 +37,7 @@ h1 {
 h2 {
   font-family: var(--raleway-font), Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--main-primary);
 }
 
@@ -62,13 +58,21 @@ h6 {
   font-size: 0.75rem;
 }
 
+.header-offset {
+  padding-top: 10rem;
+}
+
 button {
   font-size: inherit;
   cursor: pointer;
 }
 
 @media (max-width: 768px)  {
+  h1 {
+    font-size: 9vw;
+  }
   h2 {
     font-size: 1.5rem;
   }
+
 }
