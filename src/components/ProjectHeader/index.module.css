@@ -41,13 +41,25 @@
   @media (max-width: 768px)  {
     .projectHeader {
       padding: 0 1.5rem;
+      flex-direction: column-reverse;
+    }
+
+    .titleInfo {
+      width: 100%;
+      padding-bottom: 0;
+    }
+
+    .coverImg {
+      max-width: 100%;
+      height: auto;
+      align-items: left;
     }
 
     .titleInfo h1 {
-      font-size: 8vw;
+      font-size: 3rem;
     }
 
     .titleInfo h2 {
-      font-size: 3vw;
+      font-size: 1.5rem;
     }
   }

@@ -54,7 +54,7 @@
         font-size: 2rem;
     }
 
-    .overviewInfo {
-        justify-content: center;
+    .overviewInfo li {
+        width: auto;
     }
   }
