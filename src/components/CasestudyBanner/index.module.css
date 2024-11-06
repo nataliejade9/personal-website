@@ -1,15 +1,27 @@
 .promo {
-    padding: 3em;
+    padding: 3rem;
     text-align: center;
-    font-size: 1.7vw;
+    font-size: 1.3rem;
     background-color: white;
 }
 
 .linkStyle {
     font-weight: 600;
     text-decoration: underline;
+    transition: background-color 0.3s ease;
   }
   
 .linkStyle:hover {
     background-color: rgba(70,0, 247, 0.10);
+  }
+
+  @media (max-width: 768px)  {
+    .promo {
+      padding: 2rem 1.5rem;
+      font-size: 1rem;
+    }
+
+    .linkStyle:hover {
+      background-color: transparent;
+    }
   }

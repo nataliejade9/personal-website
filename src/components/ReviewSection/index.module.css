@@ -1,5 +1,5 @@
 .reviewSection {
-    padding: 4em 8em;
+    padding: 4rem 8rem;
 }
 
 .reviewSection h2 {
@@ -16,4 +16,18 @@
 
 .spacing {
     padding: 0.75rem;
+}
+
+@media (max-width: 768px)  {
+    .reviewSection {
+        padding: 2rem 1.5rem;
+    }
+
+    .reviewSection h3 {
+        font-size: 1rem;
+    }
+    
+    .reviewSection p {
+        font-size: 1rem;
+    }
 }
