@@ -79,4 +79,13 @@ button {
   .header-offset {
     padding-top: 11rem;
   }
+
+  h3 {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }

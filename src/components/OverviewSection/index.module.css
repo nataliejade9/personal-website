@@ -57,4 +57,12 @@
     .overviewInfo li {
         width: auto;
     }
+
+    .overviewSection p {
+        font-size: 1rem;
+    }
+
+    .overviewSection h3 {
+        font-size: 1.3rem;
+    }
   }
