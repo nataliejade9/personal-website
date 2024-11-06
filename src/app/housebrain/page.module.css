@@ -5,12 +5,6 @@
   align-items: center;
 }
 
-.titleSection h2 {
-  padding-top: 2rem;
-  color: black;
-  font-size: 3vw;
-}
-
 .onlyImg {
   display: flex;
   width: 100%;
@@ -24,12 +18,36 @@
   background-color: white;
 }
 
+.caption {
+  padding: 0 8rem;
+  background-color: white;
+}
+
+.caption h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1.5rem 0 1rem;
+}
+
+.caption p {
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
 @media (max-width: 768px)  {
   .titleSection {
     padding: 10rem 1.5rem 0 1.5rem;
   }
 
   .onlyImg {
+    padding: 0 1.5rem;
+  }
+
+  .video {
+    padding: 2rem 1.5rem;
+  }
+
+  .caption {
     padding: 0 1.5rem;
   }
 }

@@ -7,8 +7,8 @@
 }
 
 .projectImg h3 {
-    padding-bottom: 1.5rem;
-    font-size: 1.5vw;
+    padding-bottom: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -23,5 +23,15 @@
 
 .description {
     padding: 1rem 0;
-    font-size: 1.25vw;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px)  {
+    .projectImg {
+        padding: 2rem 1.5rem;
+    }
+
+    .projectImg h3 {
+        padding-bottom: 1rem;
+    }
 }

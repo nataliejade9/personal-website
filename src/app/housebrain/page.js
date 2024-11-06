@@ -43,25 +43,34 @@ export default function ProjectPage() {
           <TitleSection title={"Initial Designs"} information={"I started working on some low fidelity wireframes using a template in Figma. I experimented with different layouts, and they evolved over time before ending up on the final designs. It was useful to use a template as it was easy to move elements around."}/>
           <ImageSection imgTitle={"Low fidelity wireframes"} imageSource={"/images/housebrain/wire-frames.png"} imageAlt={"HouseBrain initial wireframes"} imageWidth={3626} imageHeight={1751} imgDescription={"The mortgage calculator screen changed quite a bit from this initial design as I felt it was far to convoluted and not enough interaction around entering numbers. Also, having multiple bars that need swiping makes it not very accessible."}/>
           <ImageSection imgTitle={"User testing throughout the process"} imageSource={"/images/housebrain/User-testing.png"} imageAlt={"User testing heat maps of the HouseBrain app"} imageWidth={1201} imageHeight={577} imgDescription={"As this app is a somewhat new concept I was keen to make sure that user's new how to interact with the app and be able to achieve their goals. The heatmap analytics showed user's were able to navigate the app in the way that was expected."}/>
-          <TitleSection title={"Final Designs"} information={"I incorporated two prototypes; the first showing the user experience for someone who has an account and the second showing the onboarding process. The second is important as onboarding new user's is defined in the success metrics. Also shown below is the design for the other features user's can access on the app."}/>    
-          <div className={styles.video}>
-            <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
-              <iframe src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Prototype"></iframe>
+          <div className={styles.finalSection}>
+            <TitleSection title={"Final Designs"} information={"I incorporated two prototypes; the first showing the user experience for someone who has an account and the second showing the onboarding process. The second is important as onboarding new user's is defined in the success metrics. Also shown below is the design for the other features user's can access on the app."}/>    
+            <div className={styles.video}>
+              <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
+                <iframe src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Prototype"></iframe>
+              </div>
+              <Script src="https://player.vimeo.com/api/player.js"></Script>
             </div>
-            <Script src="https://player.vimeo.com/api/player.js"></Script>
-          </div>
-          <ImageSection imageSource={"/images/housebrain/Home.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={3811} imageHeight={2589}/> 
-          <Image className={styles.onlyImg} src="/images/housebrain/Comparison-final.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={3429} height={2167}/> 
-          <Image className={styles.onlyImg} src="/images/housebrain/Calculator.png" alt="Three screenshot mock ups of the calculator feature in the housebrain app" width={3803} height={2590}/> 
-          <div className={styles.video}>
-            <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
-              <iframe src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Onboarding"></iframe>
+            <ImageSection imageSource={"/images/housebrain/Home.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={3811} imageHeight={2589}/> 
+            <Image className={styles.onlyImg} src="/images/housebrain/Comparison-final.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={3429} height={2167}/> 
+            <Image className={styles.onlyImg} src="/images/housebrain/Calculator.png" alt="Three screenshot mock ups of the calculator feature in the housebrain app" width={3803} height={2590}/>      
+            <div className={styles.video}>
+              <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
+                <iframe src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Onboarding"></iframe>
+              </div>
+              <Script src="https://player.vimeo.com/api/player.js"></Script>
+            </div> 
+            <ImageSection imageSource={"/images/housebrain/before-after.png"} imageAlt={"Before and after of the HouseBrain app"} imageWidth={3118} imageHeight={2401}/>  
+            <div className={styles.caption}>
+              <h3>Final testing</h3>
+              <p>An example of the questions asked in the final user testing. It was useful to validate the designs in the testing format.</p>
             </div>
-            <Script src="https://player.vimeo.com/api/player.js"></Script>
+              <Image className={styles.onlyImg} src="/images/housebrain/final-testing.png" alt="Question example of final testing conducted" width={3118} height={2401}/> 
+            <div className={styles.caption}>
+              <h3>Roadmap for project</h3>
+            </div>
+            <Image className={styles.onlyImg} src="/images/housebrain/Roadmap.png" alt="Roadmap for the HouseBrain app" width={8279} height={5918}/>
           </div> 
-          <ImageSection imageSource={"/images/housebrain/before-after.png"} imageAlt={"Before and after of the HouseBrain app"} imageWidth={3118} imageHeight={2401}/>  
-          <ImageSection imgTitle={"Final testing and roadmap for project"} imageSource={"/images/housebrain/final-testing.png"} imageAlt={"Question example of final testing conducted"} imageWidth={3118} imageHeight={2401} imgDescription={"One example of the final questions asked in the final user testing. It was useful to validate the designs in the testing format."}/> 
-          <Image className={styles.onlyImg} src="/images/housebrain/Roadmap.png" alt="Roadmap for the HouseBrain app" width={8279} height={5918}/>
           <ReviewSection 
             textOne={(
               <>
@@ -72,7 +81,7 @@ export default function ProjectPage() {
             )}
             textTwo={(
               <>
-                <p>I would like to do more user testing for the brand guidelines, in particular the colours. I think I could make it more sophisticated whilst still appealing to the target audience.</p>
+                <p>I would like to do more user testing for the brand guidelines, in particular the colours. They could be more sophisticated whilst still appealing to the target audience and could achieve an AAA rating.</p>
                 <p>If there was budget I would like to get the app live on the App Store to get further feedback in real world situations and work on the MVP.</p>
               </>
             )}
