@@ -1,9 +1,9 @@
 .titleContent {
-    padding: 4em 8em 3em 8em;
+    padding: 4rem 8rem 3rem;
 }
 
 .titleContent h2 {
-    font-size: 3vw;
+    font-size: 2rem;
     padding-bottom: 1.5rem;
 }
 
@@ -13,4 +13,15 @@
 
 .titleContent {
     letter-spacing: 0.1px;
+}
+
+@media (max-width: 768px)  {
+    .titleContent {
+        padding: 2.5rem 1.5rem 1.5rem;
+    }
+
+    .titleContent h2 {
+        font-size: 1.75rem;
+        padding-bottom: 1rem;
+    }
 }
