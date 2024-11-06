@@ -9,3 +9,9 @@
 .experimentContent {
     font-size: 2vw;
 }
+
+@media (max-width: 768px)  {
+    .experimentContent {
+        padding: 1.5rem 1.5rem 1rem;
+    }
+}
