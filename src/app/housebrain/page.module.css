@@ -18,9 +18,13 @@
   background-color: white;
 }
 
+.finalSection {
+  padding-bottom: 1.5rem;
+  background-color: white;
+}
+
 .caption {
   padding: 0 8rem;
-  background-color: white;
 }
 
 .caption h3 {
