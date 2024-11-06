@@ -149,11 +149,12 @@
   }
 
   .hero h1 {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
 
   .exploreWork {
-    display: none;
+    padding: 0 0 1.5rem;
+    text-align: left;
   }
 
   .natalie {

@@ -71,8 +71,12 @@ button {
   h1 {
     font-size: 9vw;
   }
+
   h2 {
     font-size: 1.5rem;
   }
 
+  .header-offset {
+    padding-top: 11rem;
+  }
 }
