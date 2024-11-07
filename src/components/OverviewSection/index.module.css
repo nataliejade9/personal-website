@@ -1,9 +1,8 @@
 .overviewSection {
-    padding: 3rem 4rem;
+    padding: 3rem 6rem;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
   
@@ -38,7 +37,7 @@
 }
 
 .overviewInfo li {
-    width: 26rem;
+    flex: 1 1 calc(50% - 1rem)
 }
 
 .successList {
@@ -48,6 +47,7 @@
 @media (max-width: 768px)  {
     .overviewSection {
         padding: 2.5rem 1.5rem;
+        align-items: normal;
     }
 
     .overviewSection h2 {
@@ -56,6 +56,7 @@
 
     .overviewInfo li {
         width: auto;
+        flex: 1 1 100%;
     }
 
     .overviewSection p {
@@ -64,5 +65,11 @@
 
     .overviewSection h3 {
         font-size: 1.3rem;
+    }
+  }
+
+  @media (min-width: 1600px)  {
+    .overviewSection {
+        padding: 3rem 12rem;
     }
   }
