@@ -25,3 +25,16 @@
       background-color: transparent;
     }
   }
+
+  @media (min-width: 1600px)  {
+    .promo {
+      padding: 3rem 14rem;
+      font-size: 1.6rem;
+    }
+}
+
+  @media (min-width: 2000px)  {
+    .promo {
+      padding: 3rem 18rem;
+    }
+}

@@ -7,9 +7,10 @@
 }
 
 .projectImg h3 {
-    padding-bottom: 1.3rem;
+    padding-bottom: 1.1rem;
     font-size: 1.2rem;
     font-weight: 500;
+    color: var(--main-secondary);
 }
 
 .projectImg p {
@@ -33,5 +34,30 @@
 
     .projectImg h3 {
         padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1600px)  {
+    .projectImg {
+        padding: 2rem 14rem;
+    }
+
+    .titleContent h2 {
+        font-size: 2.5rem;
+    }
+
+    .projectImg h3 {
+        font-size: 1.3rem;
+    }
+
+    .description {
+        padding: 1rem 0;
+        font-size: 1.1rem;
+    }
+  }
+
+  @media (min-width: 2000px)  {
+    .projectImg {
+        padding: 2rem 18rem;
     }
 }
