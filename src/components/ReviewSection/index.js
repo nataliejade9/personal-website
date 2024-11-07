@@ -5,11 +5,11 @@ const ReviewSection = ({textOne, textTwo}) => {
         <div className={styles.reviewSection}>
             <h2>Retrospective</h2>
             <div className={styles.wentWell}></div>
-                <h3>What went well</h3>
+                <h3><span className={styles.arrowDown} role="img" aria-label="tick">✅</span> What went well</h3>
                 <>{textOne}</>
             <div className={styles.spacing}></div>
             <div className={styles.improved}>
-                <h3>What could be improved</h3>
+                <h3><span className={styles.arrowDown} role="img" aria-label="tool">🛠️</span> What could be improved</h3>
                 <>{textTwo}</>
             </div>
         </div>
