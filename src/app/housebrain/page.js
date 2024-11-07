@@ -22,7 +22,7 @@ export default function ProjectPage() {
             roleTitle={"Role: Product Design (UX & UI)"} 
             roleText={"UX design, user research & testing, UI APP redesign, high-fidelity prototyping, logo design, design system"} 
             teamText={"Natalie Waites (solo project)"} 
-            designText={"Figma, FigJam, Useberry, Google Forms, Survey Swap, Adobe Photoshop and Illustrator"} 
+            designText={"Figma, FigJam, Useberry, Google Forms, Survey Swap, Sketch, Adobe Photoshop and Illustrator"} 
             successOne={"Onboard 200 users"}
             successTwo={"Increase properties added by users 3:1"}
             successThree={"5% Conversion rate of users who proceed to purchase a property with our recommended lenders"}
