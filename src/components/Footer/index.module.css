@@ -1,6 +1,6 @@
 .footerBanner {
   width: 100%;
-  padding: 3em 4em 2em 4em;
+  padding: 3rem 4rem 1.5rem;
   gap: 0.5rem;
   display: flex;
   justify-content: center;
@@ -34,7 +34,7 @@
 
 @media (max-width: 768px)  {
   .footerBanner {
-    padding: 3rem 1.5rem 0 1.5rem;
+    padding: 3rem 1.5rem 0.7rem 1.5rem;
   }
 
   .randomiser {
@@ -52,4 +52,16 @@
     align-items: normal;
     padding: 2rem 0 1rem;
   }
+}
+
+@media (min-width: 1600px)  {
+  .footerBanner {
+    padding: 3rem 6rem 1.5rem 6rem;
+  }
+}
+
+@media (min-width: 2000px)  {
+    .footerBanner {
+      padding: 4rem 8rem 1.5rem 8rem;
+    }
 }
