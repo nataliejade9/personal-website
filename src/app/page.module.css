@@ -31,13 +31,17 @@
 }
 
 .work {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .statement {
   text-align: center;
   padding: 3rem 8rem;
   background-color: white;
+  width: 100%;
 }
 
 .statement h2 {
@@ -150,6 +154,10 @@
 
   .hero h1 {
     padding-bottom: 2rem;
+  }
+
+  .smalltitle {
+    font-size: 3vw;
   }
 
   .exploreWork {
