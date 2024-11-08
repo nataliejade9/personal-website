@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Link href="/"><Image className={styles.logo} src="/natalie-logo-v2.png" alt="Logo for Natalie Waites" width={968} height={968}/></Link>
+      <Link href="/"><Image className={styles.logo} src="/natalie-logo-v2.png" alt="Natalie Waites Logo" width={968} height={968}/></Link>
       <nav>
         <ul>
           <li>
