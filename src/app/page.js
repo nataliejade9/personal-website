@@ -20,7 +20,8 @@ export default function Home() {
         <div className={styles.statement}>
           <h2>I designed and coded this site <span role="img" aria-label="geek">🤓</span> Designing digital products that users love and developers can implement efficiently is my passion. I use empathy to help the businesses I work for grow and evolve.</h2>
         </div>
-        <div className={styles.work} id="explore-work">
+        <div className={styles.work}>
+          <div className={styles.exploreId} id="explore-work"></div>
           <ul className={styles.projects}>
             <li className={styles.projectOne}>
               <Link href="/housebrain">

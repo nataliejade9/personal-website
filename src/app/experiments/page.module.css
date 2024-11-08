@@ -68,13 +68,14 @@
         box-shadow: 2px 2px 5px 0px rgba(70, 0, 247, 0.3);
     }
 
-    .webImg li:hover {
+    .webImg:hover {
         transform: none;
+        box-shadow: 2px 2px 5px 0px rgba(70, 0, 247, 0.3);
       }
 }
 
 @media (hover: none) and (pointer: coarse) {
-    .webImg li:hover {
+    .webImg:hover {
         transform: none;
         box-shadow: 2px 2px 5px 0px rgba(70, 0, 247, 0.3);
     }
