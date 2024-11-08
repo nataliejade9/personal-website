@@ -19,4 +19,32 @@
   display: flex;
   width: 100%;
   height: auto; 
+  background-color: white;
+}
+
+.finalSection {
+  background-color: white;
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px)  {
+  .finalSection {
+    padding: 1rem 0;
+  }
+}
+
+@media (min-width: 1600px)  {
+  .onlyImg {
+    padding: 0 14rem;
+  }
+
+  .finalSection {
+    padding: 3rem 0;
+  }
+}
+
+@media (min-width: 2000px)  {
+  .onlyImg {
+    padding: 0 18rem;
+  }
 }
