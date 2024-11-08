@@ -11,7 +11,7 @@ export const metadata = {
 export default function ExperimentsPage() {
   return (
     <main className={styles.main}>
-      <ProjectHeader projectName={"Experiments"} projectDescription={"Throughout my life I've loved playing around with my design skills in various different mediums."}  imageSource={"/images/experiments/hero-experiments.png"} imageAlt={"Coding project on laptop and mobile mock up"} imageWidth={3264} imageHeight={3500}/>
+      <ProjectHeader projectName={"Experiments"} projectDescription={"Throughout my career, design has been the central thread expressed across various mediums."}  imageSource={"/images/experiments/hero-experiments.png"} imageAlt={"Coding project on laptop and mobile mock up"} imageWidth={3264} imageHeight={3500}/>
       <ExperimentSection 
         title={"Fashion Design & Construction"} 
         description={"I studied fashion and design at college and university. This is where I fell in love with all aspects of design and developed my critical eye. These images are from my final design project at university that was inspired by citrus fruits, I designed, made and styled this collection. I went on to work in fashion for a few years but due to ethical reasons I decided to take my career in a different direction."}

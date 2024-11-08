@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: white;
     width: 100%;
-    padding: 4rem 8rem;
+    padding: 3rem 8rem;
 }
 
 .projectImg h3 {
@@ -39,7 +39,7 @@
 
 @media (min-width: 1600px)  {
     .projectImg {
-        padding: 2rem 14rem;
+        padding: 4rem 14rem;
     }
 
     .titleContent h2 {
@@ -58,6 +58,11 @@
 
   @media (min-width: 2000px)  {
     .projectImg {
-        padding: 2rem 18rem;
+        padding: 5rem 18rem;
+    }
+
+    .description {
+        padding: 1.5rem 0;
+        font-size: 1.2rem;
     }
 }

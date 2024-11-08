@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     background-color: white;
-    padding: 3rem 8rem 1rem 8rem;
+    padding: 4rem 8rem 1rem;
 }
 
 .experimentContent {
@@ -13,5 +13,17 @@
 @media (max-width: 768px)  {
     .experimentContent {
         padding: 1.5rem 1.5rem 1rem;
+    }
+}
+
+@media (min-width: 1600px)  {
+    .experimentContent {
+        padding: 4rem 14rem 1rem;
+    }
+}
+
+  @media (min-width: 2000px)  {
+    .experimentContent {
+        padding: 4rem 18rem 1rem;
     }
 }

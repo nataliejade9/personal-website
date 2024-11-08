@@ -18,7 +18,7 @@
 }
 
 .stats h3 {
-  padding: 4rem 8rem 2rem 8rem;
+  padding: 4rem 8rem 2rem;
   font-weight: 500;
   font-size: 1.2rem;
 }
@@ -39,7 +39,7 @@
   }
 
   .stats h3 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 2rem 1.5rem 1rem;
   }
 
@@ -52,4 +52,44 @@
     padding: 2rem 1.5rem;
   }
 
+}
+
+@media (min-width: 1600px)  {
+  .onlyImg {
+    padding: 0 14rem 3rem;
+  }
+
+  .stats h3 {
+    font-size: 1.3rem;
+    padding: 4rem 14rem 1rem;
+  }
+
+  .stats p {
+    padding: 0 14rem 2rem;
+    font-size: 1.1rem;
+  }
+
+  .video {
+    padding: 3rem 14rem;
+  }
+}
+
+@media (min-width: 2000px)  {
+  .onlyImg {
+    padding: 0 18rem 4rem;
+  }
+
+  .stats h3 {
+    font-size: 1.4rem;
+    padding: 5rem 18rem 3rem;
+  }
+
+  .stats p {
+    padding: 0 18rem 4rem;
+    font-size: 1.1rem;
+  }
+
+  .video {
+    padding: 4rem 18rem;
+  }
 }
