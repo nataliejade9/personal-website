@@ -30,19 +30,19 @@ export default function ProjectPage() {
         <div className={styles.mainProject}>
           <Image className={styles.onlyImg} src="/images/housebrain/housebrain-full-set.png" alt="Seven iphone screens showing different pages of the HouseBrain app" width={4500} height={3000}/>
           <TitleSection title={"The Brief"} information={"HouseBrain is a mobile app that simplifies the complex journey of first-time home buying by providing clear, comprehensive cost information and property comparison capabilities. The app will serve aspiring homeowners who feel overwhelmed by the home buying process and need guidance on understanding the full financial picture of their purchase."}/>
-          <ImageSection imgTitle={"2017 UI designs (version 1.0)"} imageSource={"/images/housebrain/housebrain-initial-designs.png"} imageAlt={"Four screenshots of original 2017 UI designs"} imageWidth={7400} imageHeight={2776} imgDescription={"The original designs are quite old and have UI design elements that relate to old iPhones where the 'home' button was in the centre. So this needs a dramatic update. Also the app is not very accessible in it's current state and will need looking at in the design system."}/>
+          <ImageSection imgTitle={"2017 UI designs (version 1.0)"} imageSource={"/images/housebrain/initial-designs.png"} imageAlt={"Four screenshots of original 2017 UI designs"} imageWidth={7400} imageHeight={2776} imgDescription={"The original designs are quite old and have UI design elements that relate to old iPhones where the 'home' button was in the centre. So this needs a dramatic update. Also the app is not very accessible in it's current state and will need looking at in the design system."}/>
           <TitleSection title={"Starting With Research"} information={"The original app was designed with only two user's in mind. Therefore it was important to conduct both qualitative and quantitative research to gather a variety of information and data from target user's. The results will provide direction for features and the overall app design whilst addressing user problems."}/>
-          <ImageSection imgTitle={"Survey Results"} imageSource={"/images/housebrain/user-research-results.png"} imageAlt={"Research results for survey conducted for HouseBrain App"} imageWidth={13590} imageHeight={9880}/>   
-          <ImageSection imgTitle={"Competitor Analysis"} imageSource={"/images/housebrain/competitors.png"} imageAlt={"Competitor analysis for HouseBrain App"} imageWidth={10340} imageHeight={15018}/>
+          <ImageSection imgTitle={"Survey Results"} imageSource={"/images/housebrain/research-results.png"} imageAlt={"User research results for survey conducted for HouseBrain App"} imageWidth={13590} imageHeight={9880}/>   
+          <ImageSection imgTitle={"Competitor Analysis"} imageSource={"/images/housebrain/competitor-analysis.png"} imageAlt={"Competitor analysis for HouseBrain App"} imageWidth={10340} imageHeight={15018}/>
           <TitleSection title={"Understanding the User"} information={"I looked at how we could define the research we gathered to better understand the user. I made a couple of user persona's based on the people we had spoken to and created a user journey map to empathise with the user's thoughts and feelings. These helped to direct the design phase with more focus."}/>
-          <ImageSection imgTitle={"Persona one: Marcus"} imageSource={"/images/housebrain/persona-1.png"} imageAlt={"HouseBrain persona, Marcus"} imageWidth={1543} imageHeight={663}/>  
-          <ImageSection imgTitle={"Persona two: Ava"} imageSource={"/images/housebrain/persona-2.png"} imageAlt={"HouseBrain persona, Ava"} imageWidth={1543} imageHeight={663}/>
-          <ImageSection imageSource={"/images/housebrain/user-Journey-Map.png"} imageAlt={"HouseBrain user journey map"} imageWidth={1857} imageHeight={1055}/>
+          <ImageSection imgTitle={"Persona one: Marcus"} imageSource={"/images/housebrain/hb-persona-1.png"} imageAlt={"HouseBrain persona, Marcus"} imageWidth={1543} imageHeight={663}/>  
+          <ImageSection imgTitle={"Persona two: Ava"} imageSource={"/images/housebrain/hb-persona-2.png"} imageAlt={"HouseBrain persona, Ava"} imageWidth={1543} imageHeight={663}/>
+          <ImageSection imageSource={"/images/housebrain/user-journey.png"} imageAlt={"HouseBrain user journey map"} imageWidth={1857} imageHeight={1055}/>
           <TitleSection title={"Inspiration for Design"} information={"After looking at the research, the average age of a first-time buyer is 35, fitting into the millennial bracket. However, as the app ages gen-Z will filter into this range. Therefore I incorporated styles and themes that I thought would suit both generations and to appeal to the excitement around looking for a first home."}/>
-          <ImageSection imageSource={"/images/housebrain/moodboard.png"} imageAlt={"HouseBrain Mood board inspiration"} imageWidth={3626} imageHeight={1751}/>
+          <ImageSection imageSource={"/images/housebrain/hb-moodboard.png"} imageAlt={"HouseBrain Mood board inspiration"} imageWidth={3626} imageHeight={1751}/>
           <TitleSection title={"Initial Designs"} information={"I started working on some low fidelity wireframes using a template in Figma. I experimented with different layouts, and they evolved over time before ending up on the final designs. It was useful to use a template as it was easy to move elements around."}/>
           <ImageSection imgTitle={"Low fidelity wireframes"} imageSource={"/images/housebrain/wire-frames.png"} imageAlt={"HouseBrain initial wireframes"} imageWidth={3626} imageHeight={1751} imgDescription={"The mortgage calculator screen changed quite a bit from this initial design as I felt it was far to convoluted and not enough interaction around entering numbers. Also, having multiple bars that need swiping makes it not very accessible."}/>
-          <ImageSection imgTitle={"User testing throughout the process"} imageSource={"/images/housebrain/user-testing.png"} imageAlt={"User testing heat maps of the HouseBrain app"} imageWidth={1201} imageHeight={577} imgDescription={"As this app is a somewhat new concept I was keen to make sure that user's new how to interact with the app and be able to achieve their goals. The heatmap analytics showed user's were able to navigate the app in the way that was expected."}/>
+          <ImageSection imgTitle={"User testing throughout the process"} imageSource={"/images/housebrain/heat-map.png"} imageAlt={"User testing heat maps of the HouseBrain app"} imageWidth={1201} imageHeight={577} imgDescription={"As this app is a somewhat new concept I was keen to make sure that user's new how to interact with the app and be able to achieve their goals. The heatmap analytics showed user's were able to navigate the app in the way that was expected."}/>
           <TitleSection title={"Final Designs"} information={"I incorporated two prototypes; the first showing the user experience for someone who has an account and the second showing the onboarding process. The second is important as onboarding new user's is defined in the success metrics. Also shown below is the design for the other features user's can access on the app."}/>    
           <div className={styles.finalSection}>
             <div className={styles.video}>
@@ -51,9 +51,9 @@ export default function ProjectPage() {
               </div>
               <Script src="https://player.vimeo.com/api/player.js"></Script>
             </div>
-            <ImageSection imageSource={"/images/housebrain/home.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={3811} imageHeight={2589}/> 
-            <Image className={styles.onlyImg} src="/images/housebrain/comparison-final.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={3429} height={2167}/> 
-            <Image className={styles.onlyImg} src="/images/housebrain/calculator.png" alt="Three screenshot mock ups of the calculator feature in the housebrain app" width={3803} height={2590}/>      
+            <ImageSection imageSource={"/images/housebrain/homepages.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={3811} imageHeight={2589}/> 
+            <Image className={styles.onlyImg} src="/images/housebrain/comparison.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={3429} height={2167}/> 
+            <Image className={styles.onlyImg} src="/images/housebrain/hb-calculator.png" alt="Three screenshot mock ups of the calculator feature in the housebrain app" width={3803} height={2590}/>      
             <div className={styles.video}>
               <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
                 <iframe src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Onboarding"></iframe>
@@ -69,7 +69,7 @@ export default function ProjectPage() {
             <div className={styles.caption}>
               <h3>Roadmap for project</h3>
             </div>
-            <Image className={styles.onlyImg} src="/images/housebrain/roadmap.png" alt="Roadmap for the HouseBrain app" width={8279} height={5918}/>
+            <Image className={styles.onlyImg} src="/images/housebrain/hb-roadmap.png" alt="Roadmap for the HouseBrain app" width={8279} height={5918}/>
           </div> 
           <ReviewSection 
             textOne={(
