@@ -105,7 +105,7 @@
   display: flex;
   justify-content: center;
   background-color: white;
-  padding: 4em 0;
+  padding: 4rem;
 }
 
 .boldText {
@@ -125,7 +125,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 0 2em;
 }
 
 .containerRight {
@@ -133,7 +132,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 4em;
+  padding-left: 2rem;
 }
 
 .containerRight > h2, .containerRight > p {
@@ -230,15 +229,33 @@
 
 @media (min-width: 1600px) {
   .statement {
-    padding: 3rem 12rem;
+    padding: 3rem 14rem;
   }
 
   .containerRight {
-    padding: 0 12rem 0 6rem;
+    padding: 0 6rem 0 3rem;
   }
 
   .containerRight > h2, .containerRight > p {
     padding-bottom: 1.75rem;
   }
 
+  .projects li {
+    width: 38rem;
+  }
+
+  .profileBanner {
+    padding: 6rem;
+  }
+
+}
+
+@media (min-width: 2000px) {
+  .statement {
+    padding: 3rem 18rem;
+  }
+
+  .containerRight {
+    padding: 0 12rem 0 4rem;
+  }
 }
