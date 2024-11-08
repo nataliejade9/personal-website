@@ -45,7 +45,7 @@ export default function ExperimentsPage() {
       />
       <ExperimentSection 
         title={"Business & Start-ups"} 
-        description={"I've been interested in business since I left university. Starting many different businesses myself as well as helping others with their business ideas. I currently run a software engineering business with my partner and we've worked with a variety of business sizes as well as making our own digital products. These graphics I designed where for one of our projects."}
+        description={"I've been interested in business since I left university. Starting many different businesses myself as well as helping others with their business ideas. I currently run a software engineering business with my partner and we've worked with a variety of business sizes as well as making our own digital products. These graphics I designed were for one of our projects."}
         imageCards={
           <>
           <div className={styles.experimentImages}>
