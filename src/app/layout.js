@@ -3,7 +3,6 @@ import './globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
-import Head from 'next/head'
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 const font = Inter({ subsets: ['latin'], variable: '--inter-font' })
@@ -17,9 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <GoogleAnalytics gaId="G-1BGQMKBN7R"/>
-      </Head>
+      <GoogleAnalytics gaId="G-1BGQMKBN7R"/>
       <body className={`${font.variable} ${ralewayfont.variable}`}>
         <Header/>
         <div className='header-offset'>{children}</div>
