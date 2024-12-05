@@ -55,8 +55,8 @@ export default function Home() {
             </div>
             <div className={styles.containerRight}>
               <h2>About me</h2>
-              <p>I love designing impactful digital products for companies who are seeking growth and innovation. <span className={styles.boldText}> My approach combines technical proficiency with user-centric design, enabling me to develop digital products that genuinely solve user challenges.</span> When you work with me, you'll get someone adaptable, trustworthy, and detail oriented.</p>
-              <p>In my spare time, I enjoy exploring the outdoors, playing board games and reading. I've experimented with my design skills in various mediums, you can check these out here...</p>
+              <p>I enjoy designing impactful digital products for companies who are seeking growth and innovation. <span className={styles.boldText}> My approach combines technical proficiency with user-centric design, creating digital products that genuinely solve user challenges.</span> When you work with me, you'll get someone adaptable, trustworthy, and detail oriented.</p>
+              <p>In my spare time, I like exploring the outdoors, playing board games and reading. I've experimented with my design skills in various mediums, you can check these out below.</p>
               <div><Button type="Secondary" label="Experiments" href="/experiments"/></div>
             </div>
         </div>
