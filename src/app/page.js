@@ -18,7 +18,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.statement}>
-          <h2>I designed and coded this site <span role="img" aria-label="geek">🤓</span> Designing digital products that users love and developers can implement efficiently is my passion. I use empathy to help the businesses I work for grow and evolve.</h2>
+          <h2>I designed and coded this site <span role="img" aria-label="excited">🤗</span> I design meaningful digital products that solve user problems and support seamless development, driving business growth through strategic design solutions.</h2>
         </div>
         <div className={styles.work}>
           <div className={styles.exploreId} id="explore-work"></div>
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
             <div className={styles.containerRight}>
               <h2>About me</h2>
-              <p>I love designing impactful digital products for companies who are seeking growth and innovation. <span className={styles.boldText}> I believe this growth comes from empathising with users and shifting their current solutions to better ones.</span> When you work with me, you'll get someone adaptable, trustworthy, and detail-oriented.</p>
+              <p>I love designing impactful digital products for companies who are seeking growth and innovation. <span className={styles.boldText}> My approach combines technical proficiency with user-centric design, enabling me to develop digital products that genuinely solve user challenges.</span> When you work with me, you'll get someone adaptable, trustworthy, and detail oriented.</p>
               <p>In my spare time, I enjoy exploring the outdoors, playing board games and reading. I've experimented with my design skills in various mediums, you can check these out here...</p>
               <div><Button type="Secondary" label="Experiments" href="/experiments"/></div>
             </div>
