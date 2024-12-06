@@ -18,7 +18,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.statement}>
-          <h2>I designed and coded this site <span role="img" aria-label="excited">🤗</span> I design meaningful digital products that solve user problems and support seamless development, driving business growth through strategic design solutions.</h2>
+          <h2>I designed and coded this site <span role="img" aria-label="excited">🤗</span> I create meaningful digital products that solve user problems and support rapid development processes, driving business growth through strategic design solutions.</h2>
         </div>
         <div className={styles.work}>
           <div className={styles.exploreId} id="explore-work"></div>
