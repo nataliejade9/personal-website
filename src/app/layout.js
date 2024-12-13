@@ -10,7 +10,7 @@ const ralewayfont = Raleway ({subsets: ['latin'], variable: '--raleway-font' })
 
 export const metadata = {
   title: 'Natalie Waites',
-  description: 'Product Design portfolio for Natalie Waites including examples of UX and UI Design',
+  description: 'Product Design Portfolio - Natalie Waites. Case studies showing use of UX and UI Design for digital products across various companies.',
 }
 
 export default function RootLayout({ children }) {
