@@ -11,7 +11,7 @@ export default function Contact() {
           <h2>Contact</h2>
           <p>Let's discuss how my skills and unique perspective could contribute to the success of your business or product.</p>
           <div className={styles.contactContainer}>
-            <Link href="https://www.linkedin.com/in/nataliewakes/" target="_blank"><Image className={styles.linkedIn} src={"/linkedin.svg"} alt="LinkedIn logo icon" width={34} height={34}/></Link>
+            <Link href="https://www.linkedin.com/in/nataliewaites/" target="_blank"><Image className={styles.linkedIn} src={"/linkedin.svg"} alt="LinkedIn logo icon" width={34} height={34}/></Link>
             <ContactButton label="Send Message"/>
           </div>  
         </div>
