@@ -78,25 +78,25 @@
 }
 
 .projects .projectOne {
-  background-image: url("/images/housebrain/housebrain.png");
+  background-image: url("/images/housebrain/housebrain-card-cover.webp");
   background-size: cover;
   background-position: center;
 }
 
 .projects .projectTwo {
-  background-image: url("/images/umuntu/umuntu-mobile-ipad.jpg");
+  background-image: url("/images/umuntu/umuntu-card-cover.webp");
   background-size: cover;
   background-position: center;
 }
 
 .projects .projectThree {
-  background-image: url("/images/finchair/finchair-3-spray.jpg");
+  background-image: url("/images/finchair/finchair-card-cover.webp");
   background-size: cover;
   background-position: center;
 }
 
 .projects .projectFour {
-  background-image: url("/images/sierra/Sierra.png");
+  background-image: url("/images/sierra/sierra-card-cover.webp");
   background-size: cover;
   background-position: center;
 }
