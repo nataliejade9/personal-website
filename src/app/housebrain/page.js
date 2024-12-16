@@ -47,7 +47,7 @@ export default function ProjectPage() {
           <div className={styles.finalSection}>
             <div className={styles.video}>
               <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
-                <iframe src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Prototype"></iframe>
+                <iframe src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Prototype"></iframe>
               </div>
               <Script src="https://player.vimeo.com/api/player.js"></Script>
             </div>
@@ -56,7 +56,7 @@ export default function ProjectPage() {
             <Image className={styles.onlyImg} src="/images/housebrain/hb-calculator.png" alt="Three screenshot mock ups of the calculator feature in the housebrain app" width={3803} height={2590}/>      
             <div className={styles.video}>
               <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
-                <iframe src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Onboarding"></iframe>
+                <iframe src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Onboarding"></iframe>
               </div>
               <Script src="https://player.vimeo.com/api/player.js"></Script>
             </div> 
