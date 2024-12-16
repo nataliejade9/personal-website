@@ -51,7 +51,7 @@ export default function Home() {
         </div>
         <div className={styles.profileBanner}>
             <div className={styles.containerLeft}>
-              <Image className={styles.profile} src="/natalie-office.jpg" alt="Portrait photo of Natalie Waites" width={4196} height={2241}/>
+              <Image className={styles.profile} src="/natalie-office.jpg" alt="Portrait photo of Natalie Waites" width={520} height={520} sizes={"25vw"} quality={50}/>
             </div>
             <div className={styles.containerRight}>
               <h2>About me</h2>

@@ -17,7 +17,7 @@ export default function Contact() {
         </div>
       </div>
       <div className={styles.contactImg}>
-        <Image className={styles.profile} src="/contact-img.png" alt="Illustration of laptop and notebook with send message icon" width={480} height={480} sizes={"50vw"} quality={50}/>
+        <Image className={styles.profile} src="/contact-img.png" alt="Illustration of laptop and notebook with send message icon" width={480} height={480} sizes={"25vw"} quality={50}/>
       </div>
     </div>
   )
