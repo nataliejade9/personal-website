@@ -18,6 +18,10 @@
   background-color: white;
 }
 
+.video iframe {
+  border: 0;
+}
+
 .finalSection {
   padding-bottom: 1.5rem;
   background-color: white;

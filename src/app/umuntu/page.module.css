@@ -33,6 +33,10 @@
   background-color: white;
 }
 
+.video iframe {
+  border: 0;
+}
+
 @media (max-width: 768px)  {
   .onlyImg {
     padding: 0 1.5rem 2rem;
