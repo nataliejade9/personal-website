@@ -55,6 +55,7 @@ export default function ProjectPage() {
               <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
                 <iframe src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Prototype"></iframe>
               </div>
+              <Script src="https://player.vimeo.com/api/player.js"></Script>
             </div>
             <ImageSection imageSource={"/images/housebrain/homepages.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={1472} imageHeight={1000}/> 
             <Image className={styles.onlyImg} src="/images/housebrain/comparison.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={1920} height={930}/> 
@@ -63,6 +64,7 @@ export default function ProjectPage() {
               <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
                 <iframe src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Onboarding"></iframe>
               </div>
+              <Script src="https://player.vimeo.com/api/player.js"></Script>
             </div>
             <ImageSection imageSource={"/images/housebrain/before-after.png"} imageAlt={"Before and after of the HouseBrain app"} imageWidth={1472} imageHeight={1134}/>  
             <div className={styles.caption}>
