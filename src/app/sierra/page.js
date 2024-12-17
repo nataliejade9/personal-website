@@ -15,7 +15,7 @@ export default function ProjectPage() {
   return (
     <>
     <main className={styles.main}>
-      <ProjectHeader projectName={"Sierra"} projectDescription={"Jewellery store rebrand, giving users an easy and familiar way to shop their next purchase."}  imageSource={"/images/sierra/sierra-header-thin.png"} imageAlt={"Laptop and mobile screenshot of the Sierra Jewellery website"} imageWidth={4500} imageHeight={3000}/>
+      <ProjectHeader projectName={"Sierra"} projectDescription={"Jewellery store rebrand, giving users an easy and familiar way to shop their next purchase."}  imageSource={"/images/sierra/sierra-header-thin.png"} imageAlt={"Laptop and mobile screenshot of the Sierra Jewellery website"} imageWidth={4500} imageHeight={3000} priority/>
         <OverviewSection
           overviewSummary={"To transform Sierra Jewellery from an Etsy-based startup into a recognised, independent luxury brand with a robust digital presence, positioning it as a leader in ethical, artisanal jewellery in the UK market."} 
           roleTitle={"Role: UI Design"} 
