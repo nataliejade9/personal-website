@@ -12,7 +12,7 @@ import houseBrainHeroImage from '../../../public/images/housebrain/header.png';
 import houseBrainFullImage from '../../../public/images/housebrain/housebrain-full-set.png';
 import initialDesignsImage from '../../../public/images/housebrain/initial-designs.png';
 import researchResultsImage from '../../../public/images/housebrain/research-results.png';
-import competitorAnalysisImage from '../../../public/images/housebrain/competitor-analysis-v3.webp';
+import competitorAnalysisImage from '../../../public/images/housebrain/competitor-analysis.webp';
 
 export const metadata = {
   title: 'HouseBrain | Natalie Waites'
