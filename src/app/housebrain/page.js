@@ -8,7 +8,7 @@ import ImageSection from '@/components/ImageSection'
 import CasestudyBanner from '@/components/CasestudyBanner'
 import ReviewSection from '@/components/ReviewSection'
 
-import houseBrainHeroImage from '/images/housebrain/header.png';
+import houseBrainHeroImage from '../../../public/images/housebrain/header.png';
 import houseBrainFullImage from '../../../public/images/housebrain/housebrain-full-set.png';
 import initialDesignsImage from '../../../public/images/housebrain/initial-designs.png';
 import researchResultsImage from '../../../public/images/housebrain/research-results.png';
