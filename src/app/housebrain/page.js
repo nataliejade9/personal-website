@@ -8,6 +8,11 @@ import ImageSection from '@/components/ImageSection'
 import CasestudyBanner from '@/components/CasestudyBanner'
 import ReviewSection from '@/components/ReviewSection'
 
+import houseBrainHeroImage from '../../../public/images/housebrain/housebrain-full-set.png';
+import initialDesignsImage from '../../../public/images/housebrain/initial-designs.png';
+import researchResultsImage from '../../../public/images/housebrain/research-results.png';
+import competitorAnalysisImage from '../../../public/images/housebrain/competitor-analysis.png';
+
 export const metadata = {
   title: 'HouseBrain | Natalie Waites'
 }
@@ -28,12 +33,12 @@ export default function ProjectPage() {
             successThree={"5% Conversion rate of users who proceed to purchase a property with our recommended lenders"}
         />
         <div className={styles.mainProject}>
-          <Image className={styles.onlyImg} src="/images/housebrain/housebrain-full-set.png" alt="Seven iphone screens showing different pages of the HouseBrain app" width={1920} height={1141}/>
+          <Image className={styles.onlyImg} src={houseBrainHeroImage} alt="Seven iphone screens showing different pages of the HouseBrain app"/>
           <TitleSection title={"The Brief"} information={"HouseBrain is a mobile app that simplifies the complex journey of first-time home buying by providing clear, comprehensive cost information and property comparison capabilities. The app will serve aspiring homeowners who feel overwhelmed by the home buying process and need guidance on understanding the full financial picture of their purchase."}/>
-          <ImageSection imgTitle={"2017 UI designs (version 1.0)"} imageSource={"/images/housebrain/initial-designs.png"} imageAlt={"Four screenshots of original 2017 UI designs"} imageWidth={1472} imageHeight={553} imgDescription={"The original designs are quite old and have UI design elements that relate to old iPhones where the 'home' button was in the centre. So this needs a dramatic update. Also the app is not very accessible in it's current state and will need looking at in the design system."}/>
+          <ImageSection imgTitle={"2017 UI designs (version 1.0)"} imageSource={initialDesignsImage} imageAlt={"Four screenshots of original 2017 UI designs"} imgDescription={"The original designs are quite old and have UI design elements that relate to old iPhones where the 'home' button was in the centre. So this needs a dramatic update. Also the app is not very accessible in it's current state and will need looking at in the design system."}/>
           <TitleSection title={"Starting With Research"} information={"The original app was designed with only two user's in mind. Therefore it was important to conduct both qualitative and quantitative research to gather a variety of information and data from target user's. The results will provide direction for features and the overall app design whilst addressing user problems."}/>
-          <ImageSection imgTitle={"Survey Results"} imageSource={"/images/housebrain/research-results.png"} imageAlt={"User research results for survey conducted for HouseBrain App"} imageWidth={1472} imageHeight={1071}/>   
-          <ImageSection imgTitle={"Competitor Analysis"} imageSource={"/images/housebrain/competitor-analysis-v2.png"} imageAlt={"Competitor analysis for HouseBrain App"} imageWidth={1472} imageHeight={2138}/>
+          <ImageSection imgTitle={"Survey Results"} imageSource={researchResultsImage} imageAlt={"User research results for survey conducted for HouseBrain App"} imageWidth={1472} imageHeight={1071}/>
+          <ImageSection imgTitle={"Competitor Analysis"} imageSource={competitorAnalysisImage} imageAlt={"Competitor analysis for HouseBrain App"} imageWidth={1472} imageHeight={2138}/>
           <TitleSection title={"Understanding the User"} information={"I looked at how we could define the research we gathered to better understand the user. I made a couple of user persona's based on the people we had spoken to and created a user journey map to empathise with the user's thoughts and feelings. These helped to direct the design phase with more focus."}/>
           <ImageSection imgTitle={"Persona one: Marcus"} imageSource={"/images/housebrain/hb-persona-1.png"} imageAlt={"HouseBrain persona, Marcus"} imageWidth={1472} imageHeight={663}/>  
           <ImageSection imgTitle={"Persona two: Ava"} imageSource={"/images/housebrain/hb-persona-2.png"} imageAlt={"HouseBrain persona, Ava"} imageWidth={1472} imageHeight={663}/>
