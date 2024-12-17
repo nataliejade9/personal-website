@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
+import portraitPhoto from '../../public/natalie-office.jpg'
 
 export default function Home() {
   return (
@@ -51,7 +52,7 @@ export default function Home() {
         </div>
         <div className={styles.profileBanner}>
             <div className={styles.containerLeft}>
-              <Image className={styles.profile} src="/natalie-office.jpg" alt="Portrait photo of Natalie Waites" width={520} height={520} sizes={"25vw"} quality={50}/>
+              <Image className={styles.profile} src={portraitPhoto} alt="Portrait photo of Natalie Waites"/>
             </div>
             <div className={styles.containerRight}>
               <h2>About me</h2>
