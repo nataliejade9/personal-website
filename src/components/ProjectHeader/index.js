@@ -9,7 +9,7 @@ const ProjectHeader = ({projectName, projectDescription, imageSource, imageAlt, 
                 <h2>{projectDescription}</h2>
             </div>
             <div className={styles.projectHeaderImg}>
-                <Image className={styles.coverImg} src={imageSource} alt={imageAlt} width={imageWidth} height={imageHeight}/>
+                <Image className={styles.coverImg} src={imageSource} alt={imageAlt} width={imageWidth} height={imageHeight} priority/>
             </div>
         </div> 
     )
