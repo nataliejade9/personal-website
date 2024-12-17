@@ -1,6 +1,4 @@
-import styles from './page.module.css'
 import Image from 'next/image'
-import Script from 'next/script'
 import ProjectHeader from '@/components/ProjectHeader'
 import OverviewSection from '@/components/OverviewSection'
 import TitleSection from '@/components/TitleSection'
@@ -8,11 +6,15 @@ import ImageSection from '@/components/ImageSection'
 import CasestudyBanner from '@/components/CasestudyBanner'
 import ReviewSection from '@/components/ReviewSection'
 
+import styles from './page.module.css'
+
 import houseBrainHeroImage from '../../../public/images/housebrain/header.png';
 import houseBrainFullImage from '../../../public/images/housebrain/housebrain-full-set.png';
 import initialDesignsImage from '../../../public/images/housebrain/initial-designs.png';
 import researchResultsImage from '../../../public/images/housebrain/research-results.png';
 import competitorAnalysisImage from '../../../public/images/housebrain/competitor-analysis.webp';
+import Video from "@/components/Video";
+
 
 export const metadata = {
   title: 'HouseBrain | Natalie Waites'
@@ -52,19 +54,13 @@ export default function ProjectPage() {
           <TitleSection title={"Final Designs"} information={"I incorporated two prototypes; the first showing the user experience for someone who has an account and the second showing the onboarding process. The second is important as onboarding new user's is defined in the success metrics. Also shown below is the design for the other features user's can access on the app."}/>    
           <div className={styles.finalSection}>
             <div className={styles.video}>
-              <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
-                <iframe src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Prototype"></iframe>
-              </div>
-              <Script src="https://player.vimeo.com/api/player.js"></Script>
+              <Video src="https://sw8tizyprlon600n.public.blob.vercel-storage.com/housebrain-sign-in-pieOaUHh7hxkiVTYm6PzfDWQi4oe5H.mp4" title="HouseBrain Prototype" />
             </div>
             <ImageSection imageSource={"/images/housebrain/homepages.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={1472} imageHeight={1000}/> 
             <Image className={styles.onlyImg} src="/images/housebrain/comparison.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={1920} height={930}/> 
             <Image className={styles.onlyImg} src="/images/housebrain/hb-calculator.png" alt="Three screenshot mock ups of the calculator feature in the housebrain app" width={1472} height={1003}/>      
             <div className={styles.video}>
-              <div style={{padding:"65.39% 0 0 0",position:"relative"}}>
-                <iframe src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="HouseBrain Onboarding"></iframe>
-              </div>
-              <Script src="https://player.vimeo.com/api/player.js"></Script>
+              <Video src="https://sw8tizyprlon600n.public.blob.vercel-storage.com/housebrain-signup-5folsrmgNFrdjyuHi7pLLNWO71Ygn6.mp4" title="HouseBrain Onboarding" />
             </div>
             <ImageSection imageSource={"/images/housebrain/before-after.png"} imageAlt={"Before and after of the HouseBrain app"} imageWidth={1472} imageHeight={1134}/>  
             <div className={styles.caption}>
