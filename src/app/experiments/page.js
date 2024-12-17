@@ -11,19 +11,19 @@ export const metadata = {
 export default function ExperimentsPage() {
   return (
     <main className={styles.main}>
-      <ProjectHeader projectName={"Experiments"} projectDescription={"Throughout my career, design has been the central thread expressed across various mediums."}  imageSource={"/images/experiments/hero-experiments.png"} imageAlt={"Coding project on laptop and mobile mock up"} imageWidth={3264} imageHeight={3500} priority/>
+      <ProjectHeader projectName={"Experiments"} projectDescription={"Throughout my career, design has been the central thread expressed across various mediums."}  imageSource={"/images/experiments/hero-experiments.png"} imageAlt={"Coding project on laptop and mobile mock up"} imageWidth={778} imageHeight={834} priority/>
       <ExperimentSection 
         title={"Fashion Design & Construction"} 
         description={"I studied fashion and design at college and university. This is where I fell in love with all aspects of design and developed my critical eye. These images are from my final design project at university that was inspired by citrus fruits, I designed, made and styled this collection. I went on to work in fashion for a few years but due to ethical reasons I decided to take my career in a different direction."}
         imageCards={
           <>
           <div className={styles.experimentImages}>
-            <Image className={styles.onlyImg} src="/images/experiments/uni-design-1.jpg" alt="Fashion design project outfit 1" width={2033} height={2550}/> 
-            <Image className={styles.onlyImg} src="/images/experiments/uni-design-2.jpg" alt="Fashion design project outfit 2" width={1461} height={2156}/>
-            <Image className={styles.onlyImg} src="/images/experiments/uni-design-3.jpg" alt="Fashion design project outfit 3" width={2577} height={3675}/> 
-            <Image className={styles.onlyImg} src="/images/experiments/uni-design-4.jpg" alt="Fashion design project outfit 4" width={2467} height={3653}/>
-            <Image className={styles.onlyImg} src="/images/experiments/uni-design-5.jpg" alt="Fashion design project outfit 5" width={1261} height={1884}/> 
-            <Image className={styles.onlyImg} src="/images/experiments/uni-design-6.jpg" alt="Fashion design project outfit 6" width={2592} height={3746}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/uni-design-1.jpg" alt="Fashion design project outfit 1" width={306} height={384}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/uni-design-2.jpg" alt="Fashion design project outfit 2" width={260} height={384}/>
+            <Image className={styles.onlyImg} src="/images/experiments/uni-design-3.jpg" alt="Fashion design project outfit 3" width={270} height={3675}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/uni-design-4.jpg" alt="Fashion design project outfit 4" width={270} height={3653}/>
+            <Image className={styles.onlyImg} src="/images/experiments/uni-design-5.jpg" alt="Fashion design project outfit 5" width={266} height={1884}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/uni-design-6.jpg" alt="Fashion design project outfit 6" width={258} height={3746}/> 
           </div>
           </>
         }
@@ -34,11 +34,11 @@ export default function ExperimentsPage() {
         imageCards={
           <>
           <div className={styles.experimentImages}>
-            <Image className={styles.onlyImg} src="/images/experiments/planner.jpg" alt="Periwinkle daily planner design" width={3265} height={3264}/> 
-            <Image className={styles.onlyImg} src="/images/experiments/selection.jpg" alt="Selection of five greeting card designs" width={3126} height={3128}/>
-            <Image className={styles.onlyImg} src="/images/experiments/watermelon-card.jpg" alt="Watermelon greeting card" width={3016} height={3016}/> 
-            <Image className={styles.onlyImg} src="/images/experiments/panther-tee.jpg" alt="Fashion design project outfit 4" width={1973} height={1973}/>
-            <Image className={styles.onlyImg} src="/images/experiments/robin-card.png" alt="Robin greeting card" width={1308} height={1292}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/planner.jpg" alt="Periwinkle daily planner design" width={384} height={384}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/selection.jpg" alt="Selection of five greeting card designs" width={384} height={384}/>
+            <Image className={styles.onlyImg} src="/images/experiments/watermelon-card.jpg" alt="Watermelon greeting card" width={384} height={384}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/panther-tee.jpg" alt="Fashion design project outfit 4" width={384} height={384}/>
+            <Image className={styles.onlyImg} src="/images/experiments/robin-card.png" alt="Robin greeting card" width={384} height={384}/> 
           </div>
           </>
         }
@@ -49,9 +49,9 @@ export default function ExperimentsPage() {
         imageCards={
           <>
           <div className={styles.experimentImages}>
-            <Image className={styles.onlyImg} src="/images/experiments/problem-1.png" alt="Productivity app info-graphic 1" width={800} height={2000}/> 
-            <Image className={styles.onlyImg} src="/images/experiments/problem-2.png" alt="Productivity app info-graphic 2" width={800} height={2000}/>
-            <Image className={styles.onlyImg} src="/images/experiments/problem-3.png" alt="Productivity app info-graphic 3" width={800} height={2000}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/problem-1.png" alt="Productivity app info-graphic 1" width={154} height={384}/> 
+            <Image className={styles.onlyImg} src="/images/experiments/problem-2.png" alt="Productivity app info-graphic 2" width={154} height={384}/>
+            <Image className={styles.onlyImg} src="/images/experiments/problem-3.png" alt="Productivity app info-graphic 3" width={154} height={384}/> 
           </div>
           </>
         }
@@ -63,16 +63,16 @@ export default function ExperimentsPage() {
           <>
           <div className={styles.experimentImages}>
             <Link href="https://nataliejade9.github.io/styling-template/" target="_blank">
-              <Image className={styles.webImg} src="/images/experiments/style-guide.jpg" alt="Mock up screen of digital style guide" width={2033} height={2550}/> 
+              <Image className={styles.webImg} src="/images/experiments/style-guide.jpg" alt="Mock up screen of digital style guide" width={378} height={384}/> 
             </Link>
             <Link href="https://nataliejade9.github.io/superwatermelon/" target="_blank">
-              <Image className={styles.webImg} src="/images/experiments/superwatermelon.jpg" alt="Mock up screen of Superwatermelon website" width={2693} height={1774}/>
+              <Image className={styles.webImg} src="/images/experiments/superwatermelon.jpg" alt="Mock up screen of Superwatermelon website" width={583} height={384}/>
             </Link>
             <Link href="https://nataliejade9.github.io/colmar/" target="_blank">
-              <Image className={styles.webImg} src="/images/experiments/colmar-web.png" alt="Mock up screen of Colmar academy website" width={4000} height={2700}/> 
+              <Image className={styles.webImg} src="/images/experiments/colmar-web.png" alt="Mock up screen of Colmar academy website" width={569} height={384}/> 
             </Link>
             <Link href="https://nataliejade9.github.io/coding-club/" target="_blank">
-              <Image className={styles.webImg} src="/images/experiments/coding-club.png" alt="Mock up screen of coding club website" width={4500} height={3000}/>
+              <Image className={styles.webImg} src="/images/experiments/coding-club.png" alt="Mock up screen of coding club website" width={576} height={384}/>
             </Link>
           </div>
           </>
