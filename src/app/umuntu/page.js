@@ -6,7 +6,7 @@ import TitleSection from '@/components/TitleSection'
 import ImageSection from '@/components/ImageSection'
 import CasestudyBanner from '@/components/CasestudyBanner'
 import ReviewSection from '@/components/ReviewSection'
-import Video from "@/components/Video";
+import Script from "next/script";
 
 export const metadata = {
   title: 'Umuntu | Natalie Waites'
@@ -40,7 +40,7 @@ export default function ProjectPage() {
             <p>Based on the user survey results, we decided to take a mobile-first design approach and incorporate the top three things important to users. Finally, being aware of what would put target users off the product was crutial in order to acquire the first 100 subscribers. More questions in the survey gave us insights but these are the top three.</p>
           </div>
           <TitleSection title={"User Interviews"} information={"I was able to arrange a more in-depth interview with three people who participated in the survey. This was super valuable to the project as not only did I receive more information on the problem and their solutions but I was able to listen to their experience and understand the bigger picture. It was important for me to empathise and understand the situation user's were in as best I could to build a product that would suit them."}/>
-          <ImageSection imgTitle={"Key quotes from the interviews and affinity map of everything discussed"} imageSource={"/images/umuntu/user-quotes.png"} imageAlt={"Quotes from user interview"} imageWidth={1472} imageHeight={828}/>  
+          <ImageSection imgTitle={"Key quotes from the interviews and affinity map of everything discussed"} imageSource={"/images/umuntu/user-quotes.png"} imageAlt={"Quotes from user interview"} imageWidth={1472} imageHeight={828}/>
           <Image className={styles.onlyImg} src="/images/umuntu/umuntu-affinity-map.png" alt="Affinity map for the three user interviews" width={1920} height={1058}/>
           <TitleSection title={"Defining Interview Information"} information={"From the affinity map, I was able to pull out the key themes discussed and would later use these to form the How Might We statements. I then made an experience map to understand the problems faced by user's and how they played out. I plotted where Umuntu could fit in that experience."}/>
           <ImageSection imageSource={"/images/umuntu/key-themes.png"} imageAlt={"Key themes from the user interviews"} imageWidth={1472} imageHeight={830}/>
@@ -52,18 +52,21 @@ export default function ProjectPage() {
           <ImageSection imageSource={"/images/umuntu/umuntu-moodboard-1.png"} imageAlt={"Moodboard for Umuntu"} imageWidth={1472} imageHeight={1038}/>
           <Image className={styles.onlyImg} src="/images/umuntu/wireframe.png" alt="Low fidelity wireframes for umuntu features" width={1920} height={1125}/>
           <TitleSection title={"Final Prototype & Designs"} information={"I presented these final prototype and designs to the client and the user's who participated in the interviews. The client was happy that it fulfilled the brief and I was able to get some final testing and feedback from user's. Overall the feedback was positive but I've included suggested edits for future. I've also included the implementation roadmap I provided for the client."}/>
-          {/*<div className={styles.video}>*/}
-          {/*  <Video src="https://sw8tizyprlon600n.public.blob.vercel-storage.com/umuntu-prototype-HIXEkxYyGLURkp6X98z2B87rH2X3GY.webm" type="video/webm" title="Umuntu Prototype" />*/}
-          {/*</div>*/}
+          <div className={styles.video}>
+            <div style={{padding:"68.82% 0 0 0",position:"relative"}}>
+              <iframe src="https://player.vimeo.com/video/1022514120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{position:"absolute",top:0,left:0,width:"100%",height:"100%"}} title="Umuntu Prototype"></iframe>
+            </div>
+            <Script src="https://player.vimeo.com/api/player.js"></Script>
+          </div>
           <div className={styles.finalSection}>
             <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu home screens in three iphone mock ups"} imageWidth={1472} imageHeight={851}/>
-            <Image className={styles.onlyImg} src="/images/umuntu/umuntu-community.png" alt="Umuntu community screens in three iphone mock ups" width={1920} height={866}/> 
+            <Image className={styles.onlyImg} src="/images/umuntu/umuntu-community.png" alt="Umuntu community screens in three iphone mock ups" width={1920} height={866}/>
             <Image className={styles.onlyImg} src="/images/umuntu/umuntu-social-projects.png" alt="Umuntu social projects page on iphone mock up" width={1920} height={866}/>
             <Image className={styles.onlyImg} src="/images/umuntu/umuntu-email.png" alt="Umuntu monthly digest example on iphone mock up" width={1920} height={866}/>
             <Image className={styles.onlyImg} src="/images/umuntu/umuntu-final-testing.png" alt="User testing feedback of final design" width={1920} height={876}/>
             <Image className={styles.onlyImg} src="/images/umuntu/roadmap.png" alt="Implementation roadmap" width={1920} height={874}/>
-          </div>  
-          <ReviewSection 
+          </div>
+          <ReviewSection
             textOne={(
               <>
                 <p>Client feedback: 'I loved the presentation and work done by Natalie, and look forward to setting much of the recommendations and work into motion.'</p>
