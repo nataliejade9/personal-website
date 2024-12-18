@@ -53,7 +53,7 @@ export default function ProjectPage() {
           <Image className={styles.onlyImg} src="/images/umuntu/wireframe.png" alt="Low fidelity wireframes for umuntu features" width={1920} height={1125}/>
           <TitleSection title={"Final Prototype & Designs"} information={"I presented these final prototype and designs to the client and the user's who participated in the interviews. The client was happy that it fulfilled the brief and I was able to get some final testing and feedback from user's. Overall the feedback was positive but I've included suggested edits for future. I've also included the implementation roadmap I provided for the client."}/>
           <div className={styles.video}>
-            <Video src="https://sw8tizyprlon600n.public.blob.vercel-storage.com/umuntu-prototype-HIXEkxYyGLURkp6X98z2B87rH2X3GY.webm" title="Umuntu Prototype" />
+            <Video src="https://sw8tizyprlon600n.public.blob.vercel-storage.com/umuntu-prototype-HIXEkxYyGLURkp6X98z2B87rH2X3GY.webm" type="video/webm" title="Umuntu Prototype" />
           </div>
           <div className={styles.finalSection}>
             <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu home screens in three iphone mock ups"} imageWidth={1472} imageHeight={851}/>
