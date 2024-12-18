@@ -6,7 +6,7 @@ import TitleSection from '@/components/TitleSection'
 import ImageSection from '@/components/ImageSection'
 import CasestudyBanner from '@/components/CasestudyBanner'
 import ReviewSection from '@/components/ReviewSection'
-import Vimeo from "src/components/Vimeo";
+import Vimeo from "@/components/Vimeo";
 
 export const metadata = {
   title: 'Umuntu | Natalie Waites'

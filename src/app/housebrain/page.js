@@ -5,7 +5,7 @@ import TitleSection from '@/components/TitleSection'
 import ImageSection from '@/components/ImageSection'
 import CasestudyBanner from '@/components/CasestudyBanner'
 import ReviewSection from '@/components/ReviewSection'
-import Vimeo from "src/components/Vimeo";
+import Vimeo from "@/components/Vimeo";
 
 import styles from './page.module.css'
 
