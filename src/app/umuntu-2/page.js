@@ -52,9 +52,9 @@ export default function ProjectPage() {
         {/*<ImageSection imageSource={"/images/umuntu/umuntu-moodboard-1.png"} imageAlt={"Moodboard for Umuntu"} imageWidth={1472} imageHeight={1038}/>*/}
         {/*<Image className={styles.onlyImg} src="/images/umuntu/wireframe.png" alt="Low fidelity wireframes for umuntu features" width={1920} height={1125}/>*/}
         {/*<TitleSection title={"Final Prototype & Designs"} information={"I presented these final prototype and designs to the client and the user's who participated in the interviews. The client was happy that it fulfilled the brief and I was able to get some final testing and feedback from user's. Overall the feedback was positive but I've included suggested edits for future. I've also included the implementation roadmap I provided for the client."}/>*/}
-        {/*<div className={styles.video}>*/}
-        {/*  <Vimeo src="https://player.vimeo.com/video/1022514120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Umuntu Prototype" width={2354} height={1620}/>*/}
-        {/*</div>*/}
+        <div className={styles.video}>
+          <Vimeo src="https://player.vimeo.com/video/1022514120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Umuntu Prototype" width={2354} height={1620}/>
+        </div>
         {/*<div className={styles.finalSection}>*/}
         {/*  <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu home screens in three iphone mock ups"} imageWidth={1472} imageHeight={851}/>*/}
         {/*  <Image className={styles.onlyImg} src="/images/umuntu/umuntu-community.png" alt="Umuntu community screens in three iphone mock ups" width={1920} height={866}/>*/}
