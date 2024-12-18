@@ -55,31 +55,31 @@ export default function ProjectPage() {
         <div className={styles.video}>
           <Vimeo src="https://player.vimeo.com/video/1022514120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Umuntu Prototype" width={2354} height={1620}/>
         </div>
-        {/*<div className={styles.finalSection}>*/}
-        {/*  <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu home screens in three iphone mock ups"} imageWidth={1472} imageHeight={851}/>*/}
-        {/*  <Image className={styles.onlyImg} src="/images/umuntu/umuntu-community.png" alt="Umuntu community screens in three iphone mock ups" width={1920} height={866}/>*/}
-        {/*  <Image className={styles.onlyImg} src="/images/umuntu/umuntu-social-projects.png" alt="Umuntu social projects page on iphone mock up" width={1920} height={866}/>*/}
-        {/*  <Image className={styles.onlyImg} src="/images/umuntu/umuntu-email.png" alt="Umuntu monthly digest example on iphone mock up" width={1920} height={866}/>*/}
-        {/*  <Image className={styles.onlyImg} src="/images/umuntu/umuntu-final-testing.png" alt="User testing feedback of final design" width={1920} height={876}/>*/}
-        {/*  <Image className={styles.onlyImg} src="/images/umuntu/roadmap.png" alt="Implementation roadmap" width={1920} height={874}/>*/}
-        {/*</div>*/}
-        {/*<ReviewSection*/}
-        {/*  textOne={(*/}
-        {/*    <>*/}
-        {/*      <p>Client feedback: 'I loved the presentation and work done by Natalie, and look forward to setting much of the recommendations and work into motion.'</p>*/}
-        {/*      <p>This was a large project to take on solo, so I was happy with my process and being able to define the brief further to aid this.</p>*/}
-        {/*      <p>I felt that the research phase was crucial to this project and has shaped the kind of product designer I aim to be, by incorporating empathy at the core of my work.</p>*/}
-        {/*    </>*/}
-        {/*  )}*/}
-        {/*  textTwo={(*/}
-        {/*    <>*/}
-        {/*      <p>As ever, it would be beneficial to do more user testing and tweaking to the final design as the scrolling option was still undecided.</p>*/}
-        {/*      <p>I would have liked to collaborate more on this project and have other people and their views involved.</p>*/}
-        {/*      <p>To test more on user testing sites if the budget had allowed.</p>*/}
-        {/*    </>*/}
-        {/*  )}*/}
-        {/*/>*/}
-        {/*<CasestudyBanner/>*/}
+        <div className={styles.finalSection}>
+          <ImageSection imageSource={"/images/umuntu/home-screens.png"} imageAlt={"Umuntu home screens in three iphone mock ups"} imageWidth={1472} imageHeight={851}/>
+          <Image className={styles.onlyImg} src="/images/umuntu/umuntu-community.png" alt="Umuntu community screens in three iphone mock ups" width={1920} height={866}/>
+          <Image className={styles.onlyImg} src="/images/umuntu/umuntu-social-projects.png" alt="Umuntu social projects page on iphone mock up" width={1920} height={866}/>
+          <Image className={styles.onlyImg} src="/images/umuntu/umuntu-email.png" alt="Umuntu monthly digest example on iphone mock up" width={1920} height={866}/>
+          <Image className={styles.onlyImg} src="/images/umuntu/umuntu-final-testing.png" alt="User testing feedback of final design" width={1920} height={876}/>
+          <Image className={styles.onlyImg} src="/images/umuntu/roadmap.png" alt="Implementation roadmap" width={1920} height={874}/>
+        </div>
+        <ReviewSection
+          textOne={(
+            <>
+              <p>Client feedback: 'I loved the presentation and work done by Natalie, and look forward to setting much of the recommendations and work into motion.'</p>
+              <p>This was a large project to take on solo, so I was happy with my process and being able to define the brief further to aid this.</p>
+              <p>I felt that the research phase was crucial to this project and has shaped the kind of product designer I aim to be, by incorporating empathy at the core of my work.</p>
+            </>
+          )}
+          textTwo={(
+            <>
+              <p>As ever, it would be beneficial to do more user testing and tweaking to the final design as the scrolling option was still undecided.</p>
+              <p>I would have liked to collaborate more on this project and have other people and their views involved.</p>
+              <p>To test more on user testing sites if the budget had allowed.</p>
+            </>
+          )}
+        />
+        <CasestudyBanner/>
       </div>
     </main>
   )
