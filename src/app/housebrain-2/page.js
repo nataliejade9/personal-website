@@ -52,43 +52,43 @@ export default function ProjectPage() {
           {/*<ImageSection imgTitle={"Low fidelity wireframes"} imageSource={"/images/housebrain/wire-frames.png"} imageAlt={"HouseBrain initial wireframes"} imageWidth={1472} imageHeight={674} imgDescription={"The mortgage calculator screen changed quite a bit from this initial design as I felt it was far to convoluted and not enough interaction around entering numbers. Also, having multiple bars that need swiping makes it not very accessible."}/>*/}
           {/*<ImageSection imgTitle={"User testing throughout the process"} imageSource={"/images/housebrain/heat-map.png"} imageAlt={"User testing heat maps of the HouseBrain app"} imageWidth={1201} imageHeight={577} imgDescription={"As this app is a somewhat new concept I was keen to make sure that user's new how to interact with the app and be able to achieve their goals. The heatmap analytics showed user's were able to navigate the app in the way that was expected."}/>*/}
           {/*<TitleSection title={"Final Designs"} information={"I incorporated two prototypes; the first showing the user experience for someone who has an account and the second showing the onboarding process. The second is important as onboarding new user's is defined in the success metrics. Also shown below is the design for the other features user's can access on the app."}/>    */}
-          {/*<div className={styles.finalSection}>*/}
-          {/*  <div className={styles.video}>*/}
-          {/*    <Vimeo src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="HouseBrain Prototype" width={2456} height={1606}/>*/}
-          {/*  </div>*/}
-          {/*  <ImageSection imageSource={"/images/housebrain/homepages.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={1472} imageHeight={1000}/> */}
-          {/*  <Image className={styles.onlyImg} src="/images/housebrain/comparison.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={1920} height={930}/> */}
-          {/*  <Image className={styles.onlyImg} src="/images/housebrain/hb-calculator.png" alt="Three screenshot mock ups of the calculator feature in the housebrain app" width={1472} height={1003}/>      */}
-          {/*  <div className={styles.video}>*/}
-          {/*    <Vimeo src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="HouseBrain Onboarding" width={2456} height={1606}/>*/}
-          {/*  </div>*/}
-          {/*  <ImageSection imageSource={"/images/housebrain/before-after.png"} imageAlt={"Before and after of the HouseBrain app"} imageWidth={1472} imageHeight={1134}/>  */}
-          {/*  <div className={styles.caption}>*/}
-          {/*    <h3>Final testing</h3>*/}
-          {/*    <p>An example of the questions asked in the final user testing. It was useful to validate the designs in the testing format.</p>*/}
-          {/*  </div>*/}
-          {/*    <Image className={styles.onlyImg} src="/images/housebrain/final-testing.png" alt="Question example of final testing conducted" width={1920} height={746}/> */}
-          {/*  <div className={styles.caption}>*/}
-          {/*    <h3>Roadmap for project</h3>*/}
-          {/*  </div>*/}
-          {/*  <Image className={styles.onlyImg} src="/images/housebrain/hb-roadmap.png" alt="Roadmap for the HouseBrain app" width={1920} height={1052}/>*/}
-          {/*</div> */}
-          {/*<ReviewSection */}
-          {/*  textOne={(*/}
-          {/*    <>*/}
-          {/*      <p>Incorporating the use of heatmap analytics and more detailed user testing was highly beneficial in this project.</p>*/}
-          {/*      <p>From the survey work, I realised the importance of having a persona in this particular project as there were clearly different reasons and motivations for using the app.</p>*/}
-          {/*      <p>Seeing this project improve dramatically from the original design was satisfying (even though I think more work could be done around colour choice).</p>*/}
-          {/*    </>*/}
-          {/*  )}*/}
-          {/*  textTwo={(*/}
-          {/*    <>*/}
-          {/*      <p>I would like to do more user testing for the brand guidelines, in particular the colours. They could be more sophisticated whilst still appealing to the target audience and could achieve an AAA rating.</p>*/}
-          {/*      <p>If there was budget I would like to get the app live on the App Store to get further feedback in real world situations and work on the MVP.</p>*/}
-          {/*    </>*/}
-          {/*  )}*/}
-          {/*/>*/}
-          {/*<CasestudyBanner/>*/}
+          <div className={styles.finalSection}>
+            <div className={styles.video}>
+              <Vimeo src="https://player.vimeo.com/video/1023258942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="HouseBrain Prototype" width={2456} height={1606}/>
+            </div>
+            <ImageSection imageSource={"/images/housebrain/homepages.png"} imageAlt={"Three screenshot mock ups of HouseBrain App onboarding"} imageWidth={1472} imageHeight={1000}/>
+            <Image className={styles.onlyImg} src="/images/housebrain/comparison.png" alt="Three screenshot mock ups of the comparison feature in the housebrain app" width={1920} height={930}/>
+            <Image className={styles.onlyImg} src="/images/housebrain/hb-calculator.png" alt="Three screenshot mock ups of the calculator feature in the housebrain app" width={1472} height={1003}/>
+            <div className={styles.video}>
+              <Vimeo src="https://player.vimeo.com/video/1023259065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="HouseBrain Onboarding" width={2456} height={1606}/>
+            </div>
+            <ImageSection imageSource={"/images/housebrain/before-after.png"} imageAlt={"Before and after of the HouseBrain app"} imageWidth={1472} imageHeight={1134}/>
+            <div className={styles.caption}>
+              <h3>Final testing</h3>
+              <p>An example of the questions asked in the final user testing. It was useful to validate the designs in the testing format.</p>
+            </div>
+              <Image className={styles.onlyImg} src="/images/housebrain/final-testing.png" alt="Question example of final testing conducted" width={1920} height={746}/>
+            <div className={styles.caption}>
+              <h3>Roadmap for project</h3>
+            </div>
+            <Image className={styles.onlyImg} src="/images/housebrain/hb-roadmap.png" alt="Roadmap for the HouseBrain app" width={1920} height={1052}/>
+          </div>
+          <ReviewSection
+            textOne={(
+              <>
+                <p>Incorporating the use of heatmap analytics and more detailed user testing was highly beneficial in this project.</p>
+                <p>From the survey work, I realised the importance of having a persona in this particular project as there were clearly different reasons and motivations for using the app.</p>
+                <p>Seeing this project improve dramatically from the original design was satisfying (even though I think more work could be done around colour choice).</p>
+              </>
+            )}
+            textTwo={(
+              <>
+                <p>I would like to do more user testing for the brand guidelines, in particular the colours. They could be more sophisticated whilst still appealing to the target audience and could achieve an AAA rating.</p>
+                <p>If there was budget I would like to get the app live on the App Store to get further feedback in real world situations and work on the MVP.</p>
+              </>
+            )}
+          />
+          <CasestudyBanner/>
         </div>
       </main>
     </>
