@@ -5,6 +5,7 @@ import TitleSection from '@/components/TitleSection'
 import ImageSection from '@/components/ImageSection'
 import CasestudyBanner from '@/components/CasestudyBanner'
 import ReviewSection from '@/components/ReviewSection'
+import Video from "@/components/Video";
 
 import styles from './page.module.css'
 
@@ -13,7 +14,6 @@ import houseBrainFullImage from '../../../public/images/housebrain/housebrain-fu
 import initialDesignsImage from '../../../public/images/housebrain/initial-designs.png';
 import researchResultsImage from '../../../public/images/housebrain/research-results.png';
 import competitorAnalysisImage from '../../../public/images/housebrain/competitor-analysis.webp';
-import Video from "@/components/Video";
 
 
 export const metadata = {
