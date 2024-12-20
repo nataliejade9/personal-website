@@ -7,6 +7,22 @@
   text-align: left;
 }
 
+.hero {
+  height: calc(100vh - 3rem);
+  display: flex;
+  position: relative;
+  margin-top: -100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-height: 600px) {
+  .hero {
+    height: calc(600px - 10rem);
+  }
+}
+
 .natalie {
   padding-bottom: 6rem;
 }
@@ -23,6 +39,8 @@
 .exploreWork {
   padding: 4rem 0 2rem 0;
   text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .linkTarget {
