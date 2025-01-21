@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleAnalytics gaId="G-1BGQMKBN7R"/>
-      <Script>{`
+      <Script id="hotjarAnalytics"> {`
         (function (c, s, q, u, a, r, e) {
             c.hj=c.hj||function(){(c.hj.q=c.hj.q||[]).push(arguments)};
             c._hjSettings = { hjid: a };
