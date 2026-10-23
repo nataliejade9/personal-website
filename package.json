@@ -6,22 +6,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "@next/third-parties": "^15.0.3",
-    "@vercel/blob": "^0.27.0",
-    "next": "^15.5.7",
-    "react": "^18",
-    "react-dom": "^18",
-    "sharp": "^0.33.5"
+    "@next/third-parties": "^16.4.3",
+    "@vercel/blob": "^2.8.2",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sharp": "^0.35.5"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "eslint": "^9",
+    "eslint-config-next": "^16.4.3"
+  },
+  "allowScripts": {
+    "@fortawesome/fontawesome-common-types@6.5.2": true,
+    "@fortawesome/fontawesome-svg-core@6.5.2": true,
+    "@fortawesome/free-solid-svg-icons@6.5.2": true,
+    "sharp@0.33.5": true,
+    "unrs-resolver@1.12.2": true
   }
 }
